@@ -1,0 +1,37 @@
+name: stock-scan
+on:
+  # 主要觸發：Cloudflare Worker 打 repository_dispatch（時間精準，見 部署設定教學.md）
+  repository_dispatch:
+    types: [tw, us, fundamentals]
+  # 備援觸發：GitHub 內建 cron（可能延遲 5-15 分鐘，當保險用）
+  schedule:
+    - cron: '25 4 * * 1-5'    # 台北 12:25 → 台股備援（若 Cloudflare 已跑過，結果只是覆寫一次）
+    - cron: '15 19 * * 1-5'   # 美東 15:15（夏令）→ 美股備援
+    - cron: '0 14 * * 1-5'    # 台北 22:00 → 更新歷史庫 + 基本面快取
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120   # 夜間基本面更新較久（配合 API 額度放慢速度）
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      # repository_dispatch 時用事件名（tw/us/fundamentals），其他觸發用 auto（依 UTC 時間判斷）
+      - run: python scan.py ${{ github.event.action || 'auto' }}
+        env:
+          FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
+      - name: Commit results
+        run: |
+          git config user.name "scan-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "scan $(date -u +'%Y-%m-%d %H:%M')"
+          git push
