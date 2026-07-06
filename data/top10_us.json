@@ -1,7 +1,7 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-07-06T16:56:51",
+ "generated_at": "2026-07-06T16:57:57",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
@@ -10,16 +10,16 @@
    "category": "高股息型 ETF",
    "is_etf": true,
    "score": 70.2,
-   "price": 32.229801177978516,
-   "position": 83.9,
-   "reason": "多頭排列、RSI 55.6",
+   "price": 32.220001220703125,
+   "position": 83.7,
+   "reason": "多頭排列、RSI 55.4",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
     "volatility": 100,
     "rel_strength": 29.8,
-    "fundamental": 16.1
+    "fundamental": 16.3
    },
    "rank": 1
   },
@@ -29,8 +29,8 @@
    "category": "高股息型 ETF",
    "is_etf": true,
    "score": 63.7,
-   "price": 159.92430114746094,
-   "position": 84.6,
+   "price": 159.93980407714844,
+   "position": 84.8,
    "reason": "多頭排列、RSI 61.4",
    "factors": {
     "trend": 100,
@@ -38,7 +38,7 @@
     "volume": 30,
     "volatility": 100,
     "rel_strength": 31.2,
-    "fundamental": 15.4
+    "fundamental": 15.2
    },
    "rank": 2
   },
@@ -48,16 +48,16 @@
    "category": "市值型 ETF",
    "is_etf": true,
    "score": 62.4,
-   "price": 689.8900146484375,
-   "position": 77.8,
-   "reason": "多頭排列、RSI 58.0",
+   "price": 690.030029296875,
+   "position": 77.9,
+   "reason": "多頭排列、RSI 58.1",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 40,
     "rel_strength": 45.1,
-    "fundamental": 22.2
+    "fundamental": 22.1
    },
    "rank": 3
   },
@@ -67,16 +67,16 @@
    "category": "市值型 ETF",
    "is_etf": true,
    "score": 61.7,
-   "price": 371.510009765625,
-   "position": 81.8,
-   "reason": "多頭排列、RSI 59.2",
+   "price": 371.5950012207031,
+   "position": 82.0,
+   "reason": "多頭排列、RSI 59.3",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 45.8,
-    "fundamental": 18.2
+    "rel_strength": 45.9,
+    "fundamental": 18.0
    },
    "rank": 4
   },
@@ -105,16 +105,16 @@
    "category": "科技市值型 ETF",
    "is_etf": true,
    "score": 61.0,
-   "price": 723.6099853515625,
-   "position": 85.0,
-   "reason": "多頭排列、RSI 52.0",
+   "price": 723.9099731445312,
+   "position": 85.3,
+   "reason": "多頭排列、RSI 52.1",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 65.5,
-    "fundamental": 15.0
+    "rel_strength": 65.6,
+    "fundamental": 14.7
    },
    "rank": 6
   },
@@ -124,16 +124,16 @@
    "category": "市值型 ETF",
    "is_etf": true,
    "score": 60.3,
-   "price": 157.73500061035156,
-   "position": 76.0,
+   "price": 157.77000427246094,
+   "position": 76.2,
    "reason": "多頭排列、RSI 57.4",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 40.4,
-    "fundamental": 24.0
+    "rel_strength": 40.5,
+    "fundamental": 23.8
    },
    "rank": 7
   },
@@ -143,9 +143,9 @@
    "category": "產業型 ETF",
    "is_etf": true,
    "score": 39.7,
-   "price": 609.594970703125,
+   "price": 610.1915283203125,
    "position": 83.9,
-   "reason": "RSI 50.1",
+   "reason": "RSI 50.2",
    "factors": {
     "trend": 0,
     "momentum": 90,
@@ -162,16 +162,16 @@
    "category": "債券型 ETF",
    "is_etf": true,
    "score": 34.0,
-   "price": 85.31500244140625,
-   "position": 34.2,
-   "reason": "RSI 45.9",
+   "price": 85.32499694824219,
+   "position": 34.4,
+   "reason": "RSI 46.0",
    "factors": {
     "trend": 0,
     "momentum": 55,
     "volume": 30,
     "volatility": 40,
     "rel_strength": 13.9,
-    "fundamental": 65.8
+    "fundamental": 65.6
    },
    "rank": 9
   }
