@@ -1,85 +1,85 @@
-// Cloudflare Worker：準時觸發 GitHub Actions 掃描
-// 部署方式見 部署設定教學.md 第 6 步。
-//
-// 需要在 Worker 的「設定 → 變數與機密」加三個變數：
-//   GITHUB_REPO  （純文字）你的帳號/stock-scanner，例如 batty1652/stock-scanner
-//   GITHUB_PAT   （機密）  GitHub Fine-grained token（教學第 5 步）
-//   TRIGGER_KEY  （機密）  自己隨便取一串密碼，手動測試用
-//
-// Cron Triggers 要加四條（都是 UTC 時間）：
-//   10 4 * * 1-5    → 台北 12:10 台股掃描
-//   0 19 * * 1-5    → 美東 15:00（夏令期間由程式碼判斷放行）
-//   0 20 * * 1-5    → 美東 15:00（冬令期間由程式碼判斷放行）
-//   0 14 * * 1-5    → 台北 22:00 夜間更新
-// 兩條美股 cron 搭配下面的夏令判斷，全年自動切換、不用手動改。
+# -*- coding: utf-8 -*-
+"""夜間基本面更新：算好每檔「基本面分數」(0-100) 存快取，盤中掃描直接用。
 
-export default {
-  // 排程觸發（主要用途）
-  async scheduled(event, env, ctx) {
-    let mode = null;
-    switch (event.cron) {
-      case "10 4 * * 1-5":
-        mode = "tw";
-        break;
-      case "0 14 * * 1-5":
-        mode = "fundamentals";
-        break;
-      case "0 19 * * 1-5":          // 夏令的美東 15:00
-        if (isUsDst()) mode = "us";
-        break;
-      case "0 20 * * 1-5":          // 冬令的美東 15:00
-        if (!isUsDst()) mode = "us";
-        break;
-    }
-    if (mode) ctx.waitUntil(dispatch(mode, env));
-  },
+台股：月營收 YoY + EPS 成長（FinMind）
+美股：revenueGrowth + earningsGrowth（yfinance）
+ETF ：不在這裡算，盤中掃描時用位階溫度計代替基本面分數。
+"""
+import sys
+import time
+import datetime as dt
+import pandas as pd
+import data_fetch as dfe
 
-  // 手動測試用：瀏覽器開
-  // https://你的worker網址/?key=你的TRIGGER_KEY&mode=tw
-  async fetch(request, env) {
-    const url = new URL(request.url);
-    const mode = url.searchParams.get("mode");
-    const key = url.searchParams.get("key");
-    if (key !== env.TRIGGER_KEY) {
-      return new Response("unauthorized", { status: 401 });
-    }
-    if (!["tw", "us", "fundamentals"].includes(mode)) {
-      return new Response("mode 要是 tw / us / fundamentals 其中之一", { status: 400 });
-    }
-    const r = await dispatch(mode, env);
-    return new Response(
-      `dispatched "${mode}" → GitHub 回應 ${r.status}（204 = 成功）`);
-  },
-};
 
-// 美東夏令時間判斷：3月第2個週日 ～ 11月第1個週日
-function isUsDst() {
-  const now = new Date();
-  const y = now.getUTCFullYear();
-  return now >= nthSundayUTC(y, 2, 2) && now < nthSundayUTC(y, 10, 1);
-}
+def score_tw_stock(stock_id: str) -> float:
+    score = 50.0
+    try:
+        rev = dfe.tw_monthly_revenue(stock_id, start_date="2024-01-01")
+        if not rev.empty and len(rev) >= 13:
+            yoy = rev["revenue"].iloc[-1] / rev["revenue"].iloc[-13] - 1
+            score = 90 if yoy > 0.2 else 65 if yoy > 0 else 25
+    except Exception:
+        pass
+    try:
+        fin = dfe.tw_financials(stock_id, start_date="2024-01-01")
+        eps = fin[fin["type"] == "EPS"].sort_values("date")["value"]
+        if len(eps) >= 5 and eps.iloc[-1] > eps.iloc[-5]:  # 近四季 EPS 優於去年同期
+            score = min(100, score + 10)
+    except Exception:
+        pass
+    return score
 
-function nthSundayUTC(year, monthIndex, n) {
-  const d = new Date(Date.UTC(year, monthIndex, 1, 7, 0, 0)); // 約當地清晨切換
-  let count = 0;
-  while (true) {
-    if (d.getUTCDay() === 0) {
-      count += 1;
-      if (count === n) return d;
-    }
-    d.setUTCDate(d.getUTCDate() + 1);
-  }
-}
 
-async function dispatch(mode, env) {
-  return fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/dispatches`, {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${env.GITHUB_PAT}`,
-      "Accept": "application/vnd.github+json",
-      "User-Agent": "cf-worker-stock-scan",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ event_type: mode }),
-  });
-}
+def run_tw():
+    """每晚只更新 1/5 的股票（依星期輪替），一週輪完一圈。
+    財報是月更/季更，不需要每天全掃；這樣單晚約 400 次呼叫，
+    配 6 秒間隔剛好貼在免費 token 600次/hr 的額度內。"""
+    uni = dfe.tw_universe()
+    stocks = sorted(s for s in uni["stock_id"] if not s.startswith("00"))
+    slot = dt.date.today().weekday() % 5           # 週一0 ... 週五4
+    todays = stocks[slot::5]
+    out = dfe.load_json("fundamentals_tw.json")    # 保留其他 4/5 的舊分數
+    for i, sid in enumerate(todays):
+        out[sid] = score_tw_stock(sid)
+        if i % 50 == 0:
+            print(f"tw fundamentals {i}/{len(todays)} (slot {slot})")
+        time.sleep(6)  # 600/hr 額度：每 6 秒 1 次
+    dfe.save_json("fundamentals_tw.json", out)
+    print(f"saved {len(out)} tw fundamental scores (updated {len(todays)} today)")
+
+
+def run_us():
+    """美股同樣依星期輪替更新 1/5（yfinance 免 key，但放慢避免被擋）。"""
+    import yfinance as yf
+    tickers = dfe.us_universe()
+    etfs = set(dfe.load_etf_types()["us"].keys())
+    slot = dt.date.today().weekday() % 5
+    todays = [t for t in tickers if t not in etfs][slot::5]
+    out = dfe.load_json("fundamentals_us.json")
+    for i, t in enumerate(todays):
+        try:
+            info = yf.Ticker(t).info
+            rg = info.get("revenueGrowth")
+            eg = info.get("earningsGrowth")
+            s = 50.0
+            if rg is not None:
+                s = 90 if rg > 0.15 else 65 if rg > 0 else 25
+            if eg is not None and eg > 0:
+                s = min(100, s + 10)
+            out[t] = s
+        except Exception:
+            out.setdefault(t, 50.0)
+        if i % 50 == 0:
+            print(f"us fundamentals {i}/{len(todays)} (slot {slot})")
+        time.sleep(0.5)
+    dfe.save_json("fundamentals_us.json", out)
+    print(f"saved {len(out)} us fundamental scores (updated {len(todays)} today)")
+
+
+if __name__ == "__main__":
+    market = sys.argv[1] if len(sys.argv) > 1 else "all"
+    if market in ("tw", "all"):
+        run_tw()
+    if market in ("us", "all"):
+        run_us()

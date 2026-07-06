@@ -1,132 +1,202 @@
 # -*- coding: utf-8 -*-
-"""技術指標與評分（純 pandas 實作，不吃 API 額度）。"""
-import numpy as np
+"""盤中掃描：即時報價 + 快取基本面 → 每日前10推薦（含 ETF 與個股）。
+
+用法：
+  python scan.py tw    # 台股盤中掃描（建議台北 12:10 跑，12:40 前出名單，遠早於 13:25 收盤撮合）
+  python scan.py us    # 美股盤中掃描（建議美東 15:00 跑，15:30 前出名單）
+  python scan.py auto  # 依 UTC 時間自動判斷（給 GitHub Actions 用）
+"""
+import sys
+import datetime as dt
 import pandas as pd
+import data_fetch as dfe
+import history
+from indicators import tech_scores, total_score, position_score, reason_text
 
-WEIGHTS = {"trend": 0.25, "momentum": 0.20, "fundamental": 0.20,
-           "volume": 0.15, "volatility": 0.10, "rel_strength": 0.10}
-
-
-def rsi(close: pd.Series, n: int = 14) -> pd.Series:
-    diff = close.diff()
-    up = diff.clip(lower=0).ewm(alpha=1 / n, adjust=False).mean()
-    dn = (-diff.clip(upper=0)).ewm(alpha=1 / n, adjust=False).mean()
-    return 100 - 100 / (1 + up / dn.replace(0, np.nan))
+MIN_BARS = 80          # 至少要有80根日K才評分
+GUARANTEED_ETFS = 2    # 前10保底 ETF 檔數
 
 
-def macd_hist(close: pd.Series) -> pd.Series:
-    macd = close.ewm(span=12).mean() - close.ewm(span=26).mean()
-    return macd - macd.ewm(span=9).mean()
+def market_regime(bench_ticker: str, vix: bool = False) -> str:
+    """市場溫度：大盤 vs 60MA（美股加看 VIX）。"""
+    import yfinance as yf
+    try:
+        px = yf.download(bench_ticker, period="6mo", progress=False,
+                         auto_adjust=True)["Close"].dropna()
+        above = float(px.iloc[-1]) > float(px.rolling(60).mean().iloc[-1])
+        if vix:
+            v = yf.download("^VIX", period="5d", progress=False)["Close"].dropna()
+            calm = float(v.iloc[-1]) < 20
+            return "bull" if above and calm else "bear" if not above else "neutral"
+        return "bull" if above else "bear"
+    except Exception as e:
+        print(f"regime error: {e}")
+        return "neutral"
 
 
-def atr_pct(df: pd.DataFrame, n: int = 14) -> pd.Series:
-    tr = pd.concat([df["high"] - df["low"],
-                    (df["high"] - df["close"].shift()).abs(),
-                    (df["low"] - df["close"].shift()).abs()], axis=1).max(axis=1)
-    return tr.ewm(alpha=1 / n, adjust=False).mean() / df["close"] * 100
+def intraday_fraction(market: str) -> float:
+    """今日交易時間已進行比例（量能年化用）。"""
+    now = dt.datetime.utcnow()
+    if market == "tw":   # 01:00–05:30 UTC
+        start, total = now.replace(hour=1, minute=0), 270
+    else:                # 13:30–20:00 UTC（夏令）
+        start, total = now.replace(hour=13, minute=30), 390
+    return min(1.0, max(0.2, (now - start).total_seconds() / 60 / total))
 
 
-def position_score(close: pd.Series, lookback: int = 252) -> float:
-    """位階溫度計 0-100：越低越便宜。價格百分位 + 200MA乖離百分位 + 回檔深度。"""
-    s = close.tail(lookback)
-    if len(s) < 60:
-        return 50.0
-    pctile = (s < s.iloc[-1]).mean() * 100
-    ma200 = close.rolling(min(200, len(close))).mean()
-    bias = (close / ma200 - 1) * 100
-    b = bias.tail(lookback).dropna()
-    bias_pct = (b < b.iloc[-1]).mean() * 100 if len(b) else 50
-    drawdown = (1 - s.iloc[-1] / s.max()) * 100  # 距高點回檔%
-    dd_score = max(0.0, 100 - drawdown * 4)      # 回檔越深位階越低
-    return round(pctile * 0.4 + bias_pct * 0.4 + dd_score * 0.2, 1)
+def build_provisional(hist: pd.DataFrame, quote: dict) -> pd.DataFrame:
+    """歷史日K + 今日盤中臨時K棒。"""
+    row = {"date": pd.Timestamp.today().normalize(),
+           "open": quote["price"], "high": quote["price"],
+           "low": quote["price"], "close": quote["price"],
+           "volume": quote["volume"]}
+    if hist["date"].iloc[-1].normalize() == row["date"]:
+        hist = hist.iloc[:-1]
+    return pd.concat([hist, pd.DataFrame([row])], ignore_index=True)
 
 
-def tech_scores(df: pd.DataFrame, bench_ret60: float,
-                intraday_frac: float = 1.0) -> dict:
-    """對含今日臨時K棒的日線 df 計算各因子分數（0-100）。
-    intraday_frac: 盤中掃描時，今日已進行的交易時間比例（用來年化當日量）。"""
-    c = df["close"]
-    price = float(c.iloc[-1])
-    ma20 = c.rolling(20).mean().iloc[-1]
-    ma60 = c.rolling(60).mean().iloc[-1]
+def rank_market(market: str):
+    etf_meta = dfe.load_etf_types()[market]
+    frac = intraday_fraction(market)
 
-    # 趨勢
-    if price > ma20 > ma60:
-        trend = 100
-    elif price > ma20:
-        trend = 50
+    if market == "tw":
+        hist_all = history.load(history.TW_PATH)
+        uni = dfe.tw_universe()
+        rows = list(uni[["stock_id", "type"]].itertuples(index=False, name=None))
+        quotes = dfe.tw_intraday_quotes(rows)
+        names = dict(zip(uni["stock_id"], uni["stock_name"]))
+        inds = dict(zip(uni["stock_id"], uni["industry_category"]))
+        fundamentals = dfe.load_json("fundamentals_tw.json")
+        regime = market_regime("^TWII")
+        bench_id = "0050"
+        min_price, min_avg_vol = 10, 500 * 1000  # 10元、500張
     else:
-        trend = 0
+        hist_all = history.load(history.US_PATH)
+        tickers = sorted(hist_all["stock_id"].unique())
+        quotes = dfe.us_intraday_quotes(tickers)
+        names, inds = {}, {}
+        fundamentals = dfe.load_json("fundamentals_us.json")
+        regime = market_regime("SPY", vix=True)
+        bench_id = "SPY" if "SPY" in quotes else "VOO"
+        min_price, min_avg_vol = 5, 300000
 
-    # 動能
-    r = float(rsi(c).iloc[-1])
-    if 50 <= r <= 70:
-        momentum = 90
-    elif 40 <= r < 50 or 70 < r <= 80:
-        momentum = 55
+    hist_all["date"] = pd.to_datetime(hist_all["date"])
+    grouped = {k: v.sort_values("date").reset_index(drop=True)
+               for k, v in hist_all.groupby("stock_id")}
+
+    # 大盤基準的60日報酬
+    bench = grouped.get(bench_id)
+    bench_ret60 = (bench["close"].iloc[-1] / bench["close"].iloc[-61] - 1) \
+        if bench is not None and len(bench) > 61 else 0.0
+
+    results = []
+    for sid, q in quotes.items():
+        hist = grouped.get(sid)
+        if hist is None or len(hist) < MIN_BARS:
+            continue
+        if q["price"] < min_price or hist["volume"].tail(20).mean() < min_avg_vol:
+            continue
+        df = build_provisional(hist, q)
+        try:
+            tech = tech_scores(df, bench_ret60, intraday_frac=frac)
+        except Exception:
+            continue
+        is_etf = sid in etf_meta
+        if is_etf:
+            pos = position_score(df["close"])
+            fund = 100 - pos          # ETF：位階越低（越便宜）分數越高
+            category = etf_meta[sid]["type"] + " ETF"
+            name = etf_meta[sid]["name"]
+            if "避開" in category:    # 槓桿/反向不進推薦
+                continue
+        else:
+            pos = position_score(df["close"])
+            fund = float(fundamentals.get(sid, 50))
+            category = "個股-" + str(inds.get(sid, ""))
+            name = names.get(sid, sid)
+        results.append({
+            "id": sid, "name": name, "category": category, "is_etf": is_etf,
+            "score": total_score(tech, fund, regime),
+            "price": tech["price"], "position": pos,
+            "reason": reason_text(tech, fund),
+            "factors": {k: round(v, 1) for k, v in tech.items()
+                        if k in ("trend", "momentum", "volume", "volatility", "rel_strength")}
+                       | {"fundamental": round(fund, 1)},
+        })
+
+    results.sort(key=lambda x: x["score"], reverse=True)
+    top10 = results[:10]
+
+    # 保底：前10至少含 GUARANTEED_ETFS 檔 ETF
+    n_etf = sum(r["is_etf"] for r in top10)
+    if n_etf < GUARANTEED_ETFS:
+        best_etfs = [r for r in results if r["is_etf"] and r not in top10]
+        need = GUARANTEED_ETFS - n_etf
+        for etf in best_etfs[:need]:
+            for i in range(len(top10) - 1, -1, -1):
+                if not top10[i]["is_etf"]:
+                    top10[i] = etf
+                    break
+        top10.sort(key=lambda x: x["score"], reverse=True)
+
+    for i, r in enumerate(top10, 1):
+        r["rank"] = i
+
+    out = {"market": market, "regime": regime,
+           "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
+           "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
+           "top10": top10}
+    dfe.save_json(f"top10_{market}.json", out)
+    print(f"[{market}] regime={regime}, scanned={len(results)}, saved top10")
+    for r in top10:
+        print(f"  {r['rank']:2d}. {r['id']} {r['name']} [{r['category']}] "
+              f"{r['score']}分 @{r['price']} — {r['reason']}")
+
+
+def build_etf_positions():
+    """算所有 ETF 的位階，存成 etf_positions.json 給網站顯示（夜間更新時呼叫）。"""
+    etf_meta = dfe.load_etf_types()
+    rows = []
+    for market, path, label in (("tw", history.TW_PATH, "台股"),
+                                ("us", history.US_PATH, "美股")):
+        hist = history.load(path)
+        if hist.empty:
+            continue
+        hist["date"] = pd.to_datetime(hist["date"])
+        for sid, meta in etf_meta[market].items():
+            h = hist[hist["stock_id"] == sid].sort_values("date")
+            if len(h) < 120:
+                continue
+            pos = position_score(h["close"].reset_index(drop=True))
+            rows.append({"market": label, "id": sid, "name": meta["name"],
+                         "type": meta["type"], "position": pos,
+                         "price": round(float(h["close"].iloc[-1]), 2)})
+    rows.sort(key=lambda x: x["position"])
+    dfe.save_json("etf_positions.json", {
+        "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
+        "etfs": rows})
+    print(f"etf positions: {len(rows)} etfs saved")
+
+
+def auto_mode() -> str:
+    h = dt.datetime.utcnow().hour
+    if 1 <= h <= 6:
+        return "tw"
+    if 13 <= h <= 21:
+        return "us"
+    return "fundamentals"
+
+
+if __name__ == "__main__":
+    mode = sys.argv[1] if len(sys.argv) > 1 else "auto"
+    if mode == "auto":
+        mode = auto_mode()
+    if mode == "fundamentals":
+        import fundamentals
+        history.update_tw()
+        history.update_us()
+        build_etf_positions()
+        fundamentals.run_tw()
+        fundamentals.run_us()
     else:
-        momentum = 20
-    if float(macd_hist(c).iloc[-1]) > 0:
-        momentum = min(100, momentum + 10)
-
-    # 量能（盤中要把當日量年化再比）
-    vol_today = df["volume"].iloc[-1] / max(intraday_frac, 0.2)
-    vol_ma20 = df["volume"].iloc[-21:-1].mean()
-    vr = vol_today / vol_ma20 if vol_ma20 > 0 else 0
-    if 1.5 <= vr <= 3:
-        volume = 100
-    elif 1.0 <= vr < 1.5:
-        volume = 60
-    elif vr > 3:
-        volume = 40
-    else:
-        volume = 30
-
-    # 波動定位
-    ap = atr_pct(df).dropna()
-    if len(ap) > 60:
-        vp = (ap.tail(252) < ap.iloc[-1]).mean() * 100
-        volatility = 100 if 30 <= vp <= 70 else 40
-    else:
-        volatility = 50
-
-    # 相對強度（近60日 vs 大盤）
-    if len(c) > 61:
-        ret60 = c.iloc[-1] / c.iloc[-61] - 1
-        excess = (ret60 - bench_ret60) * 100
-        rel = float(np.clip(50 + excess * 2.5, 0, 100))
-    else:
-        rel = 50
-
-    return {"trend": trend, "momentum": momentum, "volume": volume,
-            "volatility": volatility, "rel_strength": rel,
-            "rsi": round(r, 1), "vol_ratio": round(vr, 2), "price": price}
-
-
-def total_score(tech: dict, fundamental: float, regime: str) -> float:
-    """加權總分；依市場溫度微調權重。"""
-    w = dict(WEIGHTS)
-    if regime == "bull":       # 多頭：動能加重
-        w["momentum"] += 0.05
-        w["volatility"] -= 0.05
-    elif regime == "bear":     # 空頭/震盪：趨勢與波動加重
-        w["trend"] += 0.05
-        w["momentum"] -= 0.05
-    parts = {k: tech[k] for k in ("trend", "momentum", "volume", "volatility", "rel_strength")}
-    parts["fundamental"] = fundamental
-    return round(sum(parts[k] * w[k] for k in w), 1)
-
-
-def reason_text(tech: dict, fundamental: float) -> str:
-    """一句話推薦理由。"""
-    bits = []
-    if tech["trend"] == 100:
-        bits.append("多頭排列")
-    elif tech["trend"] == 50:
-        bits.append("站上20MA")
-    bits.append(f"RSI {tech['rsi']}")
-    if tech["vol_ratio"] >= 1.5:
-        bits.append(f"量增{tech['vol_ratio']}倍")
-    if fundamental >= 70:
-        bits.append("基本面強")
-    return "、".join(bits)
+        rank_market(mode)
