@@ -142,6 +142,31 @@ def rank_market(market: str):
     for i, r in enumerate(top10, 1):
         r["rank"] = i
 
+    # 台股加做「產業熱力圖」資料（方塊=成交值、顏色=漲跌）
+    if market == "tw":
+        agg = {}
+        for sid, q in quotes.items():
+            hist = grouped.get(sid)
+            if hist is None or len(hist) < 2:
+                continue
+            prev = float(hist["close"].iloc[-1])
+            if prev <= 0 or q["volume"] <= 0:
+                continue
+            ind = str(inds.get(sid, "")).strip() or "其他"
+            chg = q["price"] / prev - 1
+            val = q["price"] * q["volume"]
+            a = agg.setdefault(ind, {"value": 0.0, "wsum": 0.0})
+            a["value"] += val
+            a["wsum"] += chg * val
+        heat = [{"name": k, "value": round(v["value"] / 1e8, 2),  # 億元
+                 "chg": round(v["wsum"] / v["value"] * 100, 2)}
+                for k, v in agg.items() if v["value"] > 0]
+        heat.sort(key=lambda x: -x["value"])
+        dfe.save_json("heatmap_tw.json", {
+            "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
+            "industries": heat})
+        print(f"heatmap: {len(heat)} industries")
+
     out = {"market": market, "regime": regime,
            "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
            "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
