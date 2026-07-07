@@ -73,6 +73,28 @@ TPL = """<!doctype html>
 <p class="note">技術面＋基本面<b>觀察清單，非投資建議</b>。名單為盤中掃描產生，
 發布後至收盤價格仍會變動，下單前請自行確認即時報價；請自行控管停損與部位。</p>
 
+{% for f, fname, fmkt in focuses %}
+{% if f %}
+<h2>📌 {{ fname }}每日焦點 <span class="meta">{{ f.generated_at.replace("T"," ") }}</span></h2>
+{% if f.industries %}
+<p>🔥 強勢產業：{% for i in f.industries %}<span class="badge" style="background:#dc2626">{{ i.name }} {{ i.chg }}%</span> {% endfor %}
+｜💧 弱勢產業：{% for i in f.weak_industries %}<span class="badge" style="background:#16a34a">{{ i.name }} {{ i.chg }}%</span> {% endfor %}</p>
+{% endif %}
+{% for lst, ltitle in [(f.gainers, '🚀 漲幅前5'), (f.losers, '📉 跌幅前5'), (f.volume, '📢 爆量前5（依量比）')] %}
+<details {{ 'open' if loop.first else '' }}>
+<summary style="cursor:pointer;font-weight:700;margin-top:10px">{{ ltitle }}</summary>
+<table><tr><th>代號</th><th>名稱</th><th>現價</th><th>漲跌%</th><th>量比</th><th>成交值(億)</th><th>K線</th><th>看盤</th></tr>
+{% for s in lst %}
+<tr><td><b>{{ s.id }}</b></td><td>{{ s.name }}</td><td>{{ s.price }}</td>
+<td style="color:{{ '#dc2626' if s.chg >= 0 else '#16a34a' }};font-weight:700">{{ s.chg }}%</td>
+<td>{{ s.vr }}</td><td>{{ s.value }}</td>
+<td><a href="/chart/{{ fmkt }}/{{ s.id }}">📊</a></td>
+<td><a href="{{ ('https://tw.stock.yahoo.com/quote/' if fmkt == 'tw' else 'https://finance.yahoo.com/quote/') + s.id }}" target="_blank">↗</a></td></tr>
+{% endfor %}</table></details>
+{% endfor %}
+{% endif %}
+{% endfor %}
+
 {% for m, title, quote_url, mkt in markets %}
 <h2>{{ title }}</h2>
 {% if m %}
@@ -249,7 +271,9 @@ def index():
         (prep(load("top10_us.json")), "🇺🇸 美股前10",
          "https://finance.yahoo.com/quote/{id}", "us"),
     ]
-    return render_template_string(TPL, markets=markets,
+    focuses = [(load("focus_tw.json"), "台股", "tw"),
+               (load("focus_us.json"), "美股", "us")]
+    return render_template_string(TPL, markets=markets, focuses=focuses,
                                   etf=load("etf_positions.json"), page="home")
 
 

@@ -142,6 +142,7 @@ def rank_market(market: str):
     for i, r in enumerate(top10, 1):
         r["rank"] = i
 
+    heat = None
     # 台股加做「產業熱力圖」資料（方塊=成交值、顏色=漲跌）
     if market == "tw":
         agg = {}
@@ -167,6 +168,8 @@ def rank_market(market: str):
             "industries": heat})
         print(f"heatmap: {len(heat)} industries")
 
+    build_focus(market, quotes, grouped, names, etf_meta, heat, regime, frac)
+
     out = {"market": market, "regime": regime,
            "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
            "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
@@ -176,6 +179,40 @@ def rank_market(market: str):
     for r in top10:
         print(f"  {r['rank']:2d}. {r['id']} {r['name']} [{r['category']}] "
               f"{r['score']}分 @{r['price']} — {r['reason']}")
+
+
+def build_focus(market, quotes, grouped, names, etf_meta, heat, regime, frac):
+    """每日焦點（完整欄位）：漲幅/跌幅/爆量各前5 + 強弱勢產業 → focus_{market}.json"""
+    min_val = 1e8 if market == "tw" else 5e7   # 成交值門檻，過濾殭屍股
+    rows = []
+    for sid, q in quotes.items():
+        hist = grouped.get(sid)
+        if hist is None or len(hist) < 21:
+            continue
+        prev = float(hist["close"].iloc[-1])
+        val = q["price"] * q["volume"]
+        if prev <= 0 or val < min_val:
+            continue
+        vma = hist["volume"].tail(20).mean()
+        rows.append({
+            "id": sid,
+            "name": names.get(sid) or etf_meta.get(sid, {}).get("name", sid),
+            "price": round(q["price"], 2),
+            "chg": round((q["price"] / prev - 1) * 100, 2),
+            "vr": round((q["volume"] / max(frac, 0.2)) / vma, 1) if vma > 0 else 0.0,
+            "value": round(val / 1e8, 1),   # 成交值（億）
+        })
+    by_chg = sorted(rows, key=lambda x: -x["chg"])
+    by_vr = sorted(rows, key=lambda x: -x["vr"])
+    dfe.save_json(f"focus_{market}.json", {
+        "regime": regime,
+        "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
+        "gainers": by_chg[:5],
+        "losers": by_chg[-5:][::-1],
+        "volume": by_vr[:5],
+        "industries": sorted(heat, key=lambda x: -x["chg"])[:3] if heat else [],
+        "weak_industries": sorted(heat, key=lambda x: x["chg"])[:3] if heat else []})
+    print(f"focus_{market}: {len(rows)} candidates")
 
 
 def build_etf_positions():
