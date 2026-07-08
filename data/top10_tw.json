@@ -1,0 +1,198 @@
+{
+ "market": "tw",
+ "regime": "neutral",
+ "generated_at": "2026-07-08T06:46:10",
+ "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
+ "top10": [
+  {
+   "id": "1409",
+   "name": "新纖",
+   "category": "個股-紡織纖維",
+   "is_etf": false,
+   "score": 94.0,
+   "price": 29.25,
+   "position": 91.0,
+   "reason": "多頭排列、RSI 60.1、量增2.56倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 1
+  },
+  {
+   "id": "4551",
+   "name": "智伸科",
+   "category": "個股-汽車工業",
+   "is_etf": false,
+   "score": 94.0,
+   "price": 246.0,
+   "position": 87.7,
+   "reason": "多頭排列、RSI 63.1、量增1.58倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "1326",
+   "name": "台化",
+   "category": "個股-塑膠工業",
+   "is_etf": false,
+   "score": 92.0,
+   "price": 64.7,
+   "position": 78.3,
+   "reason": "多頭排列、RSI 64.5、量增1.72倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 70.4,
+    "fundamental": 75.0
+   },
+   "rank": 3
+  },
+  {
+   "id": "6213",
+   "name": "聯茂",
+   "category": "個股-電子工業",
+   "is_etf": false,
+   "score": 90.0,
+   "price": 393.5,
+   "position": 98.0,
+   "reason": "多頭排列、RSI 69.9、量增1.74倍",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 50.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "2476",
+   "name": "鉅祥",
+   "category": "個股-電子工業",
+   "is_etf": false,
+   "score": 88.5,
+   "price": 132.0,
+   "position": 94.5,
+   "reason": "多頭排列、RSI 57.4、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 44.9,
+    "fundamental": 100.0
+   },
+   "rank": 5
+  },
+  {
+   "id": "2369",
+   "name": "菱生",
+   "category": "個股-半導體業",
+   "is_etf": false,
+   "score": 86.0,
+   "price": 42.7,
+   "position": 91.2,
+   "reason": "多頭排列、RSI 60.4、量增1.74倍",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 60.0,
+    "fundamental": 50.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "2481",
+   "name": "強茂",
+   "category": "個股-半導體業",
+   "is_etf": false,
+   "score": 84.5,
+   "price": 211.5,
+   "position": 92.8,
+   "reason": "多頭排列、RSI 65.2、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "6525",
+   "name": "捷敏-KY",
+   "category": "個股-半導體業",
+   "is_etf": false,
+   "score": 84.0,
+   "price": 199.0,
+   "position": 90.8,
+   "reason": "多頭排列、RSI 68.3、量增2.86倍",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 50.0
+   },
+   "rank": 8
+  },
+  {
+   "id": "006208",
+   "name": "富邦台50",
+   "category": "市值型 ETF",
+   "is_etf": true,
+   "score": 65.3,
+   "price": 246.15,
+   "position": 82.4,
+   "reason": "多頭排列、RSI 53.5",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 43.1,
+    "fundamental": 17.6
+   },
+   "rank": 9
+  },
+  {
+   "id": "0050",
+   "name": "元大台灣50",
+   "category": "市值型 ETF",
+   "is_etf": true,
+   "score": 65.3,
+   "price": 106.05,
+   "position": 82.2,
+   "reason": "多頭排列、RSI 53.1",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 42.9,
+    "fundamental": 17.8
+   },
+   "rank": 10
+  }
+ ]
+}
