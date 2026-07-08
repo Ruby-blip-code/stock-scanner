@@ -1,7 +1,7 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-07-08T16:04:02",
+ "generated_at": "2026-07-08T20:38:52",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
@@ -9,150 +9,150 @@
    "name": "Schwab 高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 70.0,
-   "price": 32.45500183105469,
-   "position": 87.8,
-   "reason": "多頭排列、RSI 59.4",
+   "score": 65.8,
+   "price": 32.32678985595703,
+   "position": 85.6,
+   "reason": "多頭排列、RSI 57.3",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
+    "volume": 30,
     "volatility": 100,
-    "rel_strength": 35.6,
-    "fundamental": 12.2
+    "rel_strength": 34.6,
+    "fundamental": 14.4
    },
    "rank": 1
-  },
-  {
-   "id": "VTI",
-   "name": "Vanguard 全美股",
-   "category": "市值型 ETF",
-   "is_etf": true,
-   "score": 66.7,
-   "price": 366.0,
-   "position": 68.9,
-   "reason": "多頭排列、RSI 50.6",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 44.9,
-    "fundamental": 31.1
-   },
-   "rank": 2
   },
   {
    "id": "VOO",
    "name": "Vanguard S&P 500",
    "category": "市值型 ETF",
    "is_etf": true,
-   "score": 64.7,
-   "price": 681.155029296875,
-   "position": 66.5,
-   "reason": "多頭排列、RSI 50.7",
+   "score": 63.9,
+   "price": 685.030029296875,
+   "position": 71.1,
+   "reason": "多頭排列、RSI 53.6",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 44.6,
-    "fundamental": 33.5
+    "rel_strength": 46.1,
+    "fundamental": 28.9
+   },
+   "rank": 2
+  },
+  {
+   "id": "VTI",
+   "name": "Vanguard 全美股",
+   "category": "市值型 ETF",
+   "is_etf": true,
+   "score": 63.5,
+   "price": 368.2099914550781,
+   "position": 73.2,
+   "reason": "多頭排列、RSI 53.7",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 46.5,
+    "fundamental": 26.8
    },
    "rank": 3
-  },
-  {
-   "id": "VYM",
-   "name": "Vanguard 高股息",
-   "category": "高股息型 ETF",
-   "is_etf": true,
-   "score": 64.7,
-   "price": 159.97000122070312,
-   "position": 83.9,
-   "reason": "多頭排列、RSI 61.1",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 34.9,
-    "fundamental": 16.1
-   },
-   "rank": 4
-  },
-  {
-   "id": "TLT",
-   "name": "iShares 20年美債",
-   "category": "債券型 ETF",
-   "is_etf": true,
-   "score": 35.4,
-   "price": 84.1500015258789,
-   "position": 23.2,
-   "reason": "RSI 36.9、基本面強",
-   "factors": {
-    "trend": 0,
-    "momentum": 20,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 15.8,
-    "fundamental": 76.8
-   },
-   "rank": 5
-  },
-  {
-   "id": "SMH",
-   "name": "VanEck 半導體",
-   "category": "產業型 ETF",
-   "is_etf": true,
-   "score": 34.3,
-   "price": 580.6599731445312,
-   "position": 75.8,
-   "reason": "RSI 45.2",
-   "factors": {
-    "trend": 0,
-    "momentum": 55,
-    "volume": 30,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 24.2
-   },
-   "rank": 6
-  },
-  {
-   "id": "QQQ",
-   "name": "Invesco Nasdaq 100",
-   "category": "科技市值型 ETF",
-   "is_etf": true,
-   "score": 32.4,
-   "price": 703.1900024414062,
-   "position": 65.2,
-   "reason": "RSI 45.4",
-   "factors": {
-    "trend": 0,
-    "momentum": 55,
-    "volume": 30,
-    "volatility": 40,
-    "rel_strength": 59.7,
-    "fundamental": 34.8
-   },
-   "rank": 7
   },
   {
    "id": "VT",
    "name": "Vanguard 全世界",
    "category": "市值型 ETF",
    "is_etf": true,
-   "score": 31.6,
-   "price": 154.64500427246094,
-   "position": 58.9,
-   "reason": "RSI 47.9",
+   "score": 62.9,
+   "price": 155.7899932861328,
+   "position": 63.4,
+   "reason": "多頭排列、RSI 51.0",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 41.0,
+    "fundamental": 36.6
+   },
+   "rank": 4
+  },
+  {
+   "id": "VYM",
+   "name": "Vanguard 高股息",
+   "category": "高股息型 ETF",
+   "is_etf": true,
+   "score": 60.5,
+   "price": 159.7899932861328,
+   "position": 82.2,
+   "reason": "多頭排列、RSI 59.8",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 34.6,
+    "fundamental": 17.8
+   },
+   "rank": 5
+  },
+  {
+   "id": "TLT",
+   "name": "iShares 20年美債",
+   "category": "債券型 ETF",
+   "is_etf": true,
+   "score": 35.3,
+   "price": 84.3499984741211,
+   "position": 24.0,
+   "reason": "RSI 38.2、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 20,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 16.3,
+    "fundamental": 76.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "SMH",
+   "name": "VanEck 半導體",
+   "category": "產業型 ETF",
+   "is_etf": true,
+   "score": 33.7,
+   "price": 593.0999755859375,
+   "position": 79.0,
+   "reason": "RSI 47.2",
    "factors": {
     "trend": 0,
     "momentum": 55,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 39.0,
-    "fundamental": 41.1
+    "rel_strength": 100.0,
+    "fundamental": 21.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "category": "科技市值型 ETF",
+   "is_etf": true,
+   "score": 30.9,
+   "price": 711.280029296875,
+   "position": 74.4,
+   "reason": "RSI 47.8",
+   "factors": {
+    "trend": 0,
+    "momentum": 55,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 63.1,
+    "fundamental": 25.6
    },
    "rank": 8
   }
