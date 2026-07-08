@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-07-07T20:59:05",
+ "generated_at": "2026-07-08T16:04:02",
  "gainers": [
   {
    "id": "SCHD",
    "name": "Schwab 高股息",
-   "price": 32.53,
-   "chg": 0.9,
-   "vr": 0.9,
-   "value": 6.8
+   "price": 32.46,
+   "chg": 0.67,
+   "vr": 1.0,
+   "value": 2.9
   },
   {
    "id": "VYM",
    "name": "Vanguard 高股息",
-   "price": 160.63,
-   "chg": 0.31,
-   "vr": 0.6,
-   "value": 1.6
+   "price": 159.97,
+   "chg": -0.11,
+   "vr": 1.1,
+   "value": 1.1
   },
   {
    "id": "VOO",
    "name": "Vanguard S&P 500",
-   "price": 687.1,
-   "chg": -0.51,
-   "vr": 0.4,
-   "value": 31.7
+   "price": 681.16,
+   "chg": -1.37,
+   "vr": 0.5,
+   "value": 17.7
+  },
+  {
+   "id": "TLT",
+   "name": "iShares 20年美債",
+   "price": 84.15,
+   "chg": -1.52,
+   "vr": 0.9,
+   "value": 7.7
   },
   {
    "id": "VTI",
    "name": "Vanguard 全美股",
-   "price": 369.72,
-   "chg": -0.52,
-   "vr": 0.8,
-   "value": 10.6
-  },
-  {
-   "id": "VT",
-   "name": "Vanguard 全世界",
-   "price": 156.35,
-   "chg": -0.93,
-   "vr": 0.5,
-   "value": 3.0
+   "price": 366.0,
+   "chg": -1.53,
+   "vr": 1.1,
+   "value": 5.8
   }
  ],
  "losers": [
   {
    "id": "TQQQ",
    "name": "ProShares Nasdaq 正3",
-   "price": 72.21,
-   "chg": -5.51,
-   "vr": 0.8,
-   "value": 49.7
+   "price": 70.25,
+   "chg": -8.07,
+   "vr": 1.4,
+   "value": 30.6
   },
   {
    "id": "SMH",
    "name": "VanEck 半導體",
-   "price": 581.07,
-   "chg": -3.84,
-   "vr": 1.1,
-   "value": 81.5
+   "price": 580.66,
+   "chg": -3.91,
+   "vr": 0.9,
+   "value": 26.1
   },
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 709.38,
-   "chg": -1.86,
-   "vr": 0.7,
-   "value": 277.9
-  },
-  {
-   "id": "TLT",
-   "name": "iShares 20年美債",
-   "price": 84.54,
-   "chg": -1.06,
-   "vr": 0.8,
-   "value": 17.9
+   "price": 703.19,
+   "chg": -2.72,
+   "vr": 0.9,
+   "value": 128.3
   },
   {
    "id": "VT",
    "name": "Vanguard 全世界",
-   "price": 156.35,
-   "chg": -0.93,
+   "price": 154.65,
+   "chg": -2.01,
    "vr": 0.5,
-   "value": 3.0
-  }
- ],
- "volume": [
-  {
-   "id": "SMH",
-   "name": "VanEck 半導體",
-   "price": 581.07,
-   "chg": -3.84,
-   "vr": 1.1,
-   "value": 81.5
-  },
-  {
-   "id": "SCHD",
-   "name": "Schwab 高股息",
-   "price": 32.53,
-   "chg": 0.9,
-   "vr": 0.9,
-   "value": 6.8
-  },
-  {
-   "id": "TLT",
-   "name": "iShares 20年美債",
-   "price": 84.54,
-   "chg": -1.06,
-   "vr": 0.8,
-   "value": 17.9
-  },
-  {
-   "id": "TQQQ",
-   "name": "ProShares Nasdaq 正3",
-   "price": 72.21,
-   "chg": -5.51,
-   "vr": 0.8,
-   "value": 49.7
+   "value": 1.3
   },
   {
    "id": "VTI",
    "name": "Vanguard 全美股",
-   "price": 369.72,
-   "chg": -0.52,
-   "vr": 0.8,
-   "value": 10.6
+   "price": 366.0,
+   "chg": -1.53,
+   "vr": 1.1,
+   "value": 5.8
+  }
+ ],
+ "volume": [
+  {
+   "id": "TQQQ",
+   "name": "ProShares Nasdaq 正3",
+   "price": 70.25,
+   "chg": -8.07,
+   "vr": 1.4,
+   "value": 30.6
+  },
+  {
+   "id": "VTI",
+   "name": "Vanguard 全美股",
+   "price": 366.0,
+   "chg": -1.53,
+   "vr": 1.1,
+   "value": 5.8
+  },
+  {
+   "id": "VYM",
+   "name": "Vanguard 高股息",
+   "price": 159.97,
+   "chg": -0.11,
+   "vr": 1.1,
+   "value": 1.1
+  },
+  {
+   "id": "SCHD",
+   "name": "Schwab 高股息",
+   "price": 32.46,
+   "chg": 0.67,
+   "vr": 1.0,
+   "value": 2.9
+  },
+  {
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "price": 703.19,
+   "chg": -2.72,
+   "vr": 0.9,
+   "value": 128.3
   }
  ],
  "industries": [],
