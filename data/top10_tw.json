@@ -1,7 +1,198 @@
 {
  "market": "tw",
  "regime": "neutral",
- "generated_at": "2026-07-15T06:37:53",
+ "generated_at": "2026-07-16T06:40:39",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
- "top10": []
+ "top10": [
+  {
+   "id": "2359",
+   "name": "所羅門",
+   "category": "個股-其他電子業",
+   "is_etf": false,
+   "score": 94.9,
+   "price": 147.0,
+   "position": 87.4,
+   "reason": "多頭排列、RSI 58.5、量增1.53倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 49.3,
+    "fundamental": 100.0
+   },
+   "rank": 1
+  },
+  {
+   "id": "1303",
+   "name": "南亞",
+   "category": "個股-塑膠工業",
+   "is_etf": false,
+   "score": 93.0,
+   "price": 221.0,
+   "position": 99.6,
+   "reason": "多頭排列、RSI 76.4、量增1.78倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 65,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "1326",
+   "name": "台化",
+   "category": "個股-塑膠工業",
+   "is_etf": false,
+   "score": 92.3,
+   "price": 68.9,
+   "position": 79.2,
+   "reason": "多頭排列、RSI 65.6、量增2.19倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 72.9,
+    "fundamental": 75.0
+   },
+   "rank": 3
+  },
+  {
+   "id": "6196",
+   "name": "帆宣",
+   "category": "個股-其他電子業",
+   "is_etf": false,
+   "score": 92.0,
+   "price": 590.0,
+   "position": 97.7,
+   "reason": "多頭排列、RSI 63.4、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "2467",
+   "name": "志聖",
+   "category": "個股-電子工業",
+   "is_etf": false,
+   "score": 91.5,
+   "price": 620.0,
+   "position": 72.2,
+   "reason": "多頭排列、RSI 53.9、量增2.34倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 35.0,
+    "fundamental": 100.0
+   },
+   "rank": 5
+  },
+  {
+   "id": "3167",
+   "name": "大量",
+   "category": "個股-電機機械",
+   "is_etf": false,
+   "score": 91.5,
+   "price": 851.0,
+   "position": 74.9,
+   "reason": "多頭排列、RSI 53.6、量增1.63倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 34.6,
+    "fundamental": 100.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "6141",
+   "name": "柏承",
+   "category": "個股-電子零組件業",
+   "is_etf": false,
+   "score": 89.0,
+   "price": 43.75,
+   "position": 88.9,
+   "reason": "多頭排列、RSI 63.2、量增4.65倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 40,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "2332",
+   "name": "友訊",
+   "category": "個股-通信網路業",
+   "is_etf": false,
+   "score": 89.0,
+   "price": 22.5,
+   "position": 88.2,
+   "reason": "多頭排列、RSI 62.5、量增2.33倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
+   },
+   "rank": 8
+  },
+  {
+   "id": "00757",
+   "name": "統一FANG+",
+   "category": "海外主題型 ETF",
+   "is_etf": true,
+   "score": 68.0,
+   "price": 135.35,
+   "position": 90.3,
+   "reason": "多頭排列、RSI 64.4",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 20.8,
+    "fundamental": 9.7
+   },
+   "rank": 9
+  },
+  {
+   "id": "00662",
+   "name": "富邦NASDAQ",
+   "category": "海外市值型 ETF",
+   "is_etf": true,
+   "score": 62.3,
+   "price": 122.25,
+   "position": 87.0,
+   "reason": "多頭排列、RSI 54.8",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 22.3,
+    "fundamental": 13.0
+   },
+   "rank": 10
+  }
+ ]
 }
