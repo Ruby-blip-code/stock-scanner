@@ -1,37 +1,18 @@
 {
  "market": "tw",
  "regime": "neutral",
- "generated_at": "2026-07-23T06:46:21",
+ "generated_at": "2026-07-24T06:45:54",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
-  {
-   "id": "1326",
-   "name": "台化",
-   "category": "個股-塑膠工業",
-   "is_etf": false,
-   "score": 95.0,
-   "price": 71.7,
-   "position": 79.2,
-   "reason": "多頭排列、RSI 64.3、量增2.23倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 75.0
-   },
-   "rank": 1
-  },
   {
    "id": "2425",
    "name": "承啟",
    "category": "個股-電子工業",
    "is_etf": false,
    "score": 94.0,
-   "price": 45.8,
-   "position": 99.4,
-   "reason": "多頭排列、RSI 63.3、量增2.7倍、基本面強",
+   "price": 46.85,
+   "position": 99.6,
+   "reason": "多頭排列、RSI 65.2、量增2.8倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -40,7 +21,64 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
+   "rank": 1
+  },
+  {
+   "id": "2359",
+   "name": "所羅門",
+   "category": "個股-其他電子業",
+   "is_etf": false,
+   "score": 92.2,
+   "price": 145.0,
+   "position": 83.9,
+   "reason": "多頭排列、RSI 55.5、量增2.33倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 81.9,
+    "fundamental": 100.0
+   },
    "rank": 2
+  },
+  {
+   "id": "2615",
+   "name": "萬海",
+   "category": "個股-航運業",
+   "is_etf": false,
+   "score": 92.2,
+   "price": 87.0,
+   "position": 89.1,
+   "reason": "多頭排列、RSI 66.0、量增2.49倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 42.5,
+    "fundamental": 90.0
+   },
+   "rank": 3
+  },
+  {
+   "id": "3022",
+   "name": "威強電",
+   "category": "個股-電子工業",
+   "is_etf": false,
+   "score": 91.0,
+   "price": 94.0,
+   "position": 99.0,
+   "reason": "多頭排列、RSI 63.3、量增1.57倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 89.9,
+    "fundamental": 90.0
+   },
+   "rank": 4
   },
   {
    "id": "2376",
@@ -59,138 +97,100 @@
     "rel_strength": 68.1,
     "fundamental": 100.0
    },
-   "rank": 3
-  },
-  {
-   "id": "3532",
-   "name": "台勝科",
-   "category": "個股-半導體業",
-   "is_etf": false,
-   "score": 90.0,
-   "price": 421.5,
-   "position": 76.0,
-   "reason": "多頭排列、RSI 52.2、量增1.98倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "6141",
-   "name": "柏承",
-   "category": "個股-電子零組件業",
-   "is_etf": false,
-   "score": 88.6,
-   "price": 42.9,
-   "position": 84.3,
-   "reason": "多頭排列、RSI 58.7、量增4.29倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 40,
-    "volatility": 100,
-    "rel_strength": 96.4,
-    "fundamental": 90.0
-   },
    "rank": 5
   },
   {
-   "id": "2542",
-   "name": "興富發",
-   "category": "個股-建材營造",
+   "id": "2395",
+   "name": "研華",
+   "category": "個股-電腦及週邊設備業",
    "is_etf": false,
-   "score": 88.6,
-   "price": 44.95,
-   "position": 92.8,
-   "reason": "多頭排列、RSI 61.6、量增1.54倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 36.4,
-    "fundamental": 75.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "2880",
-   "name": "華南金",
-   "category": "個股-金融保險",
-   "is_etf": false,
-   "score": 88.4,
-   "price": 41.25,
-   "position": 98.5,
-   "reason": "多頭排列、RSI 68.1、基本面強",
+   "score": 88.0,
+   "price": 581.0,
+   "position": 97.2,
+   "reason": "多頭排列、RSI 65.6、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
-    "volatility": 100,
-    "rel_strength": 44.0,
+    "volatility": 40,
+    "rel_strength": 100.0,
     "fundamental": 100.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "2634",
+   "name": "漢翔",
+   "category": "個股-航運業",
+   "is_etf": false,
+   "score": 87.4,
+   "price": 65.4,
+   "position": 91.0,
+   "reason": "多頭排列、RSI 59.6、量增1.76倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 84.4,
+    "fundamental": 75.0
    },
    "rank": 7
   },
   {
-   "id": "1308",
-   "name": "亞聚",
-   "category": "個股-塑膠工業",
+   "id": "2466",
+   "name": "冠西電",
+   "category": "個股-光電業",
    "is_etf": false,
-   "score": 88.0,
-   "price": 14.55,
-   "position": 48.6,
-   "reason": "多頭排列、RSI 52.6、量增1.68倍、基本面強",
+   "score": 86.0,
+   "price": 95.0,
+   "position": 77.5,
+   "reason": "多頭排列、RSI 55.4、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 0.0,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 100.0,
     "fundamental": 100.0
    },
    "rank": 8
   },
   {
-   "id": "00757",
-   "name": "統一FANG+",
-   "category": "海外主題型 ETF",
+   "id": "00878",
+   "name": "國泰永續高股息",
+   "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 67.1,
-   "price": 130.75,
-   "position": 74.5,
-   "reason": "多頭排列、RSI 51.6",
+   "score": 37.3,
+   "price": 32.61,
+   "position": 83.9,
+   "reason": "RSI 51.8",
    "factors": {
-    "trend": 100,
-    "momentum": 100,
+    "trend": 0,
+    "momentum": 90,
     "volume": 30,
-    "volatility": 100,
-    "rel_strength": 24.9,
-    "fundamental": 25.5
+    "volatility": 40,
+    "rel_strength": 75.4,
+    "fundamental": 16.1
    },
    "rank": 9
   },
   {
-   "id": "00893",
-   "name": "國泰智能電動車",
-   "category": "產業型 ETF",
+   "id": "00919",
+   "name": "群益台灣精選高息",
+   "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 61.2,
-   "price": 45.62,
-   "position": 69.7,
-   "reason": "多頭排列、RSI 50.8",
+   "score": 36.1,
+   "price": 29.49,
+   "position": 83.7,
+   "reason": "RSI 51.5",
    "factors": {
-    "trend": 100,
+    "trend": 0,
     "momentum": 90,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 36.5,
-    "fundamental": 30.3
+    "rel_strength": 63.1,
+    "fundamental": 16.3
    },
    "rank": 10
   }
