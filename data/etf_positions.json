@@ -1,181 +1,181 @@
 {
- "generated_at": "2026-07-31T07:20:16",
+ "generated_at": "2026-08-03T07:53:45",
  "etfs": [
   {
    "market": "美股",
    "id": "TLT",
    "name": "iShares 20年美債",
    "type": "債券型",
-   "position": 14.9,
-   "price": 82.8
-  },
-  {
-   "market": "台股",
-   "id": "00632R",
-   "name": "元大台灣50反1",
-   "type": "反向型(新手避開)",
-   "position": 21.4,
-   "price": 10.44
+   "position": 13.8,
+   "price": 82.25
   },
   {
    "market": "台股",
    "id": "00631L",
    "name": "元大台灣50正2",
    "type": "槓桿型(新手避開)",
-   "position": 22.2,
-   "price": 33.7
+   "position": 19.8,
+   "price": 32.62
   },
   {
    "market": "美股",
    "id": "BND",
    "name": "Vanguard 總體債券",
    "type": "債券型",
-   "position": 31.7,
-   "price": 72.42
+   "position": 26.4,
+   "price": 72.23
+  },
+  {
+   "market": "台股",
+   "id": "00632R",
+   "name": "元大台灣50反1",
+   "type": "反向型(新手避開)",
+   "position": 26.6,
+   "price": 10.6
   },
   {
    "market": "美股",
    "id": "TQQQ",
    "name": "ProShares Nasdaq 正3",
    "type": "槓桿型(新手避開)",
-   "position": 37.1,
-   "price": 63.3
+   "position": 38.9,
+   "price": 64.62
   },
   {
    "market": "美股",
    "id": "SMH",
    "name": "VanEck 半導體",
    "type": "產業型",
-   "position": 43.3,
-   "price": 538.9
+   "position": 44.2,
+   "price": 540.53
   },
   {
    "market": "台股",
    "id": "00893",
    "name": "國泰智能電動車",
    "type": "產業型",
-   "position": 48.5,
-   "price": 43.07
+   "position": 46.5,
+   "price": 42.68
   },
   {
    "market": "美股",
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
    "type": "科技市值型",
-   "position": 52.4,
-   "price": 683.55
-  },
-  {
-   "market": "台股",
-   "id": "00891",
-   "name": "中信關鍵半導體",
-   "type": "產業型",
-   "position": 57.8,
-   "price": 33.2
-  },
-  {
-   "market": "美股",
-   "id": "VT",
-   "name": "Vanguard 全世界",
-   "type": "市值型",
-   "position": 59.1,
-   "price": 155.45
-  },
-  {
-   "market": "台股",
-   "id": "00662",
-   "name": "富邦NASDAQ",
-   "type": "海外市值型",
-   "position": 60.3,
-   "price": 118.55
-  },
-  {
-   "market": "美股",
-   "id": "VOO",
-   "name": "Vanguard S&P 500",
-   "type": "市值型",
-   "position": 61.8,
-   "price": 681.79
-  },
-  {
-   "market": "美股",
-   "id": "VTI",
-   "name": "Vanguard 全美股",
-   "type": "市值型",
-   "position": 62.1,
-   "price": 366.27
+   "position": 53.7,
+   "price": 687.99
   },
   {
    "market": "台股",
    "id": "006208",
    "name": "富邦台50",
    "type": "市值型",
-   "position": 62.4,
-   "price": 235.35
+   "position": 58.4,
+   "price": 232.9
+  },
+  {
+   "market": "台股",
+   "id": "00662",
+   "name": "富邦NASDAQ",
+   "type": "海外市值型",
+   "position": 60.5,
+   "price": 118.7
+  },
+  {
+   "market": "美股",
+   "id": "VT",
+   "name": "Vanguard 全世界",
+   "type": "市值型",
+   "position": 60.6,
+   "price": 155.86
+  },
+  {
+   "market": "台股",
+   "id": "00891",
+   "name": "中信關鍵半導體",
+   "type": "產業型",
+   "position": 61.3,
+   "price": 33.72
+  },
+  {
+   "market": "美股",
+   "id": "VTI",
+   "name": "Vanguard 全美股",
+   "type": "市值型",
+   "position": 64.6,
+   "price": 368.21
+  },
+  {
+   "market": "美股",
+   "id": "VOO",
+   "name": "Vanguard S&P 500",
+   "type": "市值型",
+   "position": 66.0,
+   "price": 686.65
   },
   {
    "market": "台股",
    "id": "00929",
    "name": "復華台灣科技優息",
    "type": "高股息型",
-   "position": 68.3,
-   "price": 27.47
+   "position": 68.6,
+   "price": 27.57
   },
   {
    "market": "台股",
    "id": "0050",
    "name": "元大台灣50",
    "type": "市值型",
-   "position": 73.1,
-   "price": 102.85
+   "position": 71.7,
+   "price": 102.0
   },
   {
    "market": "台股",
    "id": "0056",
    "name": "元大高股息",
    "type": "高股息型",
-   "position": 75.3,
-   "price": 49.48
-  },
-  {
-   "market": "台股",
-   "id": "00757",
-   "name": "統一FANG+",
-   "type": "海外主題型",
-   "position": 77.3,
-   "price": 131.55
+   "position": 76.5,
+   "price": 49.82
   },
   {
    "market": "美股",
    "id": "VYM",
    "name": "Vanguard 高股息",
    "type": "高股息型",
-   "position": 79.9,
+   "position": 78.0,
    "price": 161.96
-  },
-  {
-   "market": "台股",
-   "id": "00878",
-   "name": "國泰永續高股息",
-   "type": "高股息型",
-   "position": 81.8,
-   "price": 32.43
   },
   {
    "market": "台股",
    "id": "00919",
    "name": "群益台灣精選高息",
    "type": "高股息型",
-   "position": 83.6,
-   "price": 29.57
+   "position": 81.7,
+   "price": 29.45
+  },
+  {
+   "market": "台股",
+   "id": "00757",
+   "name": "統一FANG+",
+   "type": "海外主題型",
+   "position": 82.4,
+   "price": 133.05
+  },
+  {
+   "market": "台股",
+   "id": "00878",
+   "name": "國泰永續高股息",
+   "type": "高股息型",
+   "position": 82.5,
+   "price": 32.57
   },
   {
    "market": "美股",
    "id": "SCHD",
    "name": "Schwab 高股息",
    "type": "高股息型",
-   "position": 90.9,
-   "price": 33.41
+   "position": 91.5,
+   "price": 33.47
   }
  ]
 }
