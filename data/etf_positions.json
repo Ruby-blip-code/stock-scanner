@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-08-06T07:09:40",
+ "generated_at": "2026-08-07T00:44:56",
  "etfs": [
   {
    "market": "美股",
    "id": "TLT",
    "name": "iShares 20年美債",
    "type": "債券型",
-   "position": 19.9,
-   "price": 83.0
+   "position": 16.6,
+   "price": 82.52
   },
   {
    "market": "台股",
@@ -30,8 +30,8 @@
    "id": "BND",
    "name": "Vanguard 總體債券",
    "type": "債券型",
-   "position": 42.6,
-   "price": 72.46
+   "position": 33.7,
+   "price": 72.25
   },
   {
    "market": "台股",
@@ -43,19 +43,19 @@
   },
   {
    "market": "美股",
-   "id": "SMH",
-   "name": "VanEck 半導體",
-   "type": "產業型",
-   "position": 54.8,
-   "price": 569.7
-  },
-  {
-   "market": "美股",
    "id": "TQQQ",
    "name": "ProShares Nasdaq 正3",
    "type": "槓桿型(新手避開)",
-   "position": 56.5,
-   "price": 72.84
+   "position": 53.0,
+   "price": 72.03
+  },
+  {
+   "market": "美股",
+   "id": "SMH",
+   "name": "VanEck 半導體",
+   "type": "產業型",
+   "position": 55.2,
+   "price": 571.48
   },
   {
    "market": "台股",
@@ -66,20 +66,20 @@
    "price": 236.55
   },
   {
+   "market": "美股",
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "type": "科技市值型",
+   "position": 67.0,
+   "price": 714.65
+  },
+  {
    "market": "台股",
    "id": "00891",
    "name": "中信關鍵半導體",
    "type": "產業型",
    "position": 69.8,
    "price": 35.09
-  },
-  {
-   "market": "美股",
-   "id": "QQQ",
-   "name": "Invesco Nasdaq 100",
-   "type": "科技市值型",
-   "position": 70.8,
-   "price": 717.3
   },
   {
    "market": "台股",
@@ -110,8 +110,8 @@
    "id": "VT",
    "name": "Vanguard 全世界",
    "type": "市值型",
-   "position": 77.2,
-   "price": 160.17
+   "position": 75.1,
+   "price": 159.92
   },
   {
    "market": "台股",
@@ -142,32 +142,32 @@
    "id": "VOO",
    "name": "Vanguard S&P 500",
    "type": "市值型",
-   "position": 86.4,
-   "price": 707.6
+   "position": 84.5,
+   "price": 706.4
   },
   {
    "market": "美股",
    "id": "VTI",
    "name": "Vanguard 全美股",
    "type": "市值型",
-   "position": 87.2,
-   "price": 379.65
+   "position": 85.0,
+   "price": 379.07
   },
   {
    "market": "美股",
    "id": "SCHD",
    "name": "Schwab 高股息",
    "type": "高股息型",
-   "position": 92.1,
-   "price": 33.64
+   "position": 92.6,
+   "price": 33.7
   },
   {
    "market": "美股",
    "id": "VYM",
    "name": "Vanguard 高股息",
    "type": "高股息型",
-   "position": 94.8,
-   "price": 165.13
+   "position": 92.6,
+   "price": 164.77
   },
   {
    "market": "台股",
