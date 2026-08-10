@@ -1,27 +1,46 @@
 {
  "market": "tw",
  "regime": "neutral",
- "generated_at": "2026-08-07T05:57:03",
+ "generated_at": "2026-08-10T05:53:42",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "2101",
-   "name": "南港",
-   "category": "個股-橡膠工業",
+   "id": "2615",
+   "name": "萬海",
+   "category": "個股-航運業",
    "is_etf": false,
-   "score": 94.9,
-   "price": 35.5,
-   "position": 60.4,
-   "reason": "多頭排列、RSI 67.7、量增1.74倍、基本面強",
+   "score": 94.8,
+   "price": 87.5,
+   "position": 92.9,
+   "reason": "多頭排列、RSI 61.9、量增1.73倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 49.2,
-    "fundamental": 100.0
+    "rel_strength": 67.9,
+    "fundamental": 90.0
    },
    "rank": 1
+  },
+  {
+   "id": "2101",
+   "name": "南港",
+   "category": "個股-橡膠工業",
+   "is_etf": false,
+   "score": 94.0,
+   "price": 34.3,
+   "position": 50.6,
+   "reason": "多頭排列、RSI 58.8、量增1.5倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 40.2,
+    "fundamental": 100.0
+   },
+   "rank": 2
   },
   {
    "id": "1714",
@@ -29,28 +48,9 @@
    "category": "個股-化學工業",
    "is_etf": false,
    "score": 94.0,
-   "price": 15.75,
-   "position": 70.1,
-   "reason": "多頭排列、RSI 53.0、量增2.34倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "2425",
-   "name": "承啟",
-   "category": "個股-電子工業",
-   "is_etf": false,
-   "score": 94.0,
-   "price": 52.9,
-   "position": 99.6,
-   "reason": "多頭排列、RSI 68.0、量增2.47倍、基本面強",
+   "price": 16.65,
+   "position": 75.2,
+   "reason": "多頭排列、RSI 58.1、量增1.76倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -62,14 +62,14 @@
    "rank": 3
   },
   {
-   "id": "3189",
-   "name": "景碩",
+   "id": "2408",
+   "name": "南亞科",
    "category": "個股-半導體業",
    "is_etf": false,
    "score": 94.0,
-   "price": 823.0,
-   "position": 72.3,
-   "reason": "多頭排列、RSI 57.5、基本面強",
+   "price": 502.0,
+   "position": 74.9,
+   "reason": "多頭排列、RSI 61.9、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -81,78 +81,78 @@
    "rank": 4
   },
   {
-   "id": "2637",
-   "name": "慧洋-KY",
-   "category": "個股-航運業",
+   "id": "2425",
+   "name": "承啟",
+   "category": "個股-電子工業",
    "is_etf": false,
-   "score": 92.5,
-   "price": 87.9,
-   "position": 99.6,
-   "reason": "多頭排列、RSI 65.4、基本面強",
+   "score": 94.0,
+   "price": 49.55,
+   "position": 98.2,
+   "reason": "多頭排列、RSI 62.9、量增2.1倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 84.5,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
     "fundamental": 100.0
    },
    "rank": 5
   },
   {
-   "id": "6213",
-   "name": "聯茂",
-   "category": "個股-電子工業",
+   "id": "3704",
+   "name": "合勤控",
+   "category": "個股-通信網路業",
    "is_etf": false,
-   "score": 92.0,
-   "price": 389.0,
-   "position": 91.4,
-   "reason": "多頭排列、RSI 63.4、量增2.42倍、基本面強",
+   "score": 94.0,
+   "price": 50.4,
+   "position": 96.1,
+   "reason": "多頭排列、RSI 60.3、量增2.44倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "6226",
-   "name": "光鼎",
-   "category": "個股-光電業",
-   "is_etf": false,
-   "score": 92.0,
-   "price": 22.05,
-   "position": 76.1,
-   "reason": "多頭排列、RSI 54.0、量增1.89倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
     "volume": 100,
     "volatility": 40,
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 7
+   "rank": 6
   },
   {
-   "id": "3022",
-   "name": "威強電",
-   "category": "個股-電子工業",
+   "id": "2359",
+   "name": "所羅門",
+   "category": "個股-其他電子業",
    "is_etf": false,
-   "score": 92.0,
-   "price": 103.0,
-   "position": 99.6,
-   "reason": "多頭排列、RSI 67.9、量增2.14倍、基本面強",
+   "score": 92.3,
+   "price": 153.5,
+   "position": 92.7,
+   "reason": "多頭排列、RSI 60.9、量增2.25倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
+    "rel_strength": 83.3,
+    "fundamental": 100.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "5515",
+   "name": "建國",
+   "category": "個股-建材營造",
+   "is_etf": false,
+   "score": 91.6,
+   "price": 44.45,
+   "position": 79.4,
+   "reason": "多頭排列、RSI 62.5、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 75.5,
+    "fundamental": 100.0
    },
    "rank": 8
   },
@@ -161,17 +161,17 @@
    "name": "國泰永續高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 68.8,
-   "price": 32.81,
-   "position": 83.4,
-   "reason": "多頭排列、RSI 54.1",
+   "score": 63.8,
+   "price": 33.4,
+   "position": 88.7,
+   "reason": "多頭排列、RSI 58.3",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
+    "volume": 30,
     "volatility": 40,
-    "rel_strength": 75.1,
-    "fundamental": 16.6
+    "rel_strength": 80.3,
+    "fundamental": 11.3
    },
    "rank": 9
   },
@@ -180,17 +180,17 @@
    "name": "群益台灣精選高息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 63.9,
-   "price": 29.74,
-   "position": 84.2,
-   "reason": "多頭排列、RSI 54.2",
+   "score": 63.6,
+   "price": 30.03,
+   "position": 86.9,
+   "reason": "多頭排列、RSI 56.9",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 72.5,
-    "fundamental": 15.8
+    "rel_strength": 75.3,
+    "fundamental": 13.1
    },
    "rank": 10
   }
