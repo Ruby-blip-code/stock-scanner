@@ -1,79 +1,79 @@
 {
  "market": "tw",
  "regime": "neutral",
- "generated_at": "2026-08-20T05:01:50",
+ "generated_at": "2026-08-21T05:05:08",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "6226",
-   "name": "光鼎",
+   "id": "3005",
+   "name": "神基",
    "category": "個股-電子工業",
    "is_etf": false,
-   "score": 86.0,
-   "price": 21.85,
-   "position": 75.3,
-   "reason": "多頭排列、RSI 53.5、基本面強",
+   "score": 85.5,
+   "price": 117.0,
+   "position": 55.6,
+   "reason": "多頭排列、RSI 61.5、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 80.4,
+    "fundamental": 90.0
    },
    "rank": 1
   },
   {
-   "id": "3653",
-   "name": "健策",
-   "category": "個股-電子工業",
+   "id": "2618",
+   "name": "長榮航",
+   "category": "個股-航運業",
    "is_etf": false,
-   "score": 85.0,
-   "price": 5560.0,
-   "position": 92.9,
-   "reason": "多頭排列、RSI 79.2、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 65,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "3617",
-   "name": "碩天",
-   "category": "個股-其他電子業",
-   "is_etf": false,
-   "score": 81.5,
-   "price": 253.0,
-   "position": 98.4,
-   "reason": "多頭排列、RSI 69.4、基本面強",
+   "score": 82.1,
+   "price": 42.45,
+   "position": 88.2,
+   "reason": "多頭排列、RSI 52.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 40,
+    "rel_strength": 85.8,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "1303",
+   "name": "南亞",
+   "category": "個股-塑膠工業",
+   "is_etf": false,
+   "score": 81.5,
+   "price": 192.5,
+   "position": 81.3,
+   "reason": "多頭排列、RSI 58.5、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 40,
     "rel_strength": 100.0,
-    "fundamental": 90.0
+    "fundamental": 100.0
    },
    "rank": 3
   },
   {
-   "id": "1709",
-   "name": "和益",
-   "category": "個股-化學工業",
+   "id": "2887",
+   "name": "台新新光金",
+   "category": "個股-金融保險",
    "is_etf": false,
-   "score": 81.0,
-   "price": 30.45,
-   "position": 99.6,
-   "reason": "多頭排列、RSI 70.5、基本面強",
+   "score": 81.5,
+   "price": 37.3,
+   "position": 97.7,
+   "reason": "多頭排列、RSI 63.6、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 65,
-    "volume": 60,
+    "momentum": 90,
+    "volume": 30,
     "volatility": 40,
     "rel_strength": 100.0,
     "fundamental": 100.0
@@ -81,75 +81,75 @@
    "rank": 4
   },
   {
-   "id": "6491",
-   "name": "晶碩",
-   "category": "個股-化學生技醫療",
+   "id": "6214",
+   "name": "精誠",
+   "category": "個股-資訊服務業",
    "is_etf": false,
-   "score": 78.0,
-   "price": 377.0,
-   "position": 97.4,
-   "reason": "多頭排列、RSI 66.6",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 50.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "1802",
-   "name": "台玻",
-   "category": "個股-玻璃陶瓷",
-   "is_etf": false,
-   "score": 77.5,
-   "price": 57.9,
-   "position": 31.1,
-   "reason": "站上20MA、RSI 52.8、量增2.55倍、基本面強",
-   "factors": {
-    "trend": 50,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 0.0,
-    "fundamental": 100.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "2455",
-   "name": "全新",
-   "category": "個股-通信網路業",
-   "is_etf": false,
-   "score": 76.8,
-   "price": 404.5,
-   "position": 77.3,
-   "reason": "站上20MA、RSI 62.7、量增1.8倍、基本面強",
-   "factors": {
-    "trend": 50,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 53.2,
-    "fundamental": 100.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "6213",
-   "name": "聯茂",
-   "category": "個股-電子工業",
-   "is_etf": false,
-   "score": 74.5,
-   "price": 502.0,
+   "score": 81.0,
+   "price": 179.5,
    "position": 99.6,
    "reason": "多頭排列、RSI 74.1、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 65,
-    "volume": 30,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 5
+  },
+  {
+   "id": "2605",
+   "name": "新興",
+   "category": "個股-航運業",
+   "is_etf": false,
+   "score": 80.9,
+   "price": 37.7,
+   "position": 76.2,
+   "reason": "多頭排列、RSI 75.3、量增6.99倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 65,
+    "volume": 40,
+    "volatility": 100,
+    "rel_strength": 69.1,
+    "fundamental": 100.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "3167",
+   "name": "大量",
+   "category": "個股-電機機械",
+   "is_etf": false,
+   "score": 79.5,
+   "price": 718.0,
+   "position": 50.0,
+   "reason": "站上20MA、RSI 53.6、量增2.65倍、基本面強",
+   "factors": {
+    "trend": 50,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 19.7,
+    "fundamental": 100.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "3042",
+   "name": "晶技",
+   "category": "個股-電子工業",
+   "is_etf": false,
+   "score": 79.5,
+   "price": 190.0,
+   "position": 64.0,
+   "reason": "站上20MA、RSI 57.3、量增2.72倍、基本面強",
+   "factors": {
+    "trend": 50,
+    "momentum": 100,
+    "volume": 100,
     "volatility": 40,
     "rel_strength": 100.0,
     "fundamental": 90.0
@@ -157,40 +157,40 @@
    "rank": 8
   },
   {
-   "id": "00646",
-   "name": "元大S&P500",
-   "category": "個股-ETF",
+   "id": "2207",
+   "name": "和泰車",
+   "category": "個股-汽車工業",
    "is_etf": false,
-   "score": 74.4,
-   "price": 77.55,
-   "position": 81.4,
-   "reason": "多頭排列、RSI 58.5",
+   "score": 79.4,
+   "price": 518.0,
+   "position": 54.7,
+   "reason": "多頭排列、RSI 57.1、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
-    "volatility": 100,
-    "rel_strength": 48.9,
-    "fundamental": 50.0
+    "volatility": 40,
+    "rel_strength": 59.0,
+    "fundamental": 100.0
    },
    "rank": 9
   },
   {
-   "id": "00929",
-   "name": "復華台灣科技優息",
+   "id": "00919",
+   "name": "群益台灣精選高息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 32.9,
-   "price": 28.35,
-   "position": 71.0,
-   "reason": "RSI 48.2",
+   "score": 63.1,
+   "price": 30.79,
+   "position": 93.4,
+   "reason": "多頭排列、RSI 62.6",
    "factors": {
-    "trend": 0,
-    "momentum": 65,
+    "trend": 100,
+    "momentum": 100,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 55.8,
-    "fundamental": 29.0
+    "rel_strength": 82.7,
+    "fundamental": 6.6
    },
    "rank": 10
   }
