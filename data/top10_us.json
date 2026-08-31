@@ -1,196 +1,196 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-08-28T16:45:48",
+ "generated_at": "2026-08-31T19:53:58",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "NVDA",
-   "name": "NVDA",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 93.2,
-   "price": 220.36000061035156,
-   "position": 71.4,
-   "reason": "多頭排列、RSI 54.5、量增1.6倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 52.3,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
-  {
-   "id": "NWS",
-   "name": "NWS",
+   "id": "TYL",
+   "name": "TYL",
    "category": "個股-",
    "is_etf": false,
    "score": 88.8,
-   "price": 34.86000061035156,
-   "position": 97.4,
-   "reason": "多頭排列、RSI 64.6、量增1.73倍",
+   "price": 374.1499938964844,
+   "position": 62.5,
+   "reason": "多頭排列、RSI 69.9、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 100,
+    "volume": 60,
     "volatility": 100,
-    "rel_strength": 87.8,
-    "fundamental": 50.0
+    "rel_strength": 97.8,
+    "fundamental": 75.0
    },
-   "rank": 2
-  },
-  {
-   "id": "WDAY",
-   "name": "WDAY",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 88.0,
-   "price": 205.0800018310547,
-   "position": 70.8,
-   "reason": "多頭排列、RSI 66.4、量增1.79倍",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 50.0
-   },
-   "rank": 3
+   "rank": 1
   },
   {
    "id": "MCO",
    "name": "MCO",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.8,
-   "price": 514.125,
-   "position": 91.5,
-   "reason": "多頭排列、RSI 65.8、基本面強",
+   "score": 87.1,
+   "price": 505.55499267578125,
+   "position": 85.1,
+   "reason": "多頭排列、RSI 58.1、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 82.8,
+    "rel_strength": 76.2,
     "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "WELL",
+   "name": "WELL",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.1,
+   "price": 237.35000610351562,
+   "position": 66.1,
+   "reason": "多頭排列、RSI 51.8、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 90.8,
+    "fundamental": 100.0
+   },
+   "rank": 3
+  },
+  {
+   "id": "FDS",
+   "name": "FDS",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.0,
+   "price": 313.9200134277344,
+   "position": 85.5,
+   "reason": "多頭排列、RSI 68.3",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 65.0
    },
    "rank": 4
   },
   {
-   "id": "FOX",
-   "name": "FOX",
+   "id": "CF",
+   "name": "CF",
    "category": "個股-",
    "is_etf": false,
-   "score": 85.8,
-   "price": 61.540000915527344,
-   "position": 71.1,
-   "reason": "多頭排列、RSI 65.1、基本面強",
+   "score": 86.7,
+   "price": 129.74000549316406,
+   "position": 84.9,
+   "reason": "多頭排列、RSI 62.8、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 63.4,
+    "rel_strength": 71.7,
     "fundamental": 100.0
    },
    "rank": 5
+  },
+  {
+   "id": "MSFT",
+   "name": "MSFT",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 86.7,
+   "price": 509.07000732421875,
+   "position": 90.7,
+   "reason": "多頭排列、RSI 70.0、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 92.1,
+    "fundamental": 100.0
+   },
+   "rank": 6
   },
   {
    "id": "ANET",
    "name": "ANET",
    "category": "個股-",
    "is_etf": false,
-   "score": 85.1,
-   "price": 195.38999938964844,
-   "position": 82.8,
-   "reason": "多頭排列、RSI 54.6、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 75.6,
-    "fundamental": 100.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "CBRE",
-   "name": "CBRE",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 85.0,
-   "price": 151.11500549316406,
-   "position": 51.9,
+   "score": 86.4,
+   "price": 195.9499969482422,
+   "position": 83.5,
    "reason": "多頭排列、RSI 55.0、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 95.3,
-    "fundamental": 90.0
+    "rel_strength": 89.3,
+    "fundamental": 100.0
    },
    "rank": 7
   },
   {
-   "id": "CVX",
-   "name": "CVX",
+   "id": "CRWD",
+   "name": "CRWD",
    "category": "個股-",
    "is_etf": false,
-   "score": 83.9,
-   "price": 201.8300018310547,
-   "position": 84.0,
-   "reason": "多頭排列、RSI 61.4、基本面強",
+   "score": 86.0,
+   "price": 231.58999633789062,
+   "position": 99.2,
+   "reason": "多頭排列、RSI 63.2、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 63.8,
-    "fundamental": 100.0
-   },
-   "rank": 8
-  },
-  {
-   "id": "TLT",
-   "name": "iShares 20年美債",
-   "category": "債券型 ETF",
-   "is_etf": true,
-   "score": 70.9,
-   "price": 82.92500305175781,
-   "position": 23.3,
-   "reason": "站上20MA、RSI 50.6、基本面強",
-   "factors": {
-    "trend": 50,
     "momentum": 100,
     "volume": 60,
-    "volatility": 100,
-    "rel_strength": 40.4,
-    "fundamental": 76.7
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
    },
-   "rank": 9
+   "rank": 8
   },
   {
    "id": "SCHD",
    "name": "Schwab 高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 64.4,
-   "price": 34.81010055541992,
-   "position": 91.3,
-   "reason": "多頭排列、RSI 62.2",
+   "score": 59.6,
+   "price": 34.89500045776367,
+   "position": 91.5,
+   "reason": "多頭排列、RSI 63.6",
    "factors": {
     "trend": 100,
     "momentum": 90,
-    "volume": 60,
+    "volume": 30,
     "volatility": 40,
-    "rel_strength": 66.5,
-    "fundamental": 8.7
+    "rel_strength": 64.1,
+    "fundamental": 8.5
+   },
+   "rank": 9
+  },
+  {
+   "id": "TLT",
+   "name": "iShares 20年美債",
+   "category": "債券型 ETF",
+   "is_etf": true,
+   "score": 47.3,
+   "price": 82.43000030517578,
+   "position": 19.7,
+   "reason": "RSI 46.6、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 65,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 37.1,
+    "fundamental": 80.3
    },
    "rank": 10
   }
