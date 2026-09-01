@@ -1,27 +1,84 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-09-01T17:44:46",
+ "generated_at": "2026-09-01T21:49:12",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
+  {
+   "id": "CF",
+   "name": "CF",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 92.6,
+   "price": 135.60000610351562,
+   "position": 91.8,
+   "reason": "多頭排列、RSI 68.5、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 86.0,
+    "fundamental": 100.0
+   },
+   "rank": 1
+  },
+  {
+   "id": "SPGI",
+   "name": "SPGI",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 92.4,
+   "price": 440.2799987792969,
+   "position": 63.3,
+   "reason": "多頭排列、RSI 62.4、量增1.62倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 73.6,
+    "fundamental": 75.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "MCO",
+   "name": "MCO",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.2,
+   "price": 494.67999267578125,
+   "position": 76.8,
+   "reason": "多頭排列、RSI 51.6、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 72.0,
+    "fundamental": 100.0
+   },
+   "rank": 3
+  },
   {
    "id": "MDT",
    "name": "MDT",
    "category": "個股-",
    "is_etf": false,
-   "score": 91.2,
-   "price": 92.58090209960938,
-   "position": 58.1,
-   "reason": "多頭排列、RSI 60.2、量增2.54倍、基本面強",
+   "score": 91.0,
+   "price": 92.05999755859375,
+   "position": 55.6,
+   "reason": "多頭排列、RSI 58.9、量增2.37倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 82.0,
+    "rel_strength": 80.4,
     "fundamental": 75.0
    },
-   "rank": 1
+   "rank": 4
   },
   {
    "id": "AAPL",
@@ -29,130 +86,73 @@
    "category": "個股-",
    "is_etf": false,
    "score": 90.1,
-   "price": 324.7900085449219,
-   "position": 78.1,
-   "reason": "多頭排列、RSI 60.9、基本面強",
+   "price": 325.1400146484375,
+   "position": 78.5,
+   "reason": "多頭排列、RSI 61.2、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
     "volatility": 100,
-    "rel_strength": 60.5,
+    "rel_strength": 60.8,
     "fundamental": 100.0
    },
-   "rank": 2
+   "rank": 5
   },
   {
    "id": "WELL",
    "name": "WELL",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.4,
-   "price": 242.52999877929688,
-   "position": 80.9,
-   "reason": "多頭排列、RSI 59.0、基本面強",
+   "score": 89.2,
+   "price": 240.47000122070312,
+   "position": 75.5,
+   "reason": "多頭排列、RSI 56.4、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 99.1,
+    "rel_strength": 96.5,
     "fundamental": 100.0
-   },
-   "rank": 3
-  },
-  {
-   "id": "CF",
-   "name": "CF",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 87.6,
-   "price": 133.41000366210938,
-   "position": 89.1,
-   "reason": "多頭排列、RSI 66.5、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 81.4,
-    "fundamental": 100.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "MSFT",
-   "name": "MSFT",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 87.2,
-   "price": 501.2900085449219,
-   "position": 85.2,
-   "reason": "多頭排列、RSI 64.3、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 97.4,
-    "fundamental": 100.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "SPGI",
-   "name": "SPGI",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 87.2,
-   "price": 453.1050109863281,
-   "position": 72.6,
-   "reason": "多頭排列、RSI 68.5、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 81.7,
-    "fundamental": 75.0
    },
    "rank": 6
   },
   {
-   "id": "MCO",
-   "name": "MCO",
+   "id": "EOG",
+   "name": "EOG",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.1,
-   "price": 501.3399963378906,
-   "position": 82.3,
+   "score": 88.1,
+   "price": 148.30499267578125,
+   "position": 87.8,
    "reason": "多頭排列、RSI 56.5、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 100,
-    "volume": 30,
+    "momentum": 90,
+    "volume": 60,
     "volatility": 100,
-    "rel_strength": 75.7,
+    "rel_strength": 61.2,
     "fundamental": 100.0
    },
    "rank": 7
   },
   {
-   "id": "OKE",
-   "name": "OKE",
+   "id": "ULTA",
+   "name": "ULTA",
    "category": "個股-",
    "is_etf": false,
-   "score": 86.3,
-   "price": 95.52999877929688,
-   "position": 88.9,
-   "reason": "多頭排列、RSI 59.4、基本面強",
+   "score": 88.1,
+   "price": 546.1199951171875,
+   "position": 45.3,
+   "reason": "多頭排列、RSI 59.9、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 30,
+    "volume": 60,
     "volatility": 100,
-    "rel_strength": 67.8,
-    "fundamental": 100.0
+    "rel_strength": 91.3,
+    "fundamental": 75.0
    },
    "rank": 8
   },
@@ -162,16 +162,16 @@
    "category": "高股息型 ETF",
    "is_etf": true,
    "score": 64.8,
-   "price": 34.80500030517578,
-   "position": 89.9,
-   "reason": "多頭排列、RSI 61.2",
+   "price": 34.814998626708984,
+   "position": 90.1,
+   "reason": "多頭排列、RSI 61.4",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 60,
     "volatility": 40,
-    "rel_strength": 67.6,
-    "fundamental": 10.1
+    "rel_strength": 67.7,
+    "fundamental": 9.9
    },
    "rank": 9
   },
@@ -180,16 +180,16 @@
    "name": "Vanguard 高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 43.4,
-   "price": 163.24009704589844,
+   "score": 43.5,
+   "price": 163.3300018310547,
    "position": 60.6,
-   "reason": "RSI 44.3、量增2.16倍",
+   "reason": "RSI 44.9、量增1.81倍",
    "factors": {
     "trend": 0,
     "momentum": 55,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 55.6,
+    "rel_strength": 55.7,
     "fundamental": 39.4
    },
    "rank": 10
