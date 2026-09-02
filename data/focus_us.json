@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-02T17:47:11",
+ "generated_at": "2026-09-02T21:51:52",
  "gainers": [
   {
    "id": "DELL",
    "name": "DELL",
-   "price": 461.73,
-   "chg": 8.64,
+   "price": 492.18,
+   "chg": 15.81,
    "vr": 6.0,
-   "value": 104.6
-  },
-  {
-   "id": "CHTR",
-   "name": "CHTR",
-   "price": 157.04,
-   "chg": 7.43,
-   "vr": 0.7,
-   "value": 1.8
+   "value": 172.2
   },
   {
    "id": "RDDT",
    "name": "RDDT",
-   "price": 155.38,
-   "chg": 7.43,
-   "vr": 0.7,
-   "value": 5.1
+   "price": 158.12,
+   "chg": 9.32,
+   "vr": 0.8,
+   "value": 8.4
+  },
+  {
+   "id": "CHTR",
+   "name": "CHTR",
+   "price": 159.05,
+   "chg": 8.8,
+   "vr": 0.9,
+   "value": 3.7
   },
   {
    "id": "SWKS",
    "name": "SWKS",
-   "price": 72.39,
-   "chg": 7.4,
-   "vr": 1.0,
-   "value": 2.5
+   "price": 71.7,
+   "chg": 6.36,
+   "vr": 1.2,
+   "value": 4.8
   },
   {
-   "id": "BBY",
-   "name": "BBY",
-   "price": 87.64,
-   "chg": 6.06,
-   "vr": 1.6,
-   "value": 3.5
+   "id": "APH",
+   "name": "APH",
+   "price": 160.11,
+   "chg": 5.89,
+   "vr": 0.6,
+   "value": 8.1
   }
  ],
  "losers": [
   {
    "id": "PANW",
    "name": "PANW",
-   "price": 322.53,
-   "chg": -10.93,
-   "vr": 2.2,
-   "value": 27.2
+   "price": 328.47,
+   "chg": -9.28,
+   "vr": 2.1,
+   "value": 40.5
   },
   {
    "id": "DDOG",
    "name": "DDOG",
-   "price": 209.6,
-   "chg": -6.36,
+   "price": 209.22,
+   "chg": -6.53,
    "vr": 1.0,
-   "value": 6.9
-  },
-  {
-   "id": "PLTR",
-   "name": "PLTR",
-   "price": 169.15,
-   "chg": -5.99,
-   "vr": 1.1,
-   "value": 47.1
+   "value": 10.8
   },
   {
    "id": "EIX",
    "name": "EIX",
-   "price": 55.38,
-   "chg": -5.82,
+   "price": 55.2,
+   "chg": -6.12,
    "vr": 1.7,
-   "value": 3.4
+   "value": 5.3
   },
   {
-   "id": "CBOE",
-   "name": "CBOE",
-   "price": 290.27,
-   "chg": -5.64,
-   "vr": 0.9,
-   "value": 1.6
+   "id": "PLTR",
+   "name": "PLTR",
+   "price": 169.46,
+   "chg": -5.81,
+   "vr": 1.0,
+   "value": 60.9
+  },
+  {
+   "id": "CRWD",
+   "name": "CRWD",
+   "price": 203.42,
+   "chg": -5.42,
+   "vr": 1.1,
+   "value": 22.2
   }
  ],
  "volume": [
   {
    "id": "DELL",
    "name": "DELL",
-   "price": 461.73,
-   "chg": 8.64,
+   "price": 492.18,
+   "chg": 15.81,
    "vr": 6.0,
-   "value": 104.6
-  },
-  {
-   "id": "PCG",
-   "name": "PCG",
-   "price": 13.33,
-   "chg": -5.2,
-   "vr": 2.8,
-   "value": 10.1
-  },
-  {
-   "id": "ACGL",
-   "name": "ACGL",
-   "price": 98.59,
-   "chg": -0.02,
-   "vr": 2.2,
-   "value": 2.4
-  },
-  {
-   "id": "PANW",
-   "name": "PANW",
-   "price": 322.53,
-   "chg": -10.93,
-   "vr": 2.2,
-   "value": 27.2
+   "value": 172.2
   },
   {
    "id": "HPE",
    "name": "HPE",
-   "price": 50.15,
-   "chg": -1.41,
-   "vr": 2.0,
-   "value": 10.4
+   "price": 51.83,
+   "chg": 1.88,
+   "vr": 2.8,
+   "value": 22.8
+  },
+  {
+   "id": "PCG",
+   "name": "PCG",
+   "price": 13.32,
+   "chg": -5.23,
+   "vr": 2.8,
+   "value": 15.0
+  },
+  {
+   "id": "ACGL",
+   "name": "ACGL",
+   "price": 98.23,
+   "chg": -0.39,
+   "vr": 2.1,
+   "value": 3.3
+  },
+  {
+   "id": "PANW",
+   "name": "PANW",
+   "price": 328.47,
+   "chg": -9.28,
+   "vr": 2.1,
+   "value": 40.5
   }
  ],
  "industries": [],
