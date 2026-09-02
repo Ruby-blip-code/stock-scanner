@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-01T21:49:12",
+ "generated_at": "2026-09-02T17:47:11",
  "gainers": [
   {
-   "id": "MRNA",
-   "name": "MRNA",
-   "price": 154.28,
-   "chg": 9.93,
-   "vr": 0.8,
-   "value": 37.5
+   "id": "DELL",
+   "name": "DELL",
+   "price": 461.73,
+   "chg": 8.64,
+   "vr": 6.0,
+   "value": 104.6
   },
   {
-   "id": "EIX",
-   "name": "EIX",
-   "price": 58.79,
-   "chg": 8.91,
-   "vr": 5.0,
-   "value": 13.4
+   "id": "CHTR",
+   "name": "CHTR",
+   "price": 157.04,
+   "chg": 7.43,
+   "vr": 0.7,
+   "value": 1.8
   },
   {
-   "id": "PCG",
-   "name": "PCG",
-   "price": 14.06,
-   "chg": 5.95,
-   "vr": 3.9,
-   "value": 19.4
+   "id": "RDDT",
+   "name": "RDDT",
+   "price": 155.38,
+   "chg": 7.43,
+   "vr": 0.7,
+   "value": 5.1
   },
   {
-   "id": "HPQ",
-   "name": "HPQ",
-   "price": 31.33,
-   "chg": 4.35,
-   "vr": 0.8,
-   "value": 3.8
+   "id": "SWKS",
+   "name": "SWKS",
+   "price": 72.39,
+   "chg": 7.4,
+   "vr": 1.0,
+   "value": 2.5
   },
   {
-   "id": "CF",
-   "name": "CF",
-   "price": 135.6,
-   "chg": 4.28,
-   "vr": 1.3,
-   "value": 4.4
+   "id": "BBY",
+   "name": "BBY",
+   "price": 87.64,
+   "chg": 6.06,
+   "vr": 1.6,
+   "value": 3.5
   }
  ],
  "losers": [
   {
-   "id": "AXON",
-   "name": "AXON",
-   "price": 518.3,
-   "chg": -8.52,
-   "vr": 1.4,
-   "value": 6.7
+   "id": "PANW",
+   "name": "PANW",
+   "price": 322.53,
+   "chg": -10.93,
+   "vr": 2.2,
+   "value": 27.2
   },
   {
-   "id": "CDNS",
-   "name": "CDNS",
-   "price": 313.03,
-   "chg": -7.6,
-   "vr": 0.9,
-   "value": 5.6
-  },
-  {
-   "id": "IBKR",
-   "name": "IBKR",
-   "price": 90.42,
-   "chg": -7.06,
+   "id": "DDOG",
+   "name": "DDOG",
+   "price": 209.6,
+   "chg": -6.36,
    "vr": 1.0,
-   "value": 4.0
+   "value": 6.9
   },
   {
-   "id": "DELL",
-   "name": "DELL",
-   "price": 424.36,
-   "chg": -6.94,
-   "vr": 1.8,
-   "value": 42.1
+   "id": "PLTR",
+   "name": "PLTR",
+   "price": 169.15,
+   "chg": -5.99,
+   "vr": 1.1,
+   "value": 47.1
   },
   {
-   "id": "CRWD",
-   "name": "CRWD",
-   "price": 215.07,
-   "chg": -6.9,
-   "vr": 1.3,
-   "value": 25.7
+   "id": "EIX",
+   "name": "EIX",
+   "price": 55.38,
+   "chg": -5.82,
+   "vr": 1.7,
+   "value": 3.4
+  },
+  {
+   "id": "CBOE",
+   "name": "CBOE",
+   "price": 290.27,
+   "chg": -5.64,
+   "vr": 0.9,
+   "value": 1.6
   }
  ],
  "volume": [
   {
-   "id": "EIX",
-   "name": "EIX",
-   "price": 58.79,
-   "chg": 8.91,
-   "vr": 5.0,
-   "value": 13.4
+   "id": "DELL",
+   "name": "DELL",
+   "price": 461.73,
+   "chg": 8.64,
+   "vr": 6.0,
+   "value": 104.6
   },
   {
    "id": "PCG",
    "name": "PCG",
-   "price": 14.06,
-   "chg": 5.95,
-   "vr": 3.9,
-   "value": 19.4
+   "price": 13.33,
+   "chg": -5.2,
+   "vr": 2.8,
+   "value": 10.1
   },
   {
-   "id": "MDT",
-   "name": "MDT",
-   "price": 92.06,
-   "chg": 1.56,
-   "vr": 2.4,
-   "value": 14.9
+   "id": "ACGL",
+   "name": "ACGL",
+   "price": 98.59,
+   "chg": -0.02,
+   "vr": 2.2,
+   "value": 2.4
   },
   {
-   "id": "AON",
-   "name": "AON",
-   "price": 326.6,
-   "chg": 1.58,
-   "vr": 2.3,
-   "value": 6.6
+   "id": "PANW",
+   "name": "PANW",
+   "price": 322.53,
+   "chg": -10.93,
+   "vr": 2.2,
+   "value": 27.2
   },
   {
-   "id": "DELL",
-   "name": "DELL",
-   "price": 424.36,
-   "chg": -6.94,
-   "vr": 1.8,
-   "value": 42.1
+   "id": "HPE",
+   "name": "HPE",
+   "price": 50.15,
+   "chg": -1.41,
+   "vr": 2.0,
+   "value": 10.4
   }
  ],
  "industries": [],

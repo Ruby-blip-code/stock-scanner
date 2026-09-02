@@ -1,157 +1,157 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-09-01T21:49:12",
+ "generated_at": "2026-09-02T17:47:11",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "CF",
-   "name": "CF",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 92.6,
-   "price": 135.60000610351562,
-   "position": 91.8,
-   "reason": "多頭排列、RSI 68.5、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 86.0,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
-  {
-   "id": "SPGI",
-   "name": "SPGI",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 92.4,
-   "price": 440.2799987792969,
-   "position": 63.3,
-   "reason": "多頭排列、RSI 62.4、量增1.62倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 73.6,
-    "fundamental": 75.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "MCO",
-   "name": "MCO",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 91.2,
-   "price": 494.67999267578125,
-   "position": 76.8,
-   "reason": "多頭排列、RSI 51.6、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 72.0,
-    "fundamental": 100.0
-   },
-   "rank": 3
-  },
-  {
-   "id": "MDT",
-   "name": "MDT",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 91.0,
-   "price": 92.05999755859375,
-   "position": 55.6,
-   "reason": "多頭排列、RSI 58.9、量增2.37倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 80.4,
-    "fundamental": 75.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "AAPL",
-   "name": "AAPL",
+   "id": "NVDA",
+   "name": "NVDA",
    "category": "個股-",
    "is_etf": false,
    "score": 90.1,
-   "price": 325.1400146484375,
-   "position": 78.5,
-   "reason": "多頭排列、RSI 61.2、基本面強",
+   "price": 225.36000061035156,
+   "position": 79.1,
+   "reason": "多頭排列、RSI 57.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
     "volatility": 100,
-    "rel_strength": 60.8,
+    "rel_strength": 61.1,
     "fundamental": 100.0
    },
-   "rank": 5
+   "rank": 1
   },
   {
    "id": "WELL",
    "name": "WELL",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.2,
-   "price": 240.47000122070312,
-   "position": 75.5,
-   "reason": "多頭排列、RSI 56.4、基本面強",
+   "score": 87.7,
+   "price": 239.64999389648438,
+   "position": 72.7,
+   "reason": "多頭排列、RSI 55.0、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 96.5,
+    "rel_strength": 81.7,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "BBY",
+   "name": "BBY",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.0,
+   "price": 87.63999938964844,
+   "position": 95.2,
+   "reason": "多頭排列、RSI 55.5、量增1.58倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
+   },
+   "rank": 3
+  },
+  {
+   "id": "CF",
+   "name": "CF",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 86.8,
+   "price": 138.82000732421875,
+   "position": 93.0,
+   "reason": "多頭排列、RSI 71.2、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 65,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 98.4,
+    "fundamental": 100.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "MSFT",
+   "name": "MSFT",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 86.8,
+   "price": 496.8999938964844,
+   "position": 82.2,
+   "reason": "多頭排列、RSI 61.2、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 93.3,
+    "fundamental": 100.0
+   },
+   "rank": 5
+  },
+  {
+   "id": "OKE",
+   "name": "OKE",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 86.1,
+   "price": 95.8949966430664,
+   "position": 89.8,
+   "reason": "多頭排列、RSI 60.5、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 65.9,
     "fundamental": 100.0
    },
    "rank": 6
   },
   {
-   "id": "EOG",
-   "name": "EOG",
+   "id": "AAPL",
+   "name": "AAPL",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.1,
-   "price": 148.30499267578125,
-   "position": 87.8,
-   "reason": "多頭排列、RSI 56.5、基本面強",
+   "score": 85.6,
+   "price": 325.42999267578125,
+   "position": 78.4,
+   "reason": "多頭排列、RSI 61.4、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
-    "volume": 60,
+    "momentum": 100,
+    "volume": 30,
     "volatility": 100,
-    "rel_strength": 61.2,
+    "rel_strength": 61.1,
     "fundamental": 100.0
    },
    "rank": 7
   },
   {
-   "id": "ULTA",
-   "name": "ULTA",
+   "id": "COR",
+   "name": "COR",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.1,
-   "price": 546.1199951171875,
-   "position": 45.3,
-   "reason": "多頭排列、RSI 59.9、基本面強",
+   "score": 84.2,
+   "price": 335.5899963378906,
+   "position": 56.5,
+   "reason": "多頭排列、RSI 64.7、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
+    "volume": 30,
     "volatility": 100,
-    "rel_strength": 91.3,
+    "rel_strength": 96.7,
     "fundamental": 75.0
    },
    "rank": 8
@@ -161,36 +161,36 @@
    "name": "Schwab 高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 64.8,
-   "price": 34.814998626708984,
-   "position": 90.1,
-   "reason": "多頭排列、RSI 61.4",
+   "score": 59.2,
+   "price": 35.069000244140625,
+   "position": 93.8,
+   "reason": "多頭排列、RSI 65.4",
    "factors": {
     "trend": 100,
     "momentum": 90,
-    "volume": 60,
+    "volume": 30,
     "volatility": 40,
-    "rel_strength": 67.7,
-    "fundamental": 9.9
+    "rel_strength": 64.7,
+    "fundamental": 6.2
    },
    "rank": 9
   },
   {
-   "id": "VYM",
-   "name": "Vanguard 高股息",
-   "category": "高股息型 ETF",
+   "id": "BND",
+   "name": "Vanguard 總體債券",
+   "category": "債券型 ETF",
    "is_etf": true,
-   "score": 43.5,
-   "price": 163.3300018310547,
-   "position": 60.6,
-   "reason": "RSI 44.9、量增1.81倍",
+   "score": 48.8,
+   "price": 71.81620025634766,
+   "position": 25.9,
+   "reason": "RSI 43.4、基本面強",
    "factors": {
     "trend": 0,
     "momentum": 55,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 55.7,
-    "fundamental": 39.4
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 40.1,
+    "fundamental": 74.1
    },
    "rank": 10
   }
