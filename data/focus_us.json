@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-03T21:44:20",
+ "generated_at": "2026-09-04T17:30:24",
  "gainers": [
   {
-   "id": "HOOD",
-   "name": "HOOD",
-   "price": 124.71,
-   "chg": 16.56,
-   "vr": 2.7,
-   "value": 60.9
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 1716.27,
+   "chg": 10.37,
+   "vr": 1.4,
+   "value": 196.9
   },
   {
-   "id": "COIN",
-   "name": "COIN",
-   "price": 192.75,
-   "chg": 10.17,
-   "vr": 1.2,
-   "value": 22.8
+   "id": "SMCI",
+   "name": "SMCI",
+   "price": 40.65,
+   "chg": 7.35,
+   "vr": 1.0,
+   "value": 13.3
   },
   {
-   "id": "PLTR",
-   "name": "PLTR",
-   "price": 182.48,
-   "chg": 7.68,
-   "vr": 0.9,
-   "value": 61.6
+   "id": "KLAC",
+   "name": "KLAC",
+   "price": 185.51,
+   "chg": 7.27,
+   "vr": 1.3,
+   "value": 12.6
   },
   {
-   "id": "PFG",
-   "name": "PFG",
-   "price": 118.54,
-   "chg": 6.5,
-   "vr": 3.2,
-   "value": 3.8
-  },
-  {
-   "id": "NOW",
-   "name": "NOW",
-   "price": 145.55,
-   "chg": 6.46,
+   "id": "COHR",
+   "name": "COHR",
+   "price": 280.45,
+   "chg": 6.07,
    "vr": 0.8,
-   "value": 21.7
+   "value": 9.7
+  },
+  {
+   "id": "MRVL",
+   "name": "MRVL",
+   "price": 220.39,
+   "chg": 5.54,
+   "vr": 0.9,
+   "value": 29.2
   }
  ],
  "losers": [
   {
-   "id": "CIEN",
-   "name": "CIEN",
-   "price": 315.92,
-   "chg": -10.8,
-   "vr": 3.6,
-   "value": 22.7
+   "id": "LULU",
+   "name": "LULU",
+   "price": 100.96,
+   "chg": -17.09,
+   "vr": 10.9,
+   "value": 28.8
   },
   {
-   "id": "TSN",
-   "name": "TSN",
-   "price": 51.76,
-   "chg": -7.25,
-   "vr": 2.2,
-   "value": 3.1
+   "id": "FICO",
+   "name": "FICO",
+   "price": 940.25,
+   "chg": -15.97,
+   "vr": 6.1,
+   "value": 9.0
   },
   {
-   "id": "CHTR",
-   "name": "CHTR",
-   "price": 151.38,
-   "chg": -4.77,
-   "vr": 0.8,
-   "value": 3.2
+   "id": "ADSK",
+   "name": "ADSK",
+   "price": 218.09,
+   "chg": -8.18,
+   "vr": 1.9,
+   "value": 4.9
   },
   {
-   "id": "ALB",
-   "name": "ALB",
-   "price": 132.19,
-   "chg": -4.04,
-   "vr": 1.0,
-   "value": 2.9
+   "id": "EFX",
+   "name": "EFX",
+   "price": 175.51,
+   "chg": -7.18,
+   "vr": 2.7,
+   "value": 3.0
   },
   {
-   "id": "GIS",
-   "name": "GIS",
-   "price": 39.27,
-   "chg": -3.23,
-   "vr": 1.3,
-   "value": 4.2
+   "id": "TSLA",
+   "name": "TSLA",
+   "price": 352.12,
+   "chg": -6.44,
+   "vr": 2.0,
+   "value": 160.5
   }
  ],
  "volume": [
   {
-   "id": "ACGL",
-   "name": "ACGL",
-   "price": 99.82,
-   "chg": 1.64,
-   "vr": 4.0,
-   "value": 7.0
+   "id": "LULU",
+   "name": "LULU",
+   "price": 100.96,
+   "chg": -17.09,
+   "vr": 10.9,
+   "value": 28.8
   },
   {
-   "id": "HPE",
-   "name": "HPE",
-   "price": 54.44,
-   "chg": 5.04,
-   "vr": 3.8,
-   "value": 37.2
+   "id": "FICO",
+   "name": "FICO",
+   "price": 940.25,
+   "chg": -15.97,
+   "vr": 6.1,
+   "value": 9.0
   },
   {
-   "id": "CIEN",
-   "name": "CIEN",
-   "price": 315.92,
-   "chg": -10.8,
-   "vr": 3.6,
-   "value": 22.7
+   "id": "EFX",
+   "name": "EFX",
+   "price": 175.51,
+   "chg": -7.18,
+   "vr": 2.7,
+   "value": 3.0
   },
   {
-   "id": "PFG",
-   "name": "PFG",
-   "price": 118.54,
-   "chg": 6.5,
-   "vr": 3.2,
-   "value": 3.8
+   "id": "SNPS",
+   "name": "SNPS",
+   "price": 393.36,
+   "chg": -5.51,
+   "vr": 2.1,
+   "value": 8.2
   },
   {
-   "id": "AVGO",
-   "name": "AVGO",
-   "price": 357.24,
-   "chg": -2.72,
-   "vr": 2.8,
-   "value": 199.2
+   "id": "CDNS",
+   "name": "CDNS",
+   "price": 292.3,
+   "chg": -4.13,
+   "vr": 2.0,
+   "value": 7.8
   }
  ],
  "industries": [],
