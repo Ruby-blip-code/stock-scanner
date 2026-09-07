@@ -1,88 +1,88 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-04T21:31:40",
+ "generated_at": "2026-09-07T18:40:23",
  "gainers": [
   {
-   "id": "SNDK",
-   "name": "SNDK",
-   "price": 1739.81,
-   "chg": 11.89,
-   "vr": 1.1,
-   "value": 259.5
+   "id": "CBOE",
+   "name": "CBOE",
+   "price": 299.04,
+   "chg": 0.22,
+   "vr": 0.9,
+   "value": 2.1
   },
   {
-   "id": "KLAC",
-   "name": "KLAC",
-   "price": 185.54,
-   "chg": 7.29,
+   "id": "PCG",
+   "name": "PCG",
+   "price": 14.31,
+   "chg": 0.1,
+   "vr": 1.0,
+   "value": 5.6
+  },
+  {
+   "id": "TTD",
+   "name": "TTD",
+   "price": 14.44,
+   "chg": 0.07,
    "vr": 1.2,
-   "value": 18.9
+   "value": 3.0
   },
   {
-   "id": "MRVL",
-   "name": "MRVL",
-   "price": 223.5,
-   "chg": 7.02,
-   "vr": 0.7,
-   "value": 40.8
-  },
-  {
-   "id": "COHR",
-   "name": "COHR",
-   "price": 281.93,
-   "chg": 6.63,
+   "id": "BIIB",
+   "name": "BIIB",
+   "price": 220.97,
+   "chg": 0.06,
    "vr": 0.6,
-   "value": 13.0
+   "value": 0.8
   },
   {
-   "id": "NRG",
-   "name": "NRG",
-   "price": 118.98,
-   "chg": 6.38,
-   "vr": 1.1,
-   "value": 3.3
+   "id": "MTB",
+   "name": "MTB",
+   "price": 239.98,
+   "chg": 0.06,
+   "vr": 0.6,
+   "value": 1.1
   }
  ],
  "losers": [
   {
-   "id": "LULU",
-   "name": "LULU",
-   "price": 100.61,
-   "chg": -17.38,
-   "vr": 8.5,
-   "value": 36.5
+   "id": "MU",
+   "name": "MU",
+   "price": 1014.95,
+   "chg": -0.16,
+   "vr": 1.5,
+   "value": 328.3
   },
   {
-   "id": "FICO",
-   "name": "FICO",
-   "price": 931.87,
-   "chg": -16.72,
-   "vr": 5.4,
-   "value": 12.9
-  },
-  {
-   "id": "ADSK",
-   "name": "ADSK",
-   "price": 217.95,
-   "chg": -8.24,
-   "vr": 1.7,
-   "value": 7.1
-  },
-  {
-   "id": "ADBE",
-   "name": "ADBE",
-   "price": 266.5,
-   "chg": -6.74,
+   "id": "KVUE",
+   "name": "KVUE",
+   "price": 18.72,
+   "chg": -0.13,
    "vr": 1.4,
-   "value": 15.3
+   "value": 4.3
   },
   {
-   "id": "EFX",
-   "name": "EFX",
-   "price": 177.07,
-   "chg": -6.36,
-   "vr": 2.4,
-   "value": 4.4
+   "id": "BAX",
+   "name": "BAX",
+   "price": 25.81,
+   "chg": -0.1,
+   "vr": 0.7,
+   "value": 0.7
+  },
+  {
+   "id": "MTD",
+   "name": "MTD",
+   "price": 1344.1,
+   "chg": -0.09,
+   "vr": 0.6,
+   "value": 1.0
+  },
+  {
+   "id": "NSC",
+   "name": "NSC",
+   "price": 329.2,
+   "chg": -0.08,
+   "vr": 0.4,
+   "value": 1.3
   }
  ],
  "volume": [
@@ -90,40 +90,40 @@
    "id": "LULU",
    "name": "LULU",
    "price": 100.61,
-   "chg": -17.38,
-   "vr": 8.5,
-   "value": 36.5
+   "chg": 0.0,
+   "vr": 7.6,
+   "value": 36.4
   },
   {
    "id": "FICO",
    "name": "FICO",
    "price": 931.87,
-   "chg": -16.72,
-   "vr": 5.4,
+   "chg": -0.04,
+   "vr": 5.6,
    "value": 12.9
   },
   {
    "id": "EFX",
    "name": "EFX",
    "price": 177.07,
-   "chg": -6.36,
-   "vr": 2.4,
+   "chg": 0.01,
+   "vr": 3.0,
    "value": 4.4
   },
   {
    "id": "CDNS",
    "name": "CDNS",
    "price": 292.74,
-   "chg": -3.98,
-   "vr": 1.8,
+   "chg": 0.01,
+   "vr": 2.1,
    "value": 11.2
   },
   {
    "id": "ADSK",
    "name": "ADSK",
    "price": 217.95,
-   "chg": -8.24,
-   "vr": 1.7,
+   "chg": 0.02,
+   "vr": 2.0,
    "value": 7.1
   }
  ],

@@ -1,9 +1,28 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-09-04T21:31:40",
+ "generated_at": "2026-09-07T18:40:23",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
+  {
+   "id": "DELL",
+   "name": "DELL",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 94.0,
+   "price": 523.989990234375,
+   "position": 92.4,
+   "reason": "多頭排列、RSI 63.6、量增1.6倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 1
+  },
   {
    "id": "VEEV",
    "name": "VEEV",
@@ -11,7 +30,7 @@
    "is_etf": false,
    "score": 89.5,
    "price": 275.0899963378906,
-   "position": 82.0,
+   "position": 81.7,
    "reason": "多頭排列、RSI 65.9、基本面強",
    "factors": {
     "trend": 100,
@@ -21,42 +40,23 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 1
+   "rank": 2
   },
   {
    "id": "CF",
    "name": "CF",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.9,
+   "score": 89.3,
    "price": 133.3300018310547,
-   "position": 85.8,
+   "position": 85.3,
    "reason": "多頭排列、RSI 60.8、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 93.7,
-    "fundamental": 100.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "DELL",
-   "name": "DELL",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 88.0,
-   "price": 523.989990234375,
-   "position": 93.0,
-   "reason": "多頭排列、RSI 63.7、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 100.0,
+    "rel_strength": 98.3,
     "fundamental": 100.0
    },
    "rank": 3
@@ -68,7 +68,7 @@
    "is_etf": false,
    "score": 88.0,
    "price": 122.06999969482422,
-   "position": 64.1,
+   "position": 63.9,
    "reason": "多頭排列、RSI 65.9、基本面強",
    "factors": {
     "trend": 100,
@@ -87,7 +87,7 @@
    "is_etf": false,
    "score": 87.5,
    "price": 499.67999267578125,
-   "position": 84.4,
+   "position": 84.0,
    "reason": "多頭排列、RSI 59.6、基本面強",
    "factors": {
     "trend": 100,
@@ -106,7 +106,7 @@
    "is_etf": false,
    "score": 87.5,
    "price": 141.27999877929688,
-   "position": 64.3,
+   "position": 64.4,
    "reason": "多頭排列、RSI 61.1、基本面強",
    "factors": {
     "trend": 100,
@@ -123,74 +123,74 @@
    "name": "SMCI",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.5,
+   "score": 85.3,
    "price": 39.59000015258789,
-   "position": 67.8,
+   "position": 67.5,
    "reason": "多頭排列、RSI 62.7、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "NVDA",
-   "name": "NVDA",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 86.9,
-   "price": 230.34500122070312,
-   "position": 84.9,
-   "reason": "多頭排列、RSI 60.4、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 74.4,
-    "fundamental": 100.0
-   },
-   "rank": 8
-  },
-  {
-   "id": "QQQ",
-   "name": "Invesco Nasdaq 100",
-   "category": "科技市值型 ETF",
-   "is_etf": true,
-   "score": 67.6,
-   "price": 719.0599975585938,
-   "position": 65.4,
-   "reason": "多頭排列、RSI 53.7",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 60,
     "volatility": 40,
-    "rel_strength": 46.5,
-    "fundamental": 34.6
+    "rel_strength": 93.5,
+    "fundamental": 100.0
    },
-   "rank": 9
+   "rank": 7
+  },
+  {
+   "id": "APH",
+   "name": "APH",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 85.1,
+   "price": 82.76000213623047,
+   "position": 66.4,
+   "reason": "多頭排列、RSI 55.5、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 55.7,
+    "fundamental": 100.0
+   },
+   "rank": 8
   },
   {
    "id": "SMH",
    "name": "VanEck 半導體",
    "category": "產業型 ETF",
    "is_etf": true,
-   "score": 66.3,
+   "score": 70.5,
    "price": 566.989990234375,
-   "position": 43.8,
-   "reason": "站上20MA、RSI 51.2",
+   "position": 43.0,
+   "reason": "站上20MA、RSI 51.2、量增1.68倍",
    "factors": {
     "trend": 50,
     "momentum": 100,
-    "volume": 60,
+    "volume": 100,
     "volatility": 100,
-    "rel_strength": 35.3,
-    "fundamental": 56.2
+    "rel_strength": 16.5,
+    "fundamental": 57.0
+   },
+   "rank": 9
+  },
+  {
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "category": "科技市值型 ETF",
+   "is_etf": true,
+   "score": 66.5,
+   "price": 719.0599975585938,
+   "position": 65.1,
+   "reason": "多頭排列、RSI 53.7",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 34.8,
+    "fundamental": 34.9
    },
    "rank": 10
   }
