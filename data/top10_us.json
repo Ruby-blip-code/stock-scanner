@@ -1,7 +1,7 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-09-09T17:44:01",
+ "generated_at": "2026-09-09T21:44:18",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
@@ -10,7 +10,7 @@
    "category": "個股-",
    "is_etf": false,
    "score": 89.5,
-   "price": 138.0800018310547,
+   "price": 138.10000610351562,
    "position": 91.2,
    "reason": "多頭排列、RSI 65.9、基本面強",
    "factors": {
@@ -24,33 +24,33 @@
    "rank": 1
   },
   {
-   "id": "SMCI",
-   "name": "SMCI",
+   "id": "HOOD",
+   "name": "HOOD",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.5,
-   "price": 39.10499954223633,
-   "position": 67.0,
-   "reason": "多頭排列、RSI 59.7、基本面強",
+   "score": 89.4,
+   "price": 115.29000091552734,
+   "position": 53.7,
+   "reason": "多頭排列、RSI 58.6、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
+    "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 100.0,
+    "rel_strength": 99.0,
     "fundamental": 100.0
    },
    "rank": 2
   },
   {
-   "id": "VEEV",
-   "name": "VEEV",
+   "id": "SMCI",
+   "name": "SMCI",
    "category": "個股-",
    "is_etf": false,
    "score": 87.5,
-   "price": 262.9800109863281,
-   "position": 77.4,
-   "reason": "多頭排列、RSI 57.4、基本面強",
+   "price": 38.91999816894531,
+   "position": 67.0,
+   "reason": "多頭排列、RSI 59.1、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
@@ -62,23 +62,61 @@
    "rank": 3
   },
   {
+   "id": "VEEV",
+   "name": "VEEV",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.5,
+   "price": 260.8299865722656,
+   "position": 76.9,
+   "reason": "多頭排列、RSI 56.1、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "UHS",
+   "name": "UHS",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 86.0,
+   "price": 175.74000549316406,
+   "position": 33.5,
+   "reason": "多頭排列、RSI 60.2、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 90.1,
+    "fundamental": 75.0
+   },
+   "rank": 5
+  },
+  {
    "id": "NVDA",
    "name": "NVDA",
    "category": "個股-",
    "is_etf": false,
-   "score": 85.8,
-   "price": 224.31500244140625,
-   "position": 75.4,
-   "reason": "多頭排列、RSI 54.9、基本面強",
+   "score": 85.7,
+   "price": 223.6999969482422,
+   "position": 74.6,
+   "reason": "多頭排列、RSI 54.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 63.0,
+    "rel_strength": 62.3,
     "fundamental": 100.0
    },
-   "rank": 4
+   "rank": 6
   },
   {
    "id": "OKE",
@@ -86,73 +124,35 @@
    "category": "個股-",
    "is_etf": false,
    "score": 85.2,
-   "price": 95.7300033569336,
-   "position": 84.6,
-   "reason": "多頭排列、RSI 56.8、基本面強",
+   "price": 95.8499984741211,
+   "position": 85.3,
+   "reason": "多頭排列、RSI 57.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 57.1,
+    "rel_strength": 57.4,
     "fundamental": 100.0
    },
-   "rank": 5
+   "rank": 7
   },
   {
    "id": "APH",
    "name": "APH",
    "category": "個股-",
    "is_etf": false,
-   "score": 84.9,
-   "price": 81.06999969482422,
-   "position": 60.6,
-   "reason": "多頭排列、RSI 51.0、基本面強",
+   "score": 85.0,
+   "price": 81.37999725341797,
+   "position": 61.6,
+   "reason": "多頭排列、RSI 51.8、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 53.7,
+    "rel_strength": 54.7,
     "fundamental": 100.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "XOM",
-   "name": "XOM",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 84.7,
-   "price": 164.67999267578125,
-   "position": 80.2,
-   "reason": "多頭排列、RSI 60.0、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 71.6,
-    "fundamental": 100.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "CRM",
-   "name": "CRM",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 84.5,
-   "price": 247.4499969482422,
-   "position": 85.5,
-   "reason": "多頭排列、RSI 66.2、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 75.0
    },
    "rank": 8
   },
@@ -162,15 +162,15 @@
    "category": "產業型 ETF",
    "is_etf": true,
    "score": 59.7,
-   "price": 574.0800170898438,
+   "price": 574.2686157226562,
    "position": 47.1,
-   "reason": "站上20MA、RSI 53.6",
+   "reason": "站上20MA、RSI 53.7",
    "factors": {
     "trend": 50,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 21.2,
+    "rel_strength": 21.3,
     "fundamental": 52.9
    },
    "rank": 9
@@ -180,17 +180,17 @@
    "name": "iShares 20年美債",
    "category": "債券型 ETF",
    "is_etf": true,
-   "score": 57.5,
-   "price": 81.79000091552734,
-   "position": 17.8,
-   "reason": "RSI 43.9、量增1.53倍、基本面強",
+   "score": 51.7,
+   "price": 81.73500061035156,
+   "position": 16.9,
+   "reason": "RSI 43.4、基本面強",
    "factors": {
     "trend": 0,
     "momentum": 65,
-    "volume": 100,
+    "volume": 60,
     "volatility": 100,
-    "rel_strength": 30.9,
-    "fundamental": 82.2
+    "rel_strength": 30.7,
+    "fundamental": 83.1
    },
    "rank": 10
   }
