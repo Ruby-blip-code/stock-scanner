@@ -1,46 +1,46 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-10T17:36:47",
+ "generated_at": "2026-09-10T21:40:35",
  "gainers": [
   {
    "id": "SWKS",
    "name": "SWKS",
-   "price": 84.32,
-   "chg": 10.16,
-   "vr": 1.6,
-   "value": 4.7
+   "price": 84.03,
+   "chg": 9.79,
+   "vr": 1.8,
+   "value": 8.5
   },
   {
    "id": "RDDT",
    "name": "RDDT",
-   "price": 156.62,
-   "chg": 6.95,
-   "vr": 0.8,
-   "value": 5.7
-  },
-  {
-   "id": "ELV",
-   "name": "ELV",
-   "price": 418.25,
-   "chg": 5.38,
-   "vr": 1.5,
-   "value": 3.5
+   "price": 155.37,
+   "chg": 6.09,
+   "vr": 0.7,
+   "value": 8.1
   },
   {
    "id": "CHTR",
    "name": "CHTR",
-   "price": 139.95,
-   "chg": 4.53,
-   "vr": 1.0,
-   "value": 2.5
+   "price": 140.56,
+   "chg": 4.98,
+   "vr": 1.1,
+   "value": 4.2
   },
   {
-   "id": "GDDY",
-   "name": "GDDY",
-   "price": 97.38,
-   "chg": 4.03,
-   "vr": 0.6,
-   "value": 0.7
+   "id": "ELV",
+   "name": "ELV",
+   "price": 416.44,
+   "chg": 4.92,
+   "vr": 1.6,
+   "value": 6.1
+  },
+  {
+   "id": "AAPL",
+   "name": "AAPL",
+   "price": 326.6,
+   "chg": 3.57,
+   "vr": 1.5,
+   "value": 197.3
   }
  ],
  "losers": [
@@ -49,40 +49,40 @@
    "name": "COO",
    "price": 54.23,
    "chg": -14.57,
-   "vr": 8.9,
-   "value": 6.3
-  },
-  {
-   "id": "FCX",
-   "name": "FCX",
-   "price": 70.93,
-   "chg": -6.96,
-   "vr": 1.7,
-   "value": 10.4
+   "vr": 8.6,
+   "value": 9.6
   },
   {
    "id": "BKR",
    "name": "BKR",
-   "price": 59.47,
-   "chg": -6.55,
-   "vr": 1.6,
-   "value": 3.8
+   "price": 59.4,
+   "chg": -6.66,
+   "vr": 1.5,
+   "value": 5.7
   },
   {
-   "id": "VRT",
-   "name": "VRT",
-   "price": 247.38,
-   "chg": -5.9,
-   "vr": 2.5,
-   "value": 16.8
+   "id": "FCX",
+   "name": "FCX",
+   "price": 71.23,
+   "chg": -6.56,
+   "vr": 1.5,
+   "value": 14.6
   },
   {
    "id": "HPE",
    "name": "HPE",
-   "price": 55.84,
-   "chg": -5.2,
+   "price": 55.22,
+   "chg": -6.24,
    "vr": 0.7,
-   "value": 5.5
+   "value": 8.6
+  },
+  {
+   "id": "FDS",
+   "name": "FDS",
+   "price": 262.92,
+   "chg": -5.82,
+   "vr": 1.4,
+   "value": 3.2
   }
  ],
  "volume": [
@@ -91,40 +91,40 @@
    "name": "COO",
    "price": 54.23,
    "chg": -14.57,
-   "vr": 8.9,
-   "value": 6.3
+   "vr": 8.6,
+   "value": 9.6
   },
   {
    "id": "KVUE",
    "name": "KVUE",
-   "price": 17.8,
-   "chg": 0.28,
-   "vr": 2.5,
-   "value": 5.7
-  },
-  {
-   "id": "VRT",
-   "name": "VRT",
-   "price": 247.38,
-   "chg": -5.9,
-   "vr": 2.5,
-   "value": 16.8
+   "price": 17.78,
+   "chg": 0.2,
+   "vr": 3.1,
+   "value": 11.0
   },
   {
    "id": "KMB",
    "name": "KMB",
-   "price": 98.66,
-   "chg": -0.04,
-   "vr": 2.3,
-   "value": 4.5
+   "price": 98.47,
+   "chg": -0.23,
+   "vr": 2.9,
+   "value": 9.1
   },
   {
-   "id": "UBER",
-   "name": "UBER",
-   "price": 71.94,
-   "chg": 1.21,
-   "vr": 2.3,
-   "value": 15.9
+   "id": "CASY",
+   "name": "CASY",
+   "price": 627.62,
+   "chg": -0.22,
+   "vr": 2.2,
+   "value": 6.6
+  },
+  {
+   "id": "VRT",
+   "name": "VRT",
+   "price": 248.15,
+   "chg": -5.61,
+   "vr": 2.2,
+   "value": 23.5
   }
  ],
  "industries": [],
