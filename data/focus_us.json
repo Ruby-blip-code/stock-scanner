@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-10T21:40:35",
+ "generated_at": "2026-09-11T17:40:07",
  "gainers": [
   {
-   "id": "SWKS",
-   "name": "SWKS",
-   "price": 84.03,
-   "chg": 9.79,
-   "vr": 1.8,
-   "value": 8.5
-  },
-  {
-   "id": "RDDT",
-   "name": "RDDT",
-   "price": 155.37,
-   "chg": 6.09,
-   "vr": 0.7,
-   "value": 8.1
-  },
-  {
-   "id": "CHTR",
-   "name": "CHTR",
-   "price": 140.56,
-   "chg": 4.98,
-   "vr": 1.1,
-   "value": 4.2
-  },
-  {
-   "id": "ELV",
-   "name": "ELV",
-   "price": 416.44,
-   "chg": 4.92,
-   "vr": 1.6,
-   "value": 6.1
-  },
-  {
-   "id": "AAPL",
-   "name": "AAPL",
-   "price": 326.6,
-   "chg": 3.57,
-   "vr": 1.5,
-   "value": 197.3
-  }
- ],
- "losers": [
-  {
-   "id": "COO",
-   "name": "COO",
-   "price": 54.23,
-   "chg": -14.57,
-   "vr": 8.6,
-   "value": 9.6
-  },
-  {
-   "id": "BKR",
-   "name": "BKR",
-   "price": 59.4,
-   "chg": -6.66,
-   "vr": 1.5,
-   "value": 5.7
-  },
-  {
-   "id": "FCX",
-   "name": "FCX",
-   "price": 71.23,
-   "chg": -6.56,
-   "vr": 1.5,
-   "value": 14.6
+   "id": "DELL",
+   "name": "DELL",
+   "price": 559.22,
+   "chg": 10.38,
+   "vr": 1.9,
+   "value": 56.8
   },
   {
    "id": "HPE",
    "name": "HPE",
-   "price": 55.22,
-   "chg": -6.24,
-   "vr": 0.7,
-   "value": 8.6
+   "price": 60.83,
+   "chg": 10.15,
+   "vr": 1.5,
+   "value": 13.3
   },
   {
-   "id": "FDS",
-   "name": "FDS",
-   "price": 262.92,
-   "chg": -5.82,
-   "vr": 1.4,
-   "value": 3.2
+   "id": "MRNA",
+   "name": "MRNA",
+   "price": 148.04,
+   "chg": 8.36,
+   "vr": 0.5,
+   "value": 16.0
+  },
+  {
+   "id": "FLEX",
+   "name": "FLEX",
+   "price": 116.69,
+   "chg": 8.04,
+   "vr": 0.6,
+   "value": 1.2
+  },
+  {
+   "id": "SWKS",
+   "name": "SWKS",
+   "price": 90.57,
+   "chg": 7.78,
+   "vr": 1.8,
+   "value": 6.2
+  }
+ ],
+ "losers": [
+  {
+   "id": "STX",
+   "name": "STX",
+   "price": 830.96,
+   "chg": -3.64,
+   "vr": 0.9,
+   "value": 18.1
+  },
+  {
+   "id": "ALB",
+   "name": "ALB",
+   "price": 117.75,
+   "chg": -3.57,
+   "vr": 0.9,
+   "value": 1.4
+  },
+  {
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 1634.77,
+   "chg": -3.42,
+   "vr": 0.9,
+   "value": 119.1
+  },
+  {
+   "id": "CPRT",
+   "name": "CPRT",
+   "price": 29.77,
+   "chg": -3.19,
+   "vr": 2.1,
+   "value": 4.0
+  },
+  {
+   "id": "EW",
+   "name": "EW",
+   "price": 84.06,
+   "chg": -3.13,
+   "vr": 1.1,
+   "value": 1.6
   }
  ],
  "volume": [
   {
-   "id": "COO",
-   "name": "COO",
-   "price": 54.23,
-   "chg": -14.57,
-   "vr": 8.6,
-   "value": 9.6
+   "id": "ORCL",
+   "name": "ORCL",
+   "price": 152.65,
+   "chg": -0.19,
+   "vr": 3.9,
+   "value": 91.7
   },
   {
-   "id": "KVUE",
-   "name": "KVUE",
-   "price": 17.78,
-   "chg": 0.2,
-   "vr": 3.1,
-   "value": 11.0
+   "id": "KIM",
+   "name": "KIM",
+   "price": 23.34,
+   "chg": 0.21,
+   "vr": 3.3,
+   "value": 2.2
+  },
+  {
+   "id": "ADBE",
+   "name": "ADBE",
+   "price": 253.82,
+   "chg": 2.0,
+   "vr": 2.3,
+   "value": 17.5
+  },
+  {
+   "id": "CLX",
+   "name": "CLX",
+   "price": 87.52,
+   "chg": -1.41,
+   "vr": 2.2,
+   "value": 3.5
   },
   {
    "id": "KMB",
    "name": "KMB",
-   "price": 98.47,
-   "chg": -0.23,
-   "vr": 2.9,
-   "value": 9.1
-  },
-  {
-   "id": "CASY",
-   "name": "CASY",
-   "price": 627.62,
-   "chg": -0.22,
+   "price": 98.74,
+   "chg": 0.26,
    "vr": 2.2,
-   "value": 6.6
-  },
-  {
-   "id": "VRT",
-   "name": "VRT",
-   "price": 248.15,
-   "chg": -5.61,
-   "vr": 2.2,
-   "value": 23.5
+   "value": 5.0
   }
  ],
  "industries": [],
