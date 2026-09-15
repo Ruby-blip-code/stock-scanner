@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-14T19:09:14",
+ "generated_at": "2026-09-15T18:03:41",
  "gainers": [
   {
-   "id": "CRWD",
-   "name": "CRWD",
-   "price": 236.42,
-   "chg": 14.36,
-   "vr": 2.3,
-   "value": 49.9
+   "id": "SWKS",
+   "name": "SWKS",
+   "price": 89.52,
+   "chg": 12.94,
+   "vr": 1.6,
+   "value": 6.9
   },
   {
-   "id": "PANW",
-   "name": "PANW",
-   "price": 375.95,
-   "chg": 13.7,
-   "vr": 1.7,
-   "value": 34.5
-  },
-  {
-   "id": "IT",
-   "name": "IT",
-   "price": 194.82,
-   "chg": 8.48,
-   "vr": 0.8,
-   "value": 1.6
-  },
-  {
-   "id": "FTNT",
-   "name": "FTNT",
-   "price": 169.26,
-   "chg": 8.45,
+   "id": "RVTY",
+   "name": "RVTY",
+   "price": 138.87,
+   "chg": 8.08,
    "vr": 1.2,
-   "value": 7.0
+   "value": 1.8
   },
   {
-   "id": "COIN",
-   "name": "COIN",
-   "price": 189.21,
-   "chg": 7.96,
+   "id": "QCOM",
+   "name": "QCOM",
+   "price": 189.85,
+   "chg": 5.38,
    "vr": 1.1,
-   "value": 18.5
+   "value": 16.1
+  },
+  {
+   "id": "APA",
+   "name": "APA",
+   "price": 47.31,
+   "chg": 5.05,
+   "vr": 1.1,
+   "value": 1.8
+  },
+  {
+   "id": "RMD",
+   "name": "RMD",
+   "price": 233.0,
+   "chg": 4.49,
+   "vr": 0.7,
+   "value": 1.6
   }
  ],
  "losers": [
   {
-   "id": "GLW",
-   "name": "GLW",
-   "price": 144.77,
-   "chg": -13.0,
-   "vr": 1.7,
-   "value": 18.4
+   "id": "AXON",
+   "name": "AXON",
+   "price": 447.63,
+   "chg": -8.68,
+   "vr": 2.8,
+   "value": 6.5
   },
   {
-   "id": "TER",
-   "name": "TER",
-   "price": 335.89,
-   "chg": -11.54,
+   "id": "COIN",
+   "name": "COIN",
+   "price": 178.52,
+   "chg": -6.75,
+   "vr": 1.0,
+   "value": 13.0
+  },
+  {
+   "id": "CMG",
+   "name": "CMG",
+   "price": 34.69,
+   "chg": -6.31,
    "vr": 1.3,
-   "value": 9.0
+   "value": 4.0
   },
   {
-   "id": "COHR",
-   "name": "COHR",
-   "price": 271.61,
-   "chg": -11.06,
-   "vr": 1.3,
-   "value": 18.5
+   "id": "SYY",
+   "name": "SYY",
+   "price": 79.61,
+   "chg": -4.7,
+   "vr": 5.1,
+   "value": 7.3
   },
   {
-   "id": "LITE",
-   "name": "LITE",
-   "price": 841.8,
-   "chg": -9.19,
+   "id": "STX",
+   "name": "STX",
+   "price": 768.24,
+   "chg": -4.63,
    "vr": 1.1,
-   "value": 33.1
-  },
-  {
-   "id": "HPE",
-   "name": "HPE",
-   "price": 56.41,
-   "chg": -9.15,
-   "vr": 1.2,
-   "value": 13.2
+   "value": 21.6
   }
  ],
  "volume": [
   {
-   "id": "CRWD",
-   "name": "CRWD",
-   "price": 236.42,
-   "chg": 14.36,
-   "vr": 2.3,
-   "value": 49.9
+   "id": "SYY",
+   "name": "SYY",
+   "price": 79.61,
+   "chg": -4.7,
+   "vr": 5.1,
+   "value": 7.3
   },
   {
-   "id": "VRT",
-   "name": "VRT",
-   "price": 240.36,
-   "chg": -6.5,
+   "id": "AXON",
+   "name": "AXON",
+   "price": 447.63,
+   "chg": -8.68,
+   "vr": 2.8,
+   "value": 6.5
+  },
+  {
+   "id": "CARR",
+   "name": "CARR",
+   "price": 55.56,
+   "chg": -2.97,
    "vr": 2.1,
-   "value": 20.9
+   "value": 4.3
   },
   {
-   "id": "VLO",
-   "name": "VLO",
-   "price": 378.73,
-   "chg": -2.99,
-   "vr": 1.8,
-   "value": 14.2
+   "id": "KEY",
+   "name": "KEY",
+   "price": 21.83,
+   "chg": -0.46,
+   "vr": 1.9,
+   "value": 3.2
   },
   {
-   "id": "BAC",
-   "name": "BAC",
-   "price": 59.15,
-   "chg": -5.65,
-   "vr": 1.7,
-   "value": 25.7
-  },
-  {
-   "id": "GLW",
-   "name": "GLW",
-   "price": 144.77,
-   "chg": -13.0,
-   "vr": 1.7,
-   "value": 18.4
+   "id": "KVUE",
+   "name": "KVUE",
+   "price": 17.83,
+   "chg": -0.42,
+   "vr": 1.9,
+   "value": 6.0
   }
  ],
  "industries": [],
