@@ -1,18 +1,18 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-09-15T18:03:41",
+ "generated_at": "2026-09-16T18:02:49",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "XOM",
-   "name": "XOM",
+   "id": "CVX",
+   "name": "CVX",
    "category": "個股-",
    "is_etf": false,
    "score": 89.5,
-   "price": 169.42999267578125,
-   "position": 85.6,
-   "reason": "多頭排列、RSI 66.0、基本面強",
+   "price": 212.97999572753906,
+   "position": 88.4,
+   "reason": "多頭排列、RSI 61.4、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -24,42 +24,23 @@
    "rank": 1
   },
   {
-   "id": "RVTY",
-   "name": "RVTY",
+   "id": "XOM",
+   "name": "XOM",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.0,
-   "price": 138.8699951171875,
-   "position": 99.7,
-   "reason": "多頭排列、RSI 69.8、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 75.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "EOG",
-   "name": "EOG",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 88.6,
-   "price": 154.02000427246094,
-   "position": 94.4,
-   "reason": "多頭排列、RSI 65.5、基本面強",
+   "score": 89.1,
+   "price": 164.74000549316406,
+   "position": 76.7,
+   "reason": "多頭排列、RSI 56.0、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 91.1,
+    "rel_strength": 95.7,
     "fundamental": 100.0
    },
-   "rank": 3
+   "rank": 2
   },
   {
    "id": "DELL",
@@ -67,9 +48,9 @@
    "category": "個股-",
    "is_etf": false,
    "score": 88.0,
-   "price": 548.9151000976562,
-   "position": 89.6,
-   "reason": "多頭排列、RSI 61.3、基本面強",
+   "price": 568.469970703125,
+   "position": 93.8,
+   "reason": "多頭排列、RSI 63.9、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -78,7 +59,7 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 4
+   "rank": 3
   },
   {
    "id": "CF",
@@ -86,9 +67,28 @@
    "category": "個股-",
    "is_etf": false,
    "score": 87.5,
-   "price": 136.1699981689453,
-   "position": 87.7,
-   "reason": "多頭排列、RSI 60.1、基本面強",
+   "price": 133.27000427246094,
+   "position": 82.6,
+   "reason": "多頭排列、RSI 55.8、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "VEEV",
+   "name": "VEEV",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.5,
+   "price": 265.4649963378906,
+   "position": 78.6,
+   "reason": "多頭排列、RSI 58.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
@@ -100,97 +100,97 @@
    "rank": 5
   },
   {
-   "id": "FOX",
-   "name": "FOX",
+   "id": "AAPL",
+   "name": "AAPL",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.5,
-   "price": 60.744998931884766,
-   "position": 69.3,
-   "reason": "多頭排列、RSI 58.7、基本面強",
+   "score": 87.3,
+   "price": 333.94000244140625,
+   "position": 86.9,
+   "reason": "多頭排列、RSI 63.2、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
+    "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 100.0,
+    "rel_strength": 77.7,
     "fundamental": 100.0
    },
    "rank": 6
   },
   {
-   "id": "FOXA",
-   "name": "FOXA",
+   "id": "DVN",
+   "name": "DVN",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.5,
-   "price": 68.22000122070312,
-   "position": 68.9,
-   "reason": "多頭排列、RSI 58.9、基本面強",
+   "score": 86.4,
+   "price": 49.1349983215332,
+   "position": 76.8,
+   "reason": "多頭排列、RSI 56.6、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 100.0,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 83.5,
     "fundamental": 100.0
    },
    "rank": 7
   },
   {
-   "id": "MSFT",
-   "name": "MSFT",
+   "id": "NUE",
+   "name": "NUE",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.5,
-   "price": 498.1610107421875,
-   "position": 82.7,
-   "reason": "多頭排列、RSI 56.6、基本面強",
+   "score": 85.9,
+   "price": 261.7049865722656,
+   "position": 77.0,
+   "reason": "多頭排列、RSI 55.4、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
+    "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 100.0,
+    "rel_strength": 64.1,
     "fundamental": 100.0
    },
    "rank": 8
+  },
+  {
+   "id": "TLT",
+   "name": "iShares 20年美債",
+   "category": "債券型 ETF",
+   "is_etf": true,
+   "score": 44.1,
+   "price": 81.41500091552734,
+   "position": 17.1,
+   "reason": "RSI 44.8、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 55,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 35.5,
+    "fundamental": 82.9
+   },
+   "rank": 9
   },
   {
    "id": "BND",
    "name": "Vanguard 總體債券",
    "category": "債券型 ETF",
    "is_etf": true,
-   "score": 49.3,
-   "price": 71.09500122070312,
-   "position": 17.5,
-   "reason": "RSI 29.8、量增1.56倍、基本面強",
+   "score": 38.9,
+   "price": 71.34500122070312,
+   "position": 19.3,
+   "reason": "RSI 37.7、基本面強",
    "factors": {
     "trend": 0,
     "momentum": 20,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 37.6,
-    "fundamental": 82.5
-   },
-   "rank": 9
-  },
-  {
-   "id": "SMH",
-   "name": "VanEck 半導體",
-   "category": "產業型 ETF",
-   "is_etf": true,
-   "score": 39.1,
-   "price": 541.97998046875,
-   "position": 31.8,
-   "reason": "RSI 42.3",
-   "factors": {
-    "trend": 0,
-    "momentum": 55,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 0.0,
-    "fundamental": 68.2
+    "rel_strength": 42.7,
+    "fundamental": 80.7
    },
    "rank": 10
   }
