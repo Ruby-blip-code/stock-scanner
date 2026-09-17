@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-16T18:02:49",
+ "generated_at": "2026-09-17T18:04:17",
  "gainers": [
   {
-   "id": "LITE",
-   "name": "LITE",
-   "price": 915.85,
-   "chg": 9.17,
-   "vr": 1.2,
-   "value": 31.3
+   "id": "GNRC",
+   "name": "GNRC",
+   "price": 205.72,
+   "chg": 17.48,
+   "vr": 9.5,
+   "value": 13.4
   },
   {
-   "id": "COHR",
-   "name": "COHR",
-   "price": 288.49,
-   "chg": 6.39,
-   "vr": 0.9,
-   "value": 11.4
-  },
-  {
-   "id": "GEV",
-   "name": "GEV",
-   "price": 929.78,
-   "chg": 5.32,
-   "vr": 1.5,
+   "id": "SMCI",
+   "name": "SMCI",
+   "price": 40.56,
+   "chg": 10.08,
+   "vr": 1.9,
    "value": 20.0
-  },
-  {
-   "id": "AXON",
-   "name": "AXON",
-   "price": 464.02,
-   "chg": 4.96,
-   "vr": 2.9,
-   "value": 8.1
   },
   {
    "id": "INTC",
    "name": "INTC",
-   "price": 101.74,
-   "chg": 4.74,
-   "vr": 1.1,
-   "value": 71.8
+   "price": 110.78,
+   "chg": 9.63,
+   "vr": 1.6,
+   "value": 112.5
+  },
+  {
+   "id": "MRNA",
+   "name": "MRNA",
+   "price": 156.95,
+   "chg": 7.78,
+   "vr": 0.5,
+   "value": 21.0
+  },
+  {
+   "id": "HPE",
+   "name": "HPE",
+   "price": 61.06,
+   "chg": 7.74,
+   "vr": 0.7,
+   "value": 7.7
   }
  ],
  "losers": [
   {
-   "id": "JBHT",
-   "name": "JBHT",
-   "price": 237.82,
-   "chg": -12.9,
-   "vr": 5.8,
-   "value": 7.4
-  },
-  {
-   "id": "FANG",
-   "name": "FANG",
-   "price": 195.95,
-   "chg": -7.37,
-   "vr": 6.9,
-   "value": 18.4
-  },
-  {
-   "id": "HOOD",
-   "name": "HOOD",
-   "price": 104.29,
-   "chg": -5.57,
-   "vr": 1.1,
-   "value": 18.9
-  },
-  {
-   "id": "FSLR",
-   "name": "FSLR",
-   "price": 191.97,
-   "chg": -5.13,
-   "vr": 1.4,
-   "value": 3.4
-  },
-  {
-   "id": "COP",
-   "name": "COP",
-   "price": 134.07,
-   "chg": -5.06,
-   "vr": 0.9,
+   "id": "TMUS",
+   "name": "TMUS",
+   "price": 168.1,
+   "chg": -4.63,
+   "vr": 1.2,
    "value": 5.6
-  }
- ],
- "volume": [
-  {
-   "id": "FANG",
-   "name": "FANG",
-   "price": 195.95,
-   "chg": -7.37,
-   "vr": 6.9,
-   "value": 18.4
   },
   {
-   "id": "JBHT",
-   "name": "JBHT",
-   "price": 237.82,
-   "chg": -12.9,
-   "vr": 5.8,
-   "value": 7.4
+   "id": "BLDR",
+   "name": "BLDR",
+   "price": 57.55,
+   "chg": -3.52,
+   "vr": 1.1,
+   "value": 1.1
+  },
+  {
+   "id": "CPRT",
+   "name": "CPRT",
+   "price": 29.78,
+   "chg": -3.36,
+   "vr": 0.6,
+   "value": 1.2
   },
   {
    "id": "AXON",
    "name": "AXON",
-   "price": 464.02,
-   "chg": 4.96,
-   "vr": 2.9,
-   "value": 8.1
+   "price": 453.14,
+   "chg": -3.26,
+   "vr": 0.8,
+   "value": 2.3
   },
   {
-   "id": "HBAN",
-   "name": "HBAN",
-   "price": 16.27,
-   "chg": -2.84,
-   "vr": 2.4,
-   "value": 5.7
+   "id": "RDDT",
+   "name": "RDDT",
+   "price": 152.61,
+   "chg": -3.17,
+   "vr": 1.2,
+   "value": 5.9
+  }
+ ],
+ "volume": [
+  {
+   "id": "GNRC",
+   "name": "GNRC",
+   "price": 205.72,
+   "chg": 17.48,
+   "vr": 9.5,
+   "value": 13.4
   },
   {
-   "id": "USB",
-   "name": "USB",
-   "price": 60.89,
-   "chg": -2.14,
-   "vr": 2.3,
-   "value": 6.2
+   "id": "LEN",
+   "name": "LEN",
+   "price": 78.14,
+   "chg": -0.27,
+   "vr": 2.2,
+   "value": 3.8
+  },
+  {
+   "id": "SMCI",
+   "name": "SMCI",
+   "price": 40.56,
+   "chg": 10.08,
+   "vr": 1.9,
+   "value": 20.0
+  },
+  {
+   "id": "BA",
+   "name": "BA",
+   "price": 198.43,
+   "chg": -1.75,
+   "vr": 1.8,
+   "value": 14.0
+  },
+  {
+   "id": "AMD",
+   "name": "AMD",
+   "price": 547.36,
+   "chg": 6.8,
+   "vr": 1.7,
+   "value": 112.6
   }
  ],
  "industries": [],
