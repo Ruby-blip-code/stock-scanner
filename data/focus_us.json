@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-17T18:04:17",
+ "generated_at": "2026-09-18T17:36:54",
  "gainers": [
   {
-   "id": "GNRC",
-   "name": "GNRC",
-   "price": 205.72,
-   "chg": 17.48,
-   "vr": 9.5,
-   "value": 13.4
+   "id": "COIN",
+   "name": "COIN",
+   "price": 194.5,
+   "chg": 11.8,
+   "vr": 2.0,
+   "value": 26.2
   },
   {
-   "id": "SMCI",
-   "name": "SMCI",
-   "price": 40.56,
-   "chg": 10.08,
-   "vr": 1.9,
-   "value": 20.0
-  },
-  {
-   "id": "INTC",
-   "name": "INTC",
-   "price": 110.78,
-   "chg": 9.63,
+   "id": "HOOD",
+   "name": "HOOD",
+   "price": 119.16,
+   "chg": 8.51,
    "vr": 1.6,
-   "value": 112.5
+   "value": 29.4
   },
   {
-   "id": "MRNA",
-   "name": "MRNA",
-   "price": 156.95,
-   "chg": 7.78,
-   "vr": 0.5,
-   "value": 21.0
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 1742.45,
+   "chg": 7.93,
+   "vr": 1.4,
+   "value": 164.3
   },
   {
-   "id": "HPE",
-   "name": "HPE",
-   "price": 61.06,
-   "chg": 7.74,
-   "vr": 0.7,
-   "value": 7.7
+   "id": "STX",
+   "name": "STX",
+   "price": 849.46,
+   "chg": 5.77,
+   "vr": 1.1,
+   "value": 20.2
+  },
+  {
+   "id": "LRCX",
+   "name": "LRCX",
+   "price": 282.66,
+   "chg": 4.96,
+   "vr": 1.2,
+   "value": 16.5
   }
  ],
  "losers": [
   {
-   "id": "TMUS",
-   "name": "TMUS",
-   "price": 168.1,
-   "chg": -4.63,
-   "vr": 1.2,
-   "value": 5.6
+   "id": "NUE",
+   "name": "NUE",
+   "price": 247.79,
+   "chg": -6.54,
+   "vr": 1.7,
+   "value": 3.1
   },
   {
-   "id": "BLDR",
-   "name": "BLDR",
-   "price": 57.55,
-   "chg": -3.52,
-   "vr": 1.1,
-   "value": 1.1
+   "id": "QCOM",
+   "name": "QCOM",
+   "price": 177.96,
+   "chg": -5.7,
+   "vr": 1.4,
+   "value": 18.5
   },
   {
-   "id": "CPRT",
-   "name": "CPRT",
-   "price": 29.78,
-   "chg": -3.36,
-   "vr": 0.6,
-   "value": 1.2
+   "id": "GM",
+   "name": "GM",
+   "price": 81.93,
+   "chg": -5.41,
+   "vr": 1.5,
+   "value": 4.9
   },
   {
-   "id": "AXON",
-   "name": "AXON",
-   "price": 453.14,
-   "chg": -3.26,
-   "vr": 0.8,
-   "value": 2.3
+   "id": "STLD",
+   "name": "STLD",
+   "price": 233.82,
+   "chg": -4.7,
+   "vr": 1.3,
+   "value": 2.1
   },
   {
-   "id": "RDDT",
-   "name": "RDDT",
-   "price": 152.61,
-   "chg": -3.17,
-   "vr": 1.2,
-   "value": 5.9
+   "id": "NFLX",
+   "name": "NFLX",
+   "price": 71.81,
+   "chg": -4.65,
+   "vr": 2.7,
+   "value": 32.3
   }
  ],
  "volume": [
   {
-   "id": "GNRC",
-   "name": "GNRC",
-   "price": 205.72,
-   "chg": 17.48,
-   "vr": 9.5,
-   "value": 13.4
+   "id": "NFLX",
+   "name": "NFLX",
+   "price": 71.81,
+   "chg": -4.65,
+   "vr": 2.7,
+   "value": 32.3
   },
   {
-   "id": "LEN",
-   "name": "LEN",
-   "price": 78.14,
-   "chg": -0.27,
-   "vr": 2.2,
-   "value": 3.8
+   "id": "CVNA",
+   "name": "CVNA",
+   "price": 65.4,
+   "chg": -0.67,
+   "vr": 2.1,
+   "value": 5.9
   },
   {
-   "id": "SMCI",
-   "name": "SMCI",
-   "price": 40.56,
-   "chg": 10.08,
-   "vr": 1.9,
-   "value": 20.0
+   "id": "COIN",
+   "name": "COIN",
+   "price": 194.5,
+   "chg": 11.8,
+   "vr": 2.0,
+   "value": 26.2
   },
   {
-   "id": "BA",
-   "name": "BA",
-   "price": 198.43,
-   "chg": -1.75,
+   "id": "VT",
+   "name": "Vanguard 全世界",
+   "price": 158.22,
+   "chg": -0.63,
    "vr": 1.8,
-   "value": 14.0
+   "value": 3.4
   },
   {
-   "id": "AMD",
-   "name": "AMD",
-   "price": 547.36,
-   "chg": 6.8,
+   "id": "NUE",
+   "name": "NUE",
+   "price": 247.79,
+   "chg": -6.54,
    "vr": 1.7,
-   "value": 112.6
+   "value": 3.1
   }
  ],
  "industries": [],

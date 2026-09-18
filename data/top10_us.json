@@ -1,27 +1,65 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-09-17T18:04:17",
+ "generated_at": "2026-09-18T17:36:54",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "SMCI",
-   "name": "SMCI",
+   "id": "HOOD",
+   "name": "HOOD",
    "category": "個股-",
    "is_etf": false,
-   "score": 98.0,
-   "price": 40.564998626708984,
-   "position": 70.8,
-   "reason": "多頭排列、RSI 59.2、量增1.92倍、基本面強",
+   "score": 97.7,
+   "price": 119.16000366210938,
+   "position": 61.3,
+   "reason": "多頭排列、RSI 59.6、量增1.63倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 100.0,
+    "rel_strength": 96.6,
     "fundamental": 100.0
    },
    "rank": 1
+  },
+  {
+   "id": "META",
+   "name": "META",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.1,
+   "price": 670.8200073242188,
+   "position": 77.4,
+   "reason": "多頭排列、RSI 68.1、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 90.8,
+    "fundamental": 90.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "SMCI",
+   "name": "SMCI",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.0,
+   "price": 38.880001068115234,
+   "position": 66.8,
+   "reason": "多頭排列、RSI 54.9、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 89.7,
+    "fundamental": 100.0
+   },
+   "rank": 3
   },
   {
    "id": "DELL",
@@ -29,9 +67,9 @@
    "category": "個股-",
    "is_etf": false,
    "score": 89.5,
-   "price": 584.9550170898438,
-   "position": 94.6,
-   "reason": "多頭排列、RSI 66.0、基本面強",
+   "price": 579.0,
+   "position": 92.2,
+   "reason": "多頭排列、RSI 64.2、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -40,55 +78,17 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 2
-  },
-  {
-   "id": "FTNT",
-   "name": "FTNT",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 88.4,
-   "price": 173.18499755859375,
-   "position": 89.7,
-   "reason": "多頭排列、RSI 61.8、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 89.2,
-    "fundamental": 100.0
-   },
-   "rank": 3
-  },
-  {
-   "id": "AAPL",
-   "name": "AAPL",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 87.7,
-   "price": 335.95001220703125,
-   "position": 87.8,
-   "reason": "多頭排列、RSI 64.7、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 82.3,
-    "fundamental": 100.0
-   },
    "rank": 4
   },
   {
-   "id": "CF",
-   "name": "CF",
+   "id": "CVX",
+   "name": "CVX",
    "category": "個股-",
    "is_etf": false,
    "score": 87.5,
-   "price": 133.72000122070312,
-   "position": 83.0,
-   "reason": "多頭排列、RSI 56.0、基本面強",
+   "price": 210.85499572753906,
+   "position": 84.0,
+   "reason": "多頭排列、RSI 57.7、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
@@ -100,59 +100,59 @@
    "rank": 5
   },
   {
-   "id": "CVX",
-   "name": "CVX",
+   "id": "AAPL",
+   "name": "AAPL",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.5,
-   "price": 211.52999877929688,
-   "position": 85.6,
-   "reason": "多頭排列、RSI 58.9、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 99.8,
-    "fundamental": 100.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "NUE",
-   "name": "NUE",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 87.0,
-   "price": 265.7300109863281,
-   "position": 80.4,
-   "reason": "多頭排列、RSI 58.8、基本面強",
+   "score": 87.2,
+   "price": 335.44500732421875,
+   "position": 87.1,
+   "reason": "多頭排列、RSI 63.4、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 74.6,
+    "rel_strength": 76.5,
     "fundamental": 100.0
    },
-   "rank": 7
+   "rank": 6
   },
   {
    "id": "XOM",
    "name": "XOM",
    "category": "個股-",
    "is_etf": false,
-   "score": 86.5,
-   "price": 163.0,
-   "position": 72.7,
-   "reason": "多頭排列、RSI 53.0、基本面強",
+   "score": 86.4,
+   "price": 162.8083038330078,
+   "position": 71.8,
+   "reason": "多頭排列、RSI 52.6、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 90.2,
+    "rel_strength": 89.4,
     "fundamental": 100.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "NOW",
+   "name": "NOW",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 85.5,
+   "price": 136.94830322265625,
+   "position": 63.8,
+   "reason": "多頭排列、RSI 54.5、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
    },
    "rank": 8
   },
@@ -161,17 +161,17 @@
    "name": "Invesco Nasdaq 100",
    "category": "科技市值型 ETF",
    "is_etf": true,
-   "score": 64.0,
-   "price": 716.7100219726562,
-   "position": 61.5,
-   "reason": "多頭排列、RSI 52.9",
+   "score": 67.8,
+   "price": 717.3200073242188,
+   "position": 62.1,
+   "reason": "多頭排列、RSI 53.3",
    "factors": {
     "trend": 100,
     "momentum": 90,
-    "volume": 30,
+    "volume": 60,
     "volatility": 40,
-    "rel_strength": 47.7,
-    "fundamental": 38.5
+    "rel_strength": 42.5,
+    "fundamental": 37.9
    },
    "rank": 9
   },
@@ -180,17 +180,17 @@
    "name": "VanEck 半導體",
    "category": "產業型 ETF",
    "is_etf": true,
-   "score": 59.4,
-   "price": 561.2999877929688,
-   "position": 39.2,
-   "reason": "站上20MA、RSI 50.2",
+   "score": 60.7,
+   "price": 564.7899780273438,
+   "position": 40.4,
+   "reason": "站上20MA、RSI 51.5",
    "factors": {
     "trend": 50,
-    "momentum": 90,
+    "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 22.2,
-    "fundamental": 60.8
+    "rel_strength": 18.3,
+    "fundamental": 59.6
    },
    "rank": 10
   }
