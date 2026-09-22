@@ -1,18 +1,37 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-09-21T19:10:51",
+ "generated_at": "2026-09-22T18:00:58",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "SMCI",
-   "name": "SMCI",
+   "id": "VLO",
+   "name": "VLO",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 98.0,
+   "price": 385.8500061035156,
+   "position": 91.0,
+   "reason": "多頭排列、RSI 58.6、量增1.99倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 1
+  },
+  {
+   "id": "PSX",
+   "name": "PSX",
    "category": "個股-",
    "is_etf": false,
    "score": 92.0,
-   "price": 41.127201080322266,
-   "position": 71.6,
-   "reason": "多頭排列、RSI 59.5、基本面強",
+   "price": 259.614990234375,
+   "position": 91.3,
+   "reason": "多頭排列、RSI 59.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
@@ -21,7 +40,26 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 1
+   "rank": 2
+  },
+  {
+   "id": "META",
+   "name": "META",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.0,
+   "price": 741.5601196289062,
+   "position": 96.2,
+   "reason": "多頭排列、RSI 77.9、量增1.52倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 65,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 3
   },
   {
    "id": "DELL",
@@ -29,47 +67,9 @@
    "category": "個股-",
    "is_etf": false,
    "score": 89.5,
-   "price": 579.6300048828125,
-   "position": 92.0,
-   "reason": "多頭排列、RSI 63.4、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "MPC",
-   "name": "MPC",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 89.5,
-   "price": 407.6499938964844,
-   "position": 94.8,
-   "reason": "多頭排列、RSI 66.5、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 3
-  },
-  {
-   "id": "VLO",
-   "name": "VLO",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 89.5,
-   "price": 398.4700012207031,
-   "position": 95.2,
-   "reason": "多頭排列、RSI 67.0、基本面強",
+   "price": 551.5200805664062,
+   "position": 84.5,
+   "reason": "多頭排列、RSI 57.5、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -85,74 +85,74 @@
    "name": "AAPL",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.3,
-   "price": 338.82000732421875,
-   "position": 90.1,
-   "reason": "多頭排列、RSI 66.3、基本面強",
+   "score": 88.1,
+   "price": 341.0899963378906,
+   "position": 92.4,
+   "reason": "多頭排列、RSI 67.8、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 97.7,
+    "rel_strength": 86.3,
     "fundamental": 100.0
    },
    "rank": 5
   },
   {
-   "id": "HOOD",
-   "name": "HOOD",
+   "id": "GDDY",
+   "name": "GDDY",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.0,
-   "price": 124.33999633789062,
-   "position": 68.3,
-   "reason": "多頭排列、RSI 63.0、基本面強",
+   "score": 87.4,
+   "price": 100.91500091552734,
+   "position": 63.7,
+   "reason": "多頭排列、RSI 53.5、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
+    "volatility": 100,
+    "rel_strength": 83.9,
+    "fundamental": 75.0
    },
    "rank": 6
   },
   {
-   "id": "PSX",
-   "name": "PSX",
+   "id": "MPC",
+   "name": "MPC",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.5,
-   "price": 262.70001220703125,
-   "position": 93.6,
-   "reason": "多頭排列、RSI 62.9、基本面強",
+   "score": 86.0,
+   "price": 397.5400085449219,
+   "position": 90.9,
+   "reason": "多頭排列、RSI 59.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
+    "volume": 60,
+    "volatility": 40,
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
    "rank": 7
   },
   {
-   "id": "ACN",
-   "name": "ACN",
+   "id": "AES",
+   "name": "AES",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.0,
-   "price": 187.09500122070312,
-   "position": 47.5,
-   "reason": "多頭排列、RSI 54.2、基本面強",
+   "score": 84.1,
+   "price": 14.835000038146973,
+   "position": 47.8,
+   "reason": "多頭排列、RSI 63.0、量增1.93倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 75.0
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 41.4,
+    "fundamental": 90.0
    },
    "rank": 8
   },
@@ -161,36 +161,36 @@
    "name": "Vanguard 全世界",
    "category": "市值型 ETF",
    "is_etf": true,
-   "score": 67.5,
-   "price": 161.02499389648438,
-   "position": 67.5,
-   "reason": "多頭排列、RSI 56.9",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 50.2,
-    "fundamental": 32.5
-   },
-   "rank": 9
-  },
-  {
-   "id": "QQQ",
-   "name": "Invesco Nasdaq 100",
-   "category": "科技市值型 ETF",
-   "is_etf": true,
-   "score": 66.5,
-   "price": 741.1699829101562,
-   "position": 81.8,
-   "reason": "多頭排列、RSI 65.6",
+   "score": 69.2,
+   "price": 161.24000549316406,
+   "position": 68.2,
+   "reason": "多頭排列、RSI 57.6",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
     "volatility": 40,
-    "rel_strength": 48.2,
-    "fundamental": 18.2
+    "rel_strength": 48.0,
+    "fundamental": 31.8
+   },
+   "rank": 9
+  },
+  {
+   "id": "VTI",
+   "name": "Vanguard 全美股",
+   "category": "市值型 ETF",
+   "is_etf": true,
+   "score": 63.6,
+   "price": 381.6400146484375,
+   "position": 74.2,
+   "reason": "多頭排列、RSI 58.9",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 48.9,
+    "fundamental": 25.8
    },
    "rank": 10
   }

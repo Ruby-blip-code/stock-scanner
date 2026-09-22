@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-21T19:10:51",
+ "generated_at": "2026-09-22T18:00:58",
  "gainers": [
+  {
+   "id": "MPWR",
+   "name": "MPWR",
+   "price": 1364.0,
+   "chg": 6.76,
+   "vr": 1.6,
+   "value": 10.2
+  },
+  {
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 1884.73,
+   "chg": 6.68,
+   "vr": 1.3,
+   "value": 189.5
+  },
+  {
+   "id": "LEN",
+   "name": "LEN",
+   "price": 82.96,
+   "chg": 6.26,
+   "vr": 1.2,
+   "value": 2.8
+  },
+  {
+   "id": "AZO",
+   "name": "AZO",
+   "price": 2972.03,
+   "chg": 6.02,
+   "vr": 2.0,
+   "value": 13.5
+  },
   {
    "id": "MRNA",
    "name": "MRNA",
-   "price": 174.26,
-   "chg": 13.13,
-   "vr": 0.9,
-   "value": 29.4
-  },
-  {
-   "id": "INTC",
-   "name": "INTC",
-   "price": 121.25,
-   "chg": 11.65,
-   "vr": 1.7,
-   "value": 177.2
-  },
-  {
-   "id": "META",
-   "name": "META",
-   "price": 743.17,
-   "chg": 11.63,
-   "vr": 2.3,
-   "value": 276.7
-  },
-  {
-   "id": "AKAM",
-   "name": "AKAM",
-   "price": 116.44,
-   "chg": 11.4,
-   "vr": 1.2,
-   "value": 3.7
-  },
-  {
-   "id": "WBD",
-   "name": "WBD",
-   "price": 30.82,
-   "chg": 10.85,
-   "vr": 13.1,
-   "value": 65.1
+   "price": 182.6,
+   "chg": 5.59,
+   "vr": 1.4,
+   "value": 33.3
   }
  ],
  "losers": [
   {
-   "id": "HPQ",
-   "name": "HPQ",
-   "price": 32.76,
-   "chg": -4.78,
-   "vr": 0.7,
-   "value": 3.7
+   "id": "GEN",
+   "name": "GEN",
+   "price": 27.02,
+   "chg": -7.29,
+   "vr": 1.3,
+   "value": 1.6
   },
   {
-   "id": "UPS",
-   "name": "UPS",
-   "price": 94.91,
-   "chg": -4.19,
-   "vr": 1.8,
-   "value": 6.4
+   "id": "CSCO",
+   "name": "CSCO",
+   "price": 105.41,
+   "chg": -5.43,
+   "vr": 1.5,
+   "value": 17.3
   },
   {
-   "id": "MPC",
-   "name": "MPC",
-   "price": 407.65,
-   "chg": -4.06,
-   "vr": 0.8,
-   "value": 8.1
+   "id": "ALL",
+   "name": "ALL",
+   "price": 229.71,
+   "chg": -5.42,
+   "vr": 2.6,
+   "value": 6.8
   },
   {
-   "id": "PSX",
-   "name": "PSX",
-   "price": 262.7,
-   "chg": -3.82,
-   "vr": 0.7,
-   "value": 4.7
+   "id": "SCHW",
+   "name": "SCHW",
+   "price": 101.16,
+   "chg": -5.35,
+   "vr": 2.0,
+   "value": 11.4
   },
   {
-   "id": "VLO",
-   "name": "VLO",
-   "price": 398.47,
-   "chg": -3.58,
-   "vr": 0.8,
-   "value": 8.8
+   "id": "INTU",
+   "name": "INTU",
+   "price": 290.24,
+   "chg": -4.56,
+   "vr": 1.0,
+   "value": 8.4
   }
  ],
  "volume": [
   {
    "id": "WBD",
    "name": "WBD",
-   "price": 30.82,
-   "chg": 10.85,
-   "vr": 13.1,
-   "value": 65.1
+   "price": 30.81,
+   "chg": 0.02,
+   "vr": 2.9,
+   "value": 18.1
+  },
+  {
+   "id": "DGX",
+   "name": "DGX",
+   "price": 236.16,
+   "chg": -3.56,
+   "vr": 2.7,
+   "value": 4.4
+  },
+  {
+   "id": "ALL",
+   "name": "ALL",
+   "price": 229.71,
+   "chg": -5.42,
+   "vr": 2.6,
+   "value": 6.8
   },
   {
    "id": "PSKY",
    "name": "PSKY",
-   "price": 10.05,
-   "chg": -1.62,
-   "vr": 3.6,
-   "value": 4.7
-  },
-  {
-   "id": "META",
-   "name": "META",
-   "price": 743.17,
-   "chg": 11.63,
+   "price": 10.06,
+   "chg": 1.46,
    "vr": 2.3,
-   "value": 276.7
+   "value": 2.9
   },
   {
-   "id": "AMD",
-   "name": "AMD",
-   "price": 612.13,
-   "chg": 9.34,
-   "vr": 2.0,
-   "value": 207.9
-  },
-  {
-   "id": "UPS",
-   "name": "UPS",
-   "price": 94.91,
-   "chg": -4.19,
-   "vr": 1.8,
-   "value": 6.4
+   "id": "PCAR",
+   "name": "PCAR",
+   "price": 113.25,
+   "chg": -1.29,
+   "vr": 2.1,
+   "value": 4.6
   }
  ],
  "industries": [],
