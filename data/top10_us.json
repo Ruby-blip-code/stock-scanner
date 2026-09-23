@@ -1,56 +1,18 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-09-22T18:00:58",
+ "generated_at": "2026-09-23T18:20:10",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
-  {
-   "id": "VLO",
-   "name": "VLO",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 98.0,
-   "price": 385.8500061035156,
-   "position": 91.0,
-   "reason": "多頭排列、RSI 58.6、量增1.99倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
-  {
-   "id": "PSX",
-   "name": "PSX",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 92.0,
-   "price": 259.614990234375,
-   "position": 91.3,
-   "reason": "多頭排列、RSI 59.3、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 2
-  },
   {
    "id": "META",
    "name": "META",
    "category": "個股-",
    "is_etf": false,
    "score": 91.0,
-   "price": 741.5601196289062,
-   "position": 96.2,
-   "reason": "多頭排列、RSI 77.9、量增1.52倍、基本面強",
+   "price": 749.2800903320312,
+   "position": 97.8,
+   "reason": "多頭排列、RSI 78.7、量增1.51倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 65,
@@ -59,138 +21,176 @@
     "rel_strength": 100.0,
     "fundamental": 90.0
    },
-   "rank": 3
+   "rank": 1
   },
   {
-   "id": "DELL",
-   "name": "DELL",
+   "id": "PLTR",
+   "name": "PLTR",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.5,
-   "price": 551.5200805664062,
-   "position": 84.5,
-   "reason": "多頭排列、RSI 57.5、基本面強",
+   "score": 88.0,
+   "price": 190.97000122070312,
+   "position": 83.6,
+   "reason": "多頭排列、RSI 66.2、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
+    "volume": 60,
+    "volatility": 40,
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 4
+   "rank": 2
+  },
+  {
+   "id": "SMCI",
+   "name": "SMCI",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 88.0,
+   "price": 41.3849983215332,
+   "position": 72.2,
+   "reason": "多頭排列、RSI 60.0、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 3
   },
   {
    "id": "AAPL",
    "name": "AAPL",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.1,
-   "price": 341.0899963378906,
-   "position": 92.4,
-   "reason": "多頭排列、RSI 67.8、基本面強",
+   "score": 87.8,
+   "price": 337.0799865722656,
+   "position": 87.8,
+   "reason": "多頭排列、RSI 63.7、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 86.3,
+    "rel_strength": 82.7,
+    "fundamental": 100.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "VEEV",
+   "name": "VEEV",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.5,
+   "price": 270.94000244140625,
+   "position": 81.4,
+   "reason": "多頭排列、RSI 61.1、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
     "fundamental": 100.0
    },
    "rank": 5
   },
   {
-   "id": "GDDY",
-   "name": "GDDY",
+   "id": "NOW",
+   "name": "NOW",
    "category": "個股-",
    "is_etf": false,
-   "score": 87.4,
-   "price": 100.91500091552734,
-   "position": 63.7,
-   "reason": "多頭排列、RSI 53.5、基本面強",
+   "score": 85.5,
+   "price": 140.6699981689453,
+   "position": 65.4,
+   "reason": "多頭排列、RSI 57.7、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 100,
-    "volume": 60,
+    "momentum": 90,
+    "volume": 30,
     "volatility": 100,
-    "rel_strength": 83.9,
-    "fundamental": 75.0
+    "rel_strength": 100.0,
+    "fundamental": 90.0
    },
    "rank": 6
   },
   {
-   "id": "MPC",
-   "name": "MPC",
+   "id": "KEYS",
+   "name": "KEYS",
    "category": "個股-",
    "is_etf": false,
-   "score": 86.0,
-   "price": 397.5400085449219,
-   "position": 90.9,
-   "reason": "多頭排列、RSI 59.3、基本面強",
+   "score": 84.8,
+   "price": 351.5050048828125,
+   "position": 63.7,
+   "reason": "多頭排列、RSI 61.9、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 100.0,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 52.9,
     "fundamental": 100.0
    },
    "rank": 7
   },
   {
-   "id": "AES",
-   "name": "AES",
+   "id": "UHS",
+   "name": "UHS",
    "category": "個股-",
    "is_etf": false,
-   "score": 84.1,
-   "price": 14.835000038146973,
-   "position": 47.8,
-   "reason": "多頭排列、RSI 63.0、量增1.93倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 41.4,
-    "fundamental": 90.0
-   },
-   "rank": 8
-  },
-  {
-   "id": "VT",
-   "name": "Vanguard 全世界",
-   "category": "市值型 ETF",
-   "is_etf": true,
-   "score": 69.2,
-   "price": 161.24000549316406,
-   "position": 68.2,
-   "reason": "多頭排列、RSI 57.6",
+   "score": 84.5,
+   "price": 183.19000244140625,
+   "position": 41.1,
+   "reason": "多頭排列、RSI 63.0、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 48.0,
-    "fundamental": 31.8
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
    },
-   "rank": 9
+   "rank": 8
   },
   {
    "id": "VTI",
    "name": "Vanguard 全美股",
    "category": "市值型 ETF",
    "is_etf": true,
-   "score": 63.6,
-   "price": 381.6400146484375,
-   "position": 74.2,
-   "reason": "多頭排列、RSI 58.9",
+   "score": 64.6,
+   "price": 378.7449951171875,
+   "position": 67.9,
+   "reason": "多頭排列、RSI 53.8",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 48.9,
-    "fundamental": 25.8
+    "rel_strength": 46.9,
+    "fundamental": 32.1
+   },
+   "rank": 9
+  },
+  {
+   "id": "VOO",
+   "name": "Vanguard S&P 500",
+   "category": "市值型 ETF",
+   "is_etf": true,
+   "score": 64.2,
+   "price": 708.2000122070312,
+   "position": 71.1,
+   "reason": "多頭排列、RSI 55.3",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 49.7,
+    "fundamental": 28.9
    },
    "rank": 10
   }
