@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-09-24T09:24:53",
+ "generated_at": "2026-09-24T22:27:20",
  "etfs": [
   {
    "market": "美股",
    "id": "TLT",
    "name": "iShares 20年美債",
    "type": "債券型",
-   "position": 12.8,
-   "price": 80.46
+   "position": 11.8,
+   "price": 79.42
   },
   {
    "market": "美股",
    "id": "BND",
    "name": "Vanguard 總體債券",
    "type": "債券型",
-   "position": 17.1,
-   "price": 70.81
+   "position": 16.8,
+   "price": 70.45
   },
   {
    "market": "台股",
@@ -38,32 +38,32 @@
    "id": "VYM",
    "name": "Vanguard 高股息",
    "type": "高股息型",
-   "position": 45.8,
-   "price": 157.66
+   "position": 43.2,
+   "price": 156.92
   },
   {
    "market": "美股",
    "id": "SMH",
    "name": "VanEck 半導體",
    "type": "產業型",
-   "position": 57.6,
-   "price": 601.41
+   "position": 56.7,
+   "price": 600.52
   },
   {
    "market": "美股",
    "id": "VT",
    "name": "Vanguard 全世界",
    "type": "市值型",
-   "position": 60.8,
-   "price": 159.33
+   "position": 59.3,
+   "price": 159.05
   },
   {
    "market": "美股",
    "id": "SCHD",
    "name": "Schwab 高股息",
    "type": "高股息型",
-   "position": 61.8,
-   "price": 33.28
+   "position": 60.6,
+   "price": 33.1
   },
   {
    "market": "台股",
@@ -78,8 +78,8 @@
    "id": "VTI",
    "name": "Vanguard 全美股",
    "type": "市值型",
-   "position": 66.7,
-   "price": 378.23
+   "position": 65.8,
+   "price": 378.08
   },
   {
    "market": "台股",
@@ -94,16 +94,16 @@
    "id": "VOO",
    "name": "Vanguard S&P 500",
    "type": "市值型",
-   "position": 70.4,
-   "price": 707.6
+   "position": 69.4,
+   "price": 706.99
   },
   {
    "market": "美股",
    "id": "TQQQ",
    "name": "ProShares Nasdaq 正3",
    "type": "槓桿型(新手避開)",
-   "position": 71.2,
-   "price": 78.66
+   "position": 70.3,
+   "price": 78.58
   },
   {
    "market": "台股",
@@ -130,20 +130,20 @@
    "price": 37.77
   },
   {
+   "market": "美股",
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "type": "科技市值型",
+   "position": 79.6,
+   "price": 741.1
+  },
+  {
    "market": "台股",
    "id": "00919",
    "name": "群益台灣精選高息",
    "type": "高股息型",
    "position": 80.1,
    "price": 31.83
-  },
-  {
-   "market": "美股",
-   "id": "QQQ",
-   "name": "Invesco Nasdaq 100",
-   "type": "科技市值型",
-   "position": 81.1,
-   "price": 741.21
   },
   {
    "market": "台股",
