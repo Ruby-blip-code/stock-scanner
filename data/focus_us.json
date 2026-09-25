@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-24T18:21:07",
+ "generated_at": "2026-09-25T18:23:30",
  "gainers": [
   {
-   "id": "P",
-   "name": "P",
-   "price": 125.24,
-   "chg": 14.22,
-   "vr": 1.6,
-   "value": 10.4
-  },
-  {
-   "id": "CRL",
-   "name": "CRL",
-   "price": 297.42,
-   "chg": 7.24,
+   "id": "BE",
+   "name": "BE",
+   "price": 289.57,
+   "chg": 8.59,
    "vr": 1.1,
-   "value": 2.2
+   "value": 38.6
   },
   {
-   "id": "ILMN",
-   "name": "ILMN",
-   "price": 268.38,
-   "chg": 5.09,
-   "vr": 0.6,
-   "value": 4.5
-  },
-  {
-   "id": "GDDY",
-   "name": "GDDY",
-   "price": 101.17,
-   "chg": 4.97,
-   "vr": 4.4,
-   "value": 7.3
-  },
-  {
-   "id": "RL",
-   "name": "RL",
-   "price": 352.77,
-   "chg": 4.53,
+   "id": "DELL",
+   "name": "DELL",
+   "price": 569.54,
+   "chg": 6.25,
    "vr": 0.8,
-   "value": 1.5
+   "value": 38.4
+  },
+  {
+   "id": "HUM",
+   "name": "HUM",
+   "price": 403.8,
+   "chg": 6.17,
+   "vr": 1.7,
+   "value": 4.7
+  },
+  {
+   "id": "AKAM",
+   "name": "AKAM",
+   "price": 117.15,
+   "chg": 6.1,
+   "vr": 10.1,
+   "value": 30.6
+  },
+  {
+   "id": "ON",
+   "name": "ON",
+   "price": 77.55,
+   "chg": 6.02,
+   "vr": 0.8,
+   "value": 4.8
   }
  ],
  "losers": [
   {
-   "id": "MGM",
-   "name": "MGM",
-   "price": 33.54,
-   "chg": -11.37,
-   "vr": 7.9,
-   "value": 4.8
-  },
-  {
    "id": "GEN",
    "name": "GEN",
-   "price": 23.8,
-   "chg": -9.28,
-   "vr": 4.5,
-   "value": 5.2
+   "price": 22.06,
+   "chg": -4.38,
+   "vr": 3.2,
+   "value": 4.2
   },
   {
-   "id": "FSLR",
-   "name": "FSLR",
-   "price": 174.4,
-   "chg": -9.15,
-   "vr": 2.5,
-   "value": 6.8
+   "id": "CBOE",
+   "name": "CBOE",
+   "price": 256.55,
+   "chg": -4.12,
+   "vr": 1.0,
+   "value": 2.0
   },
   {
-   "id": "ROL",
-   "name": "ROL",
-   "price": 30.32,
-   "chg": -6.69,
-   "vr": 1.8,
-   "value": 2.3
+   "id": "LYB",
+   "name": "LYB",
+   "price": 57.76,
+   "chg": -4.02,
+   "vr": 0.6,
+   "value": 0.9
   },
   {
-   "id": "XYL",
-   "name": "XYL",
-   "price": 102.67,
-   "chg": -5.5,
-   "vr": 1.4,
-   "value": 2.8
-  }
- ],
- "volume": [
-  {
-   "id": "MGM",
-   "name": "MGM",
-   "price": 33.54,
-   "chg": -11.37,
-   "vr": 7.9,
-   "value": 4.8
-  },
-  {
-   "id": "GEN",
-   "name": "GEN",
-   "price": 23.8,
-   "chg": -9.28,
-   "vr": 4.5,
-   "value": 5.2
+   "id": "CHTR",
+   "name": "CHTR",
+   "price": 112.86,
+   "chg": -3.99,
+   "vr": 0.8,
+   "value": 1.9
   },
   {
    "id": "GDDY",
    "name": "GDDY",
-   "price": 101.17,
-   "chg": 4.97,
-   "vr": 4.4,
-   "value": 7.3
+   "price": 97.19,
+   "chg": -3.59,
+   "vr": 0.8,
+   "value": 1.5
+  }
+ ],
+ "volume": [
+  {
+   "id": "AKAM",
+   "name": "AKAM",
+   "price": 117.15,
+   "chg": 6.1,
+   "vr": 10.1,
+   "value": 30.6
   },
   {
-   "id": "FSLR",
-   "name": "FSLR",
-   "price": 174.4,
-   "chg": -9.15,
-   "vr": 2.5,
-   "value": 6.8
+   "id": "GEN",
+   "name": "GEN",
+   "price": 22.06,
+   "chg": -4.38,
+   "vr": 3.2,
+   "value": 4.2
   },
   {
-   "id": "WYNN",
-   "name": "WYNN",
-   "price": 79.63,
-   "chg": -2.23,
+   "id": "MGM",
+   "name": "MGM",
+   "price": 32.62,
+   "chg": -3.19,
+   "vr": 2.6,
+   "value": 2.1
+  },
+  {
+   "id": "COST",
+   "name": "COST",
+   "price": 921.77,
+   "chg": 2.82,
    "vr": 2.0,
-   "value": 2.3
+   "value": 29.5
+  },
+  {
+   "id": "EFX",
+   "name": "EFX",
+   "price": 147.81,
+   "chg": -0.67,
+   "vr": 1.7,
+   "value": 2.7
   }
  ],
  "industries": [],
