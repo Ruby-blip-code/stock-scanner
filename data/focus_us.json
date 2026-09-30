@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-09-29T19:13:39",
+ "generated_at": "2026-09-30T18:59:06",
  "gainers": [
   {
-   "id": "CCL",
-   "name": "CCL",
-   "price": 25.11,
-   "chg": 13.42,
-   "vr": 3.0,
-   "value": 15.4
-  },
-  {
-   "id": "BE",
-   "name": "BE",
-   "price": 294.18,
-   "chg": 11.91,
-   "vr": 1.4,
-   "value": 61.0
-  },
-  {
-   "id": "RCL",
-   "name": "RCL",
-   "price": 260.3,
-   "chg": 7.3,
-   "vr": 1.0,
-   "value": 7.1
-  },
-  {
-   "id": "CVNA",
-   "name": "CVNA",
-   "price": 64.01,
-   "chg": 5.85,
-   "vr": 1.1,
-   "value": 4.6
-  },
-  {
-   "id": "LITE",
-   "name": "LITE",
-   "price": 972.93,
-   "chg": 5.6,
-   "vr": 1.2,
-   "value": 47.3
-  }
- ],
- "losers": [
-  {
-   "id": "FICO",
-   "name": "FICO",
-   "price": 614.33,
-   "chg": -26.94,
-   "vr": 10.2,
-   "value": 24.7
-  },
-  {
-   "id": "URI",
-   "name": "URI",
-   "price": 997.15,
-   "chg": -4.48,
-   "vr": 2.0,
-   "value": 7.5
-  },
-  {
-   "id": "EFX",
-   "name": "EFX",
-   "price": 139.5,
-   "chg": -4.31,
+   "id": "GEN",
+   "name": "GEN",
+   "price": 22.25,
+   "chg": 6.74,
    "vr": 1.3,
-   "value": 2.5
+   "value": 2.7
   },
   {
-   "id": "SLB",
-   "name": "SLB",
-   "price": 49.56,
-   "chg": -3.75,
-   "vr": 1.2,
-   "value": 7.8
-  },
-  {
-   "id": "STLD",
-   "name": "STLD",
-   "price": 222.08,
-   "chg": -3.61,
-   "vr": 0.7,
-   "value": 1.3
-  }
- ],
- "volume": [
-  {
-   "id": "FICO",
-   "name": "FICO",
-   "price": 614.33,
-   "chg": -26.94,
-   "vr": 10.2,
-   "value": 24.7
-  },
-  {
-   "id": "CCL",
-   "name": "CCL",
-   "price": 25.11,
-   "chg": 13.42,
-   "vr": 3.0,
-   "value": 15.4
+   "id": "HPE",
+   "name": "HPE",
+   "price": 64.98,
+   "chg": 5.68,
+   "vr": 1.0,
+   "value": 14.5
   },
   {
    "id": "CBOE",
    "name": "CBOE",
-   "price": 263.51,
-   "chg": 4.05,
-   "vr": 2.1,
-   "value": 5.0
+   "price": 274.28,
+   "chg": 4.79,
+   "vr": 1.4,
+   "value": 3.4
   },
   {
-   "id": "GEN",
-   "name": "GEN",
-   "price": 20.73,
-   "chg": -0.6,
-   "vr": 2.0,
-   "value": 3.6
+   "id": "FDS",
+   "name": "FDS",
+   "price": 269.85,
+   "chg": 3.8,
+   "vr": 1.3,
+   "value": 2.5
   },
   {
-   "id": "URI",
-   "name": "URI",
-   "price": 997.15,
-   "chg": -4.48,
-   "vr": 2.0,
-   "value": 7.5
+   "id": "ACN",
+   "name": "ACN",
+   "price": 183.37,
+   "chg": 3.53,
+   "vr": 1.2,
+   "value": 9.0
+  }
+ ],
+ "losers": [
+  {
+   "id": "JBL",
+   "name": "JBL",
+   "price": 286.9,
+   "chg": -10.02,
+   "vr": 3.5,
+   "value": 10.2
+  },
+  {
+   "id": "MRNA",
+   "name": "MRNA",
+   "price": 189.94,
+   "chg": -6.65,
+   "vr": 1.2,
+   "value": 29.9
+  },
+  {
+   "id": "CEG",
+   "name": "CEG",
+   "price": 252.59,
+   "chg": -4.53,
+   "vr": 1.1,
+   "value": 6.7
+  },
+  {
+   "id": "BE",
+   "name": "BE",
+   "price": 278.79,
+   "chg": -4.28,
+   "vr": 0.7,
+   "value": 28.2
+  },
+  {
+   "id": "NOC",
+   "name": "NOC",
+   "price": 483.14,
+   "chg": -4.25,
+   "vr": 1.3,
+   "value": 4.3
+  }
+ ],
+ "volume": [
+  {
+   "id": "JBL",
+   "name": "JBL",
+   "price": 286.9,
+   "chg": -10.02,
+   "vr": 3.5,
+   "value": 10.2
+  },
+  {
+   "id": "FICO",
+   "name": "FICO",
+   "price": 598.47,
+   "chg": -3.14,
+   "vr": 2.7,
+   "value": 9.2
+  },
+  {
+   "id": "MDT",
+   "name": "MDT",
+   "price": 86.57,
+   "chg": -0.59,
+   "vr": 1.8,
+   "value": 14.2
+  },
+  {
+   "id": "RVTY",
+   "name": "RVTY",
+   "price": 155.29,
+   "chg": 1.65,
+   "vr": 1.6,
+   "value": 4.7
+  },
+  {
+   "id": "SNPS",
+   "name": "SNPS",
+   "price": 428.14,
+   "chg": 3.14,
+   "vr": 1.6,
+   "value": 11.2
   }
  ],
  "industries": [],
