@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-10-01T19:21:58",
+ "generated_at": "2026-10-02T19:05:16",
  "gainers": [
   {
-   "id": "ACN",
-   "name": "ACN",
-   "price": 215.51,
-   "chg": 17.52,
-   "vr": 4.8,
-   "value": 49.5
+   "id": "HPE",
+   "name": "HPE",
+   "price": 70.12,
+   "chg": 8.58,
+   "vr": 1.0,
+   "value": 14.8
   },
   {
-   "id": "SNPS",
-   "name": "SNPS",
-   "price": 491.11,
-   "chg": 12.91,
-   "vr": 2.6,
-   "value": 23.4
+   "id": "TER",
+   "name": "TER",
+   "price": 450.61,
+   "chg": 8.37,
+   "vr": 1.1,
+   "value": 10.7
   },
   {
-   "id": "FICO",
-   "name": "FICO",
-   "price": 666.35,
-   "chg": 12.47,
-   "vr": 3.4,
-   "value": 15.9
+   "id": "ECHO",
+   "name": "ECHO",
+   "price": 94.12,
+   "chg": 6.65,
+   "vr": 1.0,
+   "value": 2.7
   },
   {
-   "id": "COHR",
-   "name": "COHR",
-   "price": 318.94,
-   "chg": 10.82,
-   "vr": 1.7,
-   "value": 30.7
+   "id": "NTAP",
+   "name": "NTAP",
+   "price": 228.56,
+   "chg": 6.28,
+   "vr": 1.4,
+   "value": 7.1
   },
   {
-   "id": "LITE",
-   "name": "LITE",
-   "price": 1052.11,
-   "chg": 8.32,
-   "vr": 1.6,
-   "value": 69.2
+   "id": "MPWR",
+   "name": "MPWR",
+   "price": 1445.13,
+   "chg": 6.18,
+   "vr": 0.7,
+   "value": 6.2
   }
  ],
  "losers": [
   {
+   "id": "STX",
+   "name": "STX",
+   "price": 843.14,
+   "chg": -10.83,
+   "vr": 3.7,
+   "value": 99.9
+  },
+  {
+   "id": "WDC",
+   "name": "WDC",
+   "price": 416.48,
+   "chg": -9.96,
+   "vr": 3.5,
+   "value": 85.2
+  },
+  {
+   "id": "ACN",
+   "name": "ACN",
+   "price": 199.69,
+   "chg": -5.94,
+   "vr": 1.3,
+   "value": 14.7
+  },
+  {
    "id": "CTVA",
    "name": "CTVA",
-   "price": 12.23,
-   "chg": -84.24,
-   "vr": 16.1,
-   "value": 8.4
+   "price": 12.07,
+   "chg": -3.94,
+   "vr": 7.4,
+   "value": 6.7
   },
   {
-   "id": "PSKY",
-   "name": "PSKY",
-   "price": 9.35,
-   "chg": -9.44,
-   "vr": 1.5,
-   "value": 3.0
-  },
-  {
-   "id": "DHR",
-   "name": "DHR",
-   "price": 212.73,
-   "chg": -3.98,
-   "vr": 0.7,
-   "value": 6.0
-  },
-  {
-   "id": "MKC",
-   "name": "MKC",
-   "price": 44.9,
-   "chg": -3.22,
-   "vr": 1.9,
-   "value": 2.6
-  },
-  {
-   "id": "VRTX",
-   "name": "VRTX",
-   "price": 506.41,
-   "chg": -3.14,
-   "vr": 0.5,
-   "value": 2.4
+   "id": "NKE",
+   "name": "NKE",
+   "price": 33.82,
+   "chg": -3.78,
+   "vr": 3.5,
+   "value": 38.9
   }
  ],
  "volume": [
   {
    "id": "CTVA",
    "name": "CTVA",
-   "price": 12.23,
-   "chg": -84.24,
-   "vr": 16.1,
-   "value": 8.4
+   "price": 12.07,
+   "chg": -3.94,
+   "vr": 7.4,
+   "value": 6.7
   },
   {
-   "id": "ACN",
-   "name": "ACN",
-   "price": 215.51,
-   "chg": 17.52,
-   "vr": 4.8,
-   "value": 49.5
+   "id": "STX",
+   "name": "STX",
+   "price": 843.14,
+   "chg": -10.83,
+   "vr": 3.7,
+   "value": 99.9
   },
   {
-   "id": "FICO",
-   "name": "FICO",
-   "price": 666.35,
-   "chg": 12.47,
-   "vr": 3.4,
-   "value": 15.9
+   "id": "NKE",
+   "name": "NKE",
+   "price": 33.82,
+   "chg": -3.78,
+   "vr": 3.5,
+   "value": 38.9
   },
   {
-   "id": "SNPS",
-   "name": "SNPS",
-   "price": 491.11,
-   "chg": 12.91,
-   "vr": 2.6,
-   "value": 23.4
+   "id": "WDC",
+   "name": "WDC",
+   "price": 416.48,
+   "chg": -9.96,
+   "vr": 3.5,
+   "value": 85.2
   },
   {
-   "id": "MDT",
-   "name": "MDT",
-   "price": 86.68,
-   "chg": 0.45,
-   "vr": 2.0,
-   "value": 18.2
+   "id": "NOC",
+   "name": "NOC",
+   "price": 480.62,
+   "chg": -0.29,
+   "vr": 2.5,
+   "value": 9.2
   }
  ],
  "industries": [],
