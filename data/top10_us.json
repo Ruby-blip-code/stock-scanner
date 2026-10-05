@@ -1,22 +1,22 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-10-02T19:05:16",
+ "generated_at": "2026-10-05T21:25:43",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "TER",
-   "name": "TER",
+   "id": "HPE",
+   "name": "HPE",
    "category": "個股-",
    "is_etf": false,
-   "score": 94.0,
-   "price": 450.6099853515625,
-   "position": 63.3,
-   "reason": "多頭排列、RSI 69.9、基本面強",
+   "score": 89.5,
+   "price": 68.37999725341797,
+   "position": 95.7,
+   "reason": "多頭排列、RSI 67.0、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
+    "volume": 30,
     "volatility": 100,
     "rel_strength": 100.0,
     "fundamental": 100.0
@@ -24,23 +24,42 @@
    "rank": 1
   },
   {
-   "id": "SMCI",
-   "name": "SMCI",
+   "id": "FTNT",
+   "name": "FTNT",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.0,
-   "price": 43.69990158081055,
-   "position": 74.4,
-   "reason": "多頭排列、RSI 63.0、基本面強",
+   "score": 88.1,
+   "price": 184.1999969482422,
+   "position": 91.3,
+   "reason": "多頭排列、RSI 67.0、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 85.6,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "STX",
+   "name": "STX",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.7,
+   "price": 886.8900146484375,
+   "position": 40.2,
+   "reason": "多頭排列、RSI 51.6、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
-    "volatility": 40,
-    "rel_strength": 100.0,
+    "volatility": 100,
+    "rel_strength": 37.0,
     "fundamental": 100.0
    },
-   "rank": 2
+   "rank": 3
   },
   {
    "id": "CRWD",
@@ -48,9 +67,9 @@
    "category": "個股-",
    "is_etf": false,
    "score": 87.5,
-   "price": 268.07000732421875,
-   "position": 99.5,
-   "reason": "多頭排列、RSI 68.0、基本面強",
+   "price": 272.760009765625,
+   "position": 99.7,
+   "reason": "多頭排列、RSI 69.8、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -59,7 +78,7 @@
     "rel_strength": 100.0,
     "fundamental": 90.0
    },
-   "rank": 3
+   "rank": 4
   },
   {
    "id": "DELL",
@@ -67,28 +86,9 @@
    "category": "個股-",
    "is_etf": false,
    "score": 87.5,
-   "price": 565.3099975585938,
-   "position": 84.5,
-   "reason": "多頭排列、RSI 58.7、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "PSX",
-   "name": "PSX",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 87.5,
-   "price": 265.8599853515625,
-   "position": 93.6,
-   "reason": "多頭排列、RSI 64.0、基本面強",
+   "price": 552.219970703125,
+   "position": 80.8,
+   "reason": "多頭排列、RSI 55.5、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
@@ -100,14 +100,33 @@
    "rank": 5
   },
   {
+   "id": "PANW",
+   "name": "PANW",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.5,
+   "price": 406.8299865722656,
+   "position": 95.4,
+   "reason": "多頭排列、RSI 63.7、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 6
+  },
+  {
    "id": "NTAP",
    "name": "NTAP",
    "category": "個股-",
    "is_etf": false,
    "score": 87.0,
-   "price": 228.55999755859375,
-   "position": 99.4,
-   "reason": "多頭排列、RSI 76.9、基本面強",
+   "price": 223.8800048828125,
+   "position": 97.1,
+   "reason": "多頭排列、RSI 72.7、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 65,
@@ -116,43 +135,24 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 6
+   "rank": 7
   },
   {
    "id": "XOM",
    "name": "XOM",
    "category": "個股-",
    "is_etf": false,
-   "score": 86.9,
-   "price": 164.42999267578125,
-   "position": 72.6,
-   "reason": "多頭排列、RSI 55.9、基本面強",
+   "score": 86.5,
+   "price": 164.00999450683594,
+   "position": 70.8,
+   "reason": "多頭排列、RSI 55.1、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 94.1,
+    "rel_strength": 90.4,
     "fundamental": 100.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "PANW",
-   "name": "PANW",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 86.5,
-   "price": 401.260009765625,
-   "position": 94.9,
-   "reason": "多頭排列、RSI 62.0、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 89.6,
-    "fundamental": 90.0
    },
    "rank": 8
   },
@@ -161,17 +161,17 @@
    "name": "VanEck 半導體",
    "category": "產業型 ETF",
    "is_etf": true,
-   "score": 69.5,
-   "price": 630.7899780273438,
-   "position": 68.8,
-   "reason": "多頭排列、RSI 68.7",
+   "score": 64.8,
+   "price": 634.0700073242188,
+   "position": 70.0,
+   "reason": "多頭排列、RSI 69.5",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
+    "volume": 30,
     "volatility": 40,
-    "rel_strength": 52.6,
-    "fundamental": 31.2
+    "rel_strength": 52.7,
+    "fundamental": 30.0
    },
    "rank": 9
   },
@@ -180,17 +180,17 @@
    "name": "Vanguard 全美股",
    "category": "市值型 ETF",
    "is_etf": true,
-   "score": 63.1,
-   "price": 377.9800109863281,
-   "position": 66.3,
-   "reason": "多頭排列、RSI 54.0",
+   "score": 63.9,
+   "price": 380.6400146484375,
+   "position": 72.6,
+   "reason": "多頭排列、RSI 58.4",
    "factors": {
     "trend": 100,
-    "momentum": 90,
+    "momentum": 100,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 48.1,
-    "fundamental": 33.7
+    "rel_strength": 49.2,
+    "fundamental": 27.4
    },
    "rank": 10
   }
