@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-10-07T19:49:45",
+ "generated_at": "2026-10-08T19:45:34",
  "gainers": [
   {
-   "id": "NRG",
-   "name": "NRG",
-   "price": 108.61,
-   "chg": 4.84,
-   "vr": 1.3,
-   "value": 4.1
-  },
-  {
-   "id": "MRNA",
-   "name": "MRNA",
-   "price": 195.57,
-   "chg": 4.33,
+   "id": "CSGP",
+   "name": "CSGP",
+   "price": 29.67,
+   "chg": 7.52,
    "vr": 0.8,
-   "value": 24.0
+   "value": 1.3
   },
   {
-   "id": "CTVA",
-   "name": "CTVA",
-   "price": 14.51,
-   "chg": 4.28,
-   "vr": 1.2,
-   "value": 3.9
+   "id": "CMG",
+   "name": "CMG",
+   "price": 32.99,
+   "chg": 7.23,
+   "vr": 3.6,
+   "value": 17.8
   },
   {
-   "id": "P",
-   "name": "P",
-   "price": 153.22,
-   "chg": 4.09,
+   "id": "GDDY",
+   "name": "GDDY",
+   "price": 103.56,
+   "chg": 6.53,
    "vr": 0.5,
-   "value": 5.7
+   "value": 1.4
   },
   {
-   "id": "SMCI",
-   "name": "SMCI",
-   "price": 45.14,
-   "chg": 3.87,
+   "id": "ACN",
+   "name": "ACN",
+   "price": 208.71,
+   "chg": 6.14,
    "vr": 1.0,
-   "value": 15.5
+   "value": 13.4
+  },
+  {
+   "id": "IT",
+   "name": "IT",
+   "price": 196.04,
+   "chg": 5.53,
+   "vr": 0.6,
+   "value": 1.1
   }
  ],
  "losers": [
   {
-   "id": "CAT",
-   "name": "CAT",
-   "price": 812.87,
-   "chg": -5.86,
+   "id": "COHR",
+   "name": "COHR",
+   "price": 299.79,
+   "chg": -10.39,
    "vr": 1.1,
-   "value": 19.7
+   "value": 21.9
   },
   {
-   "id": "EME",
-   "name": "EME",
-   "price": 781.88,
-   "chg": -5.17,
-   "vr": 0.7,
-   "value": 1.9
+   "id": "BE",
+   "name": "BE",
+   "price": 269.01,
+   "chg": -7.65,
+   "vr": 0.8,
+   "value": 35.7
   },
   {
-   "id": "CRWD",
-   "name": "CRWD",
-   "price": 265.19,
-   "chg": -4.9,
-   "vr": 0.7,
-   "value": 18.2
+   "id": "GLW",
+   "name": "GLW",
+   "price": 151.7,
+   "chg": -7.08,
+   "vr": 0.9,
+   "value": 10.4
   },
   {
-   "id": "ALLE",
-   "name": "ALLE",
-   "price": 147.66,
-   "chg": -4.86,
-   "vr": 1.4,
-   "value": 2.1
+   "id": "LITE",
+   "name": "LITE",
+   "price": 1040.28,
+   "chg": -6.37,
+   "vr": 1.9,
+   "value": 88.9
   },
   {
-   "id": "COIN",
-   "name": "COIN",
-   "price": 177.26,
-   "chg": -4.57,
-   "vr": 0.6,
-   "value": 9.9
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 1588.74,
+   "chg": -6.13,
+   "vr": 2.3,
+   "value": 306.1
   }
  ],
  "volume": [
   {
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "price": 746.57,
+   "chg": -1.47,
+   "vr": 6.6,
+   "value": 1568.0
+  },
+  {
    "id": "MDT",
    "name": "MDT",
-   "price": 85.72,
-   "chg": -1.57,
-   "vr": 2.5,
-   "value": 37.0
+   "price": 87.84,
+   "chg": 2.72,
+   "vr": 6.2,
+   "value": 105.2
   },
   {
-   "id": "STZ",
-   "name": "STZ",
-   "price": 118.25,
-   "chg": 2.23,
-   "vr": 2.2,
-   "value": 6.1
+   "id": "GNRC",
+   "name": "GNRC",
+   "price": 223.29,
+   "chg": 0.88,
+   "vr": 4.0,
+   "value": 12.9
   },
   {
-   "id": "CEG",
-   "name": "CEG",
-   "price": 298.12,
-   "chg": -0.76,
-   "vr": 1.8,
-   "value": 18.6
+   "id": "CMG",
+   "name": "CMG",
+   "price": 32.99,
+   "chg": 7.23,
+   "vr": 3.6,
+   "value": 17.8
   },
   {
-   "id": "VST",
-   "name": "VST",
-   "price": 166.7,
-   "chg": 3.86,
-   "vr": 1.8,
-   "value": 17.6
-  },
-  {
-   "id": "PTC",
-   "name": "PTC",
-   "price": 193.65,
-   "chg": 0.34,
-   "vr": 1.5,
-   "value": 9.6
+   "id": "SKYD",
+   "name": "SKYD",
+   "price": 9.35,
+   "chg": 5.17,
+   "vr": 3.5,
+   "value": 9.5
   }
  ],
  "industries": [],
