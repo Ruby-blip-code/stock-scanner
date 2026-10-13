@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-10-09T19:22:21",
+ "generated_at": "2026-10-13T20:09:23",
  "gainers": [
   {
-   "id": "CCI",
-   "name": "CCI",
-   "price": 78.12,
-   "chg": 13.4,
-   "vr": 3.8,
-   "value": 10.1
+   "id": "CDW",
+   "name": "CDW",
+   "price": 151.98,
+   "chg": 5.72,
+   "vr": 1.4,
+   "value": 2.9
   },
   {
-   "id": "HUM",
-   "name": "HUM",
-   "price": 435.81,
-   "chg": 12.58,
-   "vr": 3.3,
-   "value": 16.5
+   "id": "VLO",
+   "name": "VLO",
+   "price": 456.37,
+   "chg": 4.67,
+   "vr": 1.4,
+   "value": 23.5
   },
   {
-   "id": "MRNA",
-   "name": "MRNA",
-   "price": 221.41,
-   "chg": 12.39,
-   "vr": 2.8,
-   "value": 93.8
+   "id": "CHTR",
+   "name": "CHTR",
+   "price": 106.94,
+   "chg": 4.35,
+   "vr": 0.8,
+   "value": 2.7
   },
   {
-   "id": "AMT",
-   "name": "AMT",
-   "price": 180.6,
-   "chg": 8.32,
-   "vr": 3.9,
-   "value": 18.0
+   "id": "ORCL",
+   "name": "ORCL",
+   "price": 143.27,
+   "chg": 4.28,
+   "vr": 1.3,
+   "value": 56.7
   },
   {
-   "id": "AKAM",
-   "name": "AKAM",
-   "price": 107.68,
-   "chg": 6.71,
-   "vr": 1.0,
-   "value": 5.9
+   "id": "EXE",
+   "name": "EXE",
+   "price": 92.37,
+   "chg": 4.01,
+   "vr": 0.9,
+   "value": 2.8
   }
  ],
  "losers": [
   {
-   "id": "TMUS",
-   "name": "TMUS",
-   "price": 149.28,
-   "chg": -12.86,
-   "vr": 3.8,
-   "value": 26.6
+   "id": "AMAT",
+   "name": "AMAT",
+   "price": 464.18,
+   "chg": -6.7,
+   "vr": 1.5,
+   "value": 42.5
   },
   {
-   "id": "T",
-   "name": "T",
-   "price": 22.05,
-   "chg": -11.36,
-   "vr": 3.5,
-   "value": 26.7
+   "id": "JNJ",
+   "name": "JNJ",
+   "price": 248.63,
+   "chg": -5.73,
+   "vr": 4.6,
+   "value": 78.1
   },
   {
-   "id": "VZ",
-   "name": "VZ",
-   "price": 41.51,
-   "chg": -10.44,
-   "vr": 6.9,
-   "value": 56.5
+   "id": "C",
+   "name": "C",
+   "price": 124.53,
+   "chg": -5.6,
+   "vr": 3.3,
+   "value": 39.7
   },
   {
-   "id": "HPQ",
-   "name": "HPQ",
-   "price": 30.16,
-   "chg": -7.03,
-   "vr": 1.8,
-   "value": 7.4
+   "id": "FLEX",
+   "name": "FLEX",
+   "price": 110.87,
+   "chg": -5.43,
+   "vr": 1.5,
+   "value": 5.1
   },
   {
-   "id": "FICO",
-   "name": "FICO",
-   "price": 667.42,
-   "chg": -5.66,
-   "vr": 0.9,
-   "value": 5.9
+   "id": "DPZ",
+   "name": "DPZ",
+   "price": 295.88,
+   "chg": -4.83,
+   "vr": 3.3,
+   "value": 7.8
   }
  ],
  "volume": [
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 751.77,
-   "chg": 0.56,
-   "vr": 8.6,
-   "value": 1997.4
+   "price": 743.63,
+   "chg": -0.32,
+   "vr": 9.3,
+   "value": 2304.5
   },
   {
-   "id": "VZ",
-   "name": "VZ",
-   "price": 41.51,
-   "chg": -10.44,
-   "vr": 6.9,
-   "value": 56.5
+   "id": "JNJ",
+   "name": "JNJ",
+   "price": 248.63,
+   "chg": -5.73,
+   "vr": 4.6,
+   "value": 78.1
+  },
+  {
+   "id": "UNH",
+   "name": "UNH",
+   "price": 377.7,
+   "chg": -0.22,
+   "vr": 4.4,
+   "value": 85.4
+  },
+  {
+   "id": "FIX",
+   "name": "FIX",
+   "price": 1626.31,
+   "chg": -0.72,
+   "vr": 3.8,
+   "value": 19.5
   },
   {
    "id": "NVDA",
    "name": "NVDA",
-   "price": 229.94,
-   "chg": -0.23,
-   "vr": 4.3,
-   "value": 972.1
-  },
-  {
-   "id": "AMT",
-   "name": "AMT",
-   "price": 180.6,
-   "chg": 8.32,
-   "vr": 3.9,
-   "value": 18.0
-  },
-  {
-   "id": "CCI",
-   "name": "CCI",
-   "price": 78.12,
-   "chg": 13.4,
-   "vr": 3.8,
-   "value": 10.1
+   "price": 228.52,
+   "chg": 0.97,
+   "vr": 3.7,
+   "value": 885.2
   }
  ],
  "industries": [],

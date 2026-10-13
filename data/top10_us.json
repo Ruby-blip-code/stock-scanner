@@ -1,177 +1,177 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-10-09T19:22:21",
+ "generated_at": "2026-10-13T20:09:23",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "MSFT",
-   "name": "MSFT",
+   "id": "META",
+   "name": "META",
    "category": "個股-",
    "is_etf": false,
-   "score": 94.0,
-   "price": 536.14501953125,
-   "position": 99.1,
-   "reason": "多頭排列、RSI 67.9、量增1.71倍、基本面強",
+   "score": 94.3,
+   "price": 762.469970703125,
+   "position": 97.8,
+   "reason": "多頭排列、RSI 66.0、量增2.19倍、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 100,
+    "momentum": 90,
     "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
+    "volatility": 100,
+    "rel_strength": 83.0,
+    "fundamental": 90.0
    },
    "rank": 1
   },
   {
-   "id": "LITE",
-   "name": "LITE",
+   "id": "HPE",
+   "name": "HPE",
    "category": "個股-",
    "is_etf": false,
-   "score": 92.0,
-   "price": 1116.6400146484375,
-   "position": 68.8,
-   "reason": "多頭排列、RSI 63.6、量增1.65倍、基本面強",
+   "score": 94.0,
+   "price": 68.80500030517578,
+   "position": 89.1,
+   "reason": "多頭排列、RSI 59.6、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
+    "volume": 60,
+    "volatility": 100,
     "rel_strength": 100.0,
-    "fundamental": 90.0
+    "fundamental": 100.0
    },
    "rank": 2
-  },
-  {
-   "id": "COHR",
-   "name": "COHR",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 89.6,
-   "price": 313.1099853515625,
-   "position": 31.4,
-   "reason": "多頭排列、RSI 51.8、量增1.97倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 75.7,
-    "fundamental": 90.0
-   },
-   "rank": 3
   },
   {
    "id": "MRVL",
    "name": "MRVL",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.5,
-   "price": 275.2200012207031,
-   "position": 73.4,
-   "reason": "多頭排列、RSI 61.5、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "TER",
-   "name": "TER",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 89.5,
-   "price": 402.6449890136719,
-   "position": 45.6,
-   "reason": "多頭排列、RSI 52.5、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "HUM",
-   "name": "HUM",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 88.5,
-   "price": 435.80999755859375,
-   "position": 95.2,
-   "reason": "多頭排列、RSI 67.2、量增3.3倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 40,
-    "volatility": 100,
-    "rel_strength": 75.0,
-    "fundamental": 100.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "GLW",
-   "name": "GLW",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 88.2,
-   "price": 157.2100067138672,
-   "position": 27.9,
-   "reason": "多頭排列、RSI 50.1、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 41.6,
-    "fundamental": 100.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "WAT",
-   "name": "WAT",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 88.0,
-   "price": 434.3800048828125,
-   "position": 95.5,
-   "reason": "多頭排列、RSI 56.4、基本面強",
+   "score": 92.0,
+   "price": 268.8399963378906,
+   "position": 68.8,
+   "reason": "多頭排列、RSI 56.9、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 60,
     "volatility": 100,
-    "rel_strength": 80.2,
-    "fundamental": 90.0
+    "rel_strength": 100.0,
+    "fundamental": 100.0
    },
-   "rank": 8
+   "rank": 3
   },
   {
-   "id": "SMH",
-   "name": "VanEck 半導體",
-   "category": "產業型 ETF",
-   "is_etf": true,
-   "score": 79.1,
-   "price": 604.2249755859375,
-   "position": 53.7,
-   "reason": "多頭排列、RSI 53.4、量增2.2倍",
+   "id": "NOW",
+   "name": "NOW",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 92.0,
+   "price": 138.62989807128906,
+   "position": 66.3,
+   "reason": "多頭排列、RSI 54.0、量增2.03倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 58.6,
-    "fundamental": 46.3
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "CVX",
+   "name": "CVX",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.7,
+   "price": 217.82000732421875,
+   "position": 88.7,
+   "reason": "多頭排列、RSI 67.1、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 77.2,
+    "fundamental": 100.0
+   },
+   "rank": 5
+  },
+  {
+   "id": "DHR",
+   "name": "DHR",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 89.6,
+   "price": 223.1699981689453,
+   "position": 80.4,
+   "reason": "多頭排列、RSI 58.8、量增1.76倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 65.5,
+    "fundamental": 75.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "GOOGL",
+   "name": "GOOGL",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.9,
+   "price": 353.7799987792969,
+   "position": 48.6,
+   "reason": "多頭排列、RSI 58.2、量增2.62倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 39.1,
+    "fundamental": 100.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "DELL",
+   "name": "DELL",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.5,
+   "price": 572.3350219726562,
+   "position": 81.6,
+   "reason": "多頭排列、RSI 57.4、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 8
+  },
+  {
+   "id": "VT",
+   "name": "Vanguard 全世界",
+   "category": "市值型 ETF",
+   "is_etf": true,
+   "score": 76.8,
+   "price": 159.6649932861328,
+   "position": 59.5,
+   "reason": "多頭排列、RSI 51.6、量增2.36倍",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 47.0,
+    "fundamental": 40.5
    },
    "rank": 9
   },
@@ -180,17 +180,17 @@
    "name": "Vanguard S&P 500",
    "category": "市值型 ETF",
    "is_etf": true,
-   "score": 73.7,
-   "price": 716.2550048828125,
-   "position": 78.1,
-   "reason": "多頭排列、RSI 60.9、量增2.39倍",
+   "score": 73.9,
+   "price": 715.2000122070312,
+   "position": 75.9,
+   "reason": "多頭排列、RSI 59.9、量增1.99倍",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 53.2,
-    "fundamental": 21.9
+    "rel_strength": 50.4,
+    "fundamental": 24.1
    },
    "rank": 10
   }
