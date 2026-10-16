@@ -1,63 +1,63 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-10-15T18:07:32",
+ "generated_at": "2026-10-16T17:54:32",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "TMO",
-   "name": "TMO",
+   "id": "MSFT",
+   "name": "MSFT",
    "category": "個股-",
    "is_etf": false,
-   "score": 93.0,
-   "price": 693.8499755859375,
-   "position": 98.9,
-   "reason": "多頭排列、RSI 66.8、量增2.32倍、基本面強",
+   "score": 94.0,
+   "price": 527.2333984375,
+   "position": 94.6,
+   "reason": "多頭排列、RSI 56.2、量增2.19倍、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
+    "momentum": 100,
     "volume": 100,
-    "volatility": 100,
+    "volatility": 40,
     "rel_strength": 100.0,
-    "fundamental": 75.0
+    "fundamental": 100.0
    },
    "rank": 1
   },
   {
-   "id": "KDP",
-   "name": "KDP",
+   "id": "VEEV",
+   "name": "VEEV",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.5,
-   "price": 33.85499954223633,
-   "position": 98.7,
-   "reason": "多頭排列、RSI 67.2、基本面強",
+   "score": 94.0,
+   "price": 307.7200012207031,
+   "position": 98.0,
+   "reason": "多頭排列、RSI 68.6、量增1.79倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "NOW",
+   "name": "NOW",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 92.0,
+   "price": 140.89999389648438,
+   "position": 68.4,
+   "reason": "多頭排列、RSI 54.1、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
     "volatility": 100,
-    "rel_strength": 74.5,
-    "fundamental": 90.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "PSX",
-   "name": "PSX",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 89.5,
-   "price": 290.3599853515625,
-   "position": 96.9,
-   "reason": "多頭排列、RSI 70.0、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
     "rel_strength": 100.0,
-    "fundamental": 100.0
+    "fundamental": 90.0
    },
    "rank": 3
   },
@@ -67,9 +67,9 @@
    "category": "個股-",
    "is_etf": false,
    "score": 89.5,
-   "price": 445.94000244140625,
+   "price": 446.885009765625,
    "position": 96.2,
-   "reason": "多頭排列、RSI 67.3、基本面強",
+   "reason": "多頭排列、RSI 67.1、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -81,78 +81,78 @@
    "rank": 4
   },
   {
-   "id": "WAT",
-   "name": "WAT",
+   "id": "CRM",
+   "name": "CRM",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.3,
-   "price": 445.5050048828125,
-   "position": 99.2,
-   "reason": "多頭排列、RSI 62.4、量增2.01倍、基本面強",
+   "score": 89.0,
+   "price": 239.80499267578125,
+   "position": 80.2,
+   "reason": "多頭排列、RSI 55.1、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 92.6,
-    "fundamental": 90.0
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
    },
    "rank": 5
   },
   {
-   "id": "META",
-   "name": "META",
+   "id": "WAT",
+   "name": "WAT",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.7,
-   "price": 739.1699829101562,
-   "position": 92.6,
-   "reason": "多頭排列、RSI 58.5、基本面強",
+   "score": 87.6,
+   "price": 435.06500244140625,
+   "position": 94.4,
+   "reason": "多頭排列、RSI 54.5、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
     "volume": 60,
     "volatility": 100,
-    "rel_strength": 87.1,
+    "rel_strength": 75.6,
     "fundamental": 90.0
    },
    "rank": 6
   },
   {
-   "id": "ACN",
-   "name": "ACN",
+   "id": "KR",
+   "name": "KR",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.0,
-   "price": 226.1300048828125,
-   "position": 71.3,
-   "reason": "多頭排列、RSI 72.0、量增1.69倍、基本面強",
+   "score": 86.7,
+   "price": 63.30500030517578,
+   "position": 59.7,
+   "reason": "多頭排列、RSI 62.1、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 65,
-    "volume": 100,
+    "momentum": 100,
+    "volume": 60,
     "volatility": 100,
-    "rel_strength": 100.0,
+    "rel_strength": 77.0,
     "fundamental": 75.0
    },
    "rank": 7
   },
   {
-   "id": "PLTR",
-   "name": "PLTR",
+   "id": "PFE",
+   "name": "PFE",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.0,
-   "price": 199.78500366210938,
-   "position": 90.7,
-   "reason": "多頭排列、RSI 61.6、基本面強",
+   "score": 86.1,
+   "price": 29.524999618530273,
+   "position": 97.9,
+   "reason": "多頭排列、RSI 69.3、量增1.52倍",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
+    "volume": 100,
     "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
+    "rel_strength": 91.5,
+    "fundamental": 65.0
    },
    "rank": 8
   },
@@ -161,17 +161,17 @@
    "name": "iShares 20年美債",
    "category": "債券型 ETF",
    "is_etf": true,
-   "score": 71.2,
-   "price": 80.04000091552734,
-   "position": 19.0,
-   "reason": "站上20MA、RSI 57.8、量增1.77倍、基本面強",
+   "score": 65.2,
+   "price": 79.93499755859375,
+   "position": 18.6,
+   "reason": "站上20MA、RSI 57.0、基本面強",
    "factors": {
     "trend": 50,
     "momentum": 100,
-    "volume": 100,
+    "volume": 60,
     "volatility": 40,
-    "rel_strength": 34.9,
-    "fundamental": 81.0
+    "rel_strength": 34.3,
+    "fundamental": 81.4
    },
    "rank": 9
   },
@@ -181,16 +181,16 @@
    "category": "債券型 ETF",
    "is_etf": true,
    "score": 64.8,
-   "price": 70.81500244140625,
-   "position": 23.3,
-   "reason": "站上20MA、RSI 56.4、基本面強",
+   "price": 70.7750015258789,
+   "position": 22.9,
+   "reason": "站上20MA、RSI 55.3、基本面強",
    "factors": {
     "trend": 50,
     "momentum": 100,
     "volume": 60,
     "volatility": 40,
-    "rel_strength": 39.4,
-    "fundamental": 76.7
+    "rel_strength": 38.7,
+    "fundamental": 77.1
    },
    "rank": 10
   }
