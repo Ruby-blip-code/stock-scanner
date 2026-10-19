@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-10-16T17:54:32",
+ "generated_at": "2026-10-19T19:44:41",
  "gainers": [
   {
-   "id": "FANG",
-   "name": "FANG",
-   "price": 202.54,
-   "chg": 3.55,
-   "vr": 0.6,
-   "value": 2.1
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 1387.51,
+   "chg": 6.79,
+   "vr": 1.5,
+   "value": 163.8
   },
-  {
-   "id": "TRGP",
-   "name": "TRGP",
-   "price": 292.23,
-   "chg": 3.43,
-   "vr": 0.5,
-   "value": 1.3
-  },
-  {
-   "id": "KMI",
-   "name": "KMI",
-   "price": 33.94,
-   "chg": 3.4,
-   "vr": 0.9,
-   "value": 2.6
-  },
-  {
-   "id": "APA",
-   "name": "APA",
-   "price": 48.81,
-   "chg": 3.35,
-   "vr": 0.8,
-   "value": 1.4
-  },
-  {
-   "id": "NI",
-   "name": "NI",
-   "price": 42.62,
-   "chg": 3.33,
-   "vr": 1.6,
-   "value": 2.6
-  }
- ],
- "losers": [
   {
    "id": "TWLO",
    "name": "TWLO",
-   "price": 238.9,
-   "chg": -12.62,
-   "vr": 1.9,
-   "value": 14.2
+   "price": 259.3,
+   "chg": 6.11,
+   "vr": 1.2,
+   "value": 14.4
   },
   {
-   "id": "MRNA",
-   "name": "MRNA",
-   "price": 211.74,
-   "chg": -10.47,
-   "vr": 1.3,
-   "value": 33.0
-  },
-  {
-   "id": "SMCI",
-   "name": "SMCI",
-   "price": 31.7,
-   "chg": -9.66,
-   "vr": 1.3,
-   "value": 9.5
+   "id": "WDC",
+   "name": "WDC",
+   "price": 351.81,
+   "chg": 5.97,
+   "vr": 1.1,
+   "value": 33.9
   },
   {
    "id": "DDOG",
    "name": "DDOG",
-   "price": 243.92,
-   "chg": -8.39,
-   "vr": 1.0,
-   "value": 4.9
+   "price": 261.23,
+   "chg": 5.72,
+   "vr": 0.7,
+   "value": 5.2
   },
   {
-   "id": "FTNT",
-   "name": "FTNT",
-   "price": 167.57,
-   "chg": -7.88,
+   "id": "AMZN",
+   "name": "AMZN",
+   "price": 263.08,
+   "chg": 5.23,
+   "vr": 5.4,
+   "value": 490.5
+  }
+ ],
+ "losers": [
+  {
+   "id": "NRG",
+   "name": "NRG",
+   "price": 99.16,
+   "chg": -4.42,
+   "vr": 1.2,
+   "value": 3.7
+  },
+  {
+   "id": "MOS",
+   "name": "MOS",
+   "price": 18.01,
+   "chg": -4.28,
+   "vr": 2.0,
+   "value": 3.1
+  },
+  {
+   "id": "AMP",
+   "name": "AMP",
+   "price": 481.37,
+   "chg": -3.88,
+   "vr": 2.4,
+   "value": 6.7
+  },
+  {
+   "id": "ES",
+   "name": "ES",
+   "price": 64.46,
+   "chg": -3.58,
    "vr": 1.0,
-   "value": 4.4
+   "value": 1.7
+  },
+  {
+   "id": "DOC",
+   "name": "DOC",
+   "price": 18.38,
+   "chg": -3.19,
+   "vr": 0.7,
+   "value": 0.7
   }
  ],
  "volume": [
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 712.03,
-   "chg": -2.19,
-   "vr": 18.7,
-   "value": 3164.7
+   "price": 720.63,
+   "chg": 1.53,
+   "vr": 16.9,
+   "value": 4195.6
+  },
+  {
+   "id": "AMZN",
+   "name": "AMZN",
+   "price": 263.08,
+   "chg": 5.23,
+   "vr": 5.4,
+   "value": 490.5
   },
   {
    "id": "NVDA",
    "name": "NVDA",
-   "price": 215.35,
-   "chg": -0.87,
-   "vr": 10.2,
-   "value": 1618.4
+   "price": 217.9,
+   "chg": 1.76,
+   "vr": 4.5,
+   "value": 973.9
   },
   {
-   "id": "TSLA",
-   "name": "TSLA",
-   "price": 353.12,
-   "chg": -2.57,
-   "vr": 9.1,
-   "value": 742.6
+   "id": "HAL",
+   "name": "HAL",
+   "price": 33.15,
+   "chg": -1.06,
+   "vr": 3.1,
+   "value": 8.5
   },
   {
-   "id": "AAPL",
-   "name": "AAPL",
-   "price": 342.28,
-   "chg": 0.08,
-   "vr": 4.9,
-   "value": 434.7
-  },
-  {
-   "id": "KO",
-   "name": "KO",
-   "price": 93.12,
-   "chg": 1.22,
-   "vr": 4.9,
-   "value": 50.2
+   "id": "VOO",
+   "name": "Vanguard S&P 500",
+   "price": 706.02,
+   "chg": 0.63,
+   "vr": 2.7,
+   "value": 136.2
   }
  ],
  "industries": [],

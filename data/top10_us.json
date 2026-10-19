@@ -1,75 +1,37 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-10-16T17:54:32",
+ "generated_at": "2026-10-19T19:44:41",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "MSFT",
-   "name": "MSFT",
+   "id": "OXY",
+   "name": "OXY",
    "category": "個股-",
    "is_etf": false,
-   "score": 94.0,
-   "price": 527.2333984375,
-   "position": 94.6,
-   "reason": "多頭排列、RSI 56.2、量增2.19倍、基本面強",
+   "score": 90.6,
+   "price": 62.834999084472656,
+   "position": 79.4,
+   "reason": "多頭排列、RSI 65.2、量增1.78倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 100.0,
+    "rel_strength": 66.3,
     "fundamental": 100.0
    },
    "rank": 1
   },
   {
-   "id": "VEEV",
-   "name": "VEEV",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 94.0,
-   "price": 307.7200012207031,
-   "position": 98.0,
-   "reason": "多頭排列、RSI 68.6、量增1.79倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "NOW",
-   "name": "NOW",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 92.0,
-   "price": 140.89999389648438,
-   "position": 68.4,
-   "reason": "多頭排列、RSI 54.1、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
-   },
-   "rank": 3
-  },
-  {
-   "id": "VLO",
-   "name": "VLO",
+   "id": "PSX",
+   "name": "PSX",
    "category": "個股-",
    "is_etf": false,
    "score": 89.5,
-   "price": 446.885009765625,
-   "position": 96.2,
-   "reason": "多頭排列、RSI 67.1、基本面強",
+   "price": 291.9949951171875,
+   "position": 97.0,
+   "reason": "多頭排列、RSI 69.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -78,81 +40,119 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 4
+   "rank": 2
   },
   {
-   "id": "CRM",
-   "name": "CRM",
+   "id": "AAPL",
+   "name": "AAPL",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.0,
-   "price": 239.80499267578125,
-   "position": 80.2,
-   "reason": "多頭排列、RSI 55.1、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 75.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "WAT",
-   "name": "WAT",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 87.6,
-   "price": 435.06500244140625,
-   "position": 94.4,
-   "reason": "多頭排列、RSI 54.5、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 75.6,
-    "fundamental": 90.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "KR",
-   "name": "KR",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 86.7,
-   "price": 63.30500030517578,
-   "position": 59.7,
-   "reason": "多頭排列、RSI 62.1、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 77.0,
-    "fundamental": 75.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "PFE",
-   "name": "PFE",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 86.1,
-   "price": 29.524999618530273,
-   "position": 97.9,
-   "reason": "多頭排列、RSI 69.3、量增1.52倍",
+   "score": 88.8,
+   "price": 342.57501220703125,
+   "position": 86.3,
+   "reason": "多頭排列、RSI 60.6、量增1.97倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 91.5,
-    "fundamental": 65.0
+    "rel_strength": 48.3,
+    "fundamental": 100.0
+   },
+   "rank": 3
+  },
+  {
+   "id": "NOW",
+   "name": "NOW",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.5,
+   "price": 145.1699981689453,
+   "position": 71.4,
+   "reason": "多頭排列、RSI 58.7、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "MPC",
+   "name": "MPC",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.0,
+   "price": 476.1600036621094,
+   "position": 96.8,
+   "reason": "多頭排列、RSI 73.3、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 65,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 5
+  },
+  {
+   "id": "MSFT",
+   "name": "MSFT",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 86.0,
+   "price": 534.4299926757812,
+   "position": 96.6,
+   "reason": "多頭排列、RSI 60.0、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "AES",
+   "name": "AES",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 84.6,
+   "price": 14.954999923706055,
+   "position": 47.8,
+   "reason": "多頭排列、RSI 64.2、量增1.75倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 45.8,
+    "fundamental": 90.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "CTSH",
+   "name": "CTSH",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 84.5,
+   "price": 66.68499755859375,
+   "position": 66.6,
+   "reason": "多頭排列、RSI 68.9、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
    },
    "rank": 8
   },
@@ -161,36 +161,36 @@
    "name": "iShares 20年美債",
    "category": "債券型 ETF",
    "is_etf": true,
-   "score": 65.2,
-   "price": 79.93499755859375,
-   "position": 18.6,
-   "reason": "站上20MA、RSI 57.0、基本面強",
+   "score": 65.3,
+   "price": 79.375,
+   "position": 16.8,
+   "reason": "站上20MA、RSI 51.3、基本面強",
    "factors": {
     "trend": 50,
     "momentum": 100,
     "volume": 60,
     "volatility": 40,
-    "rel_strength": 34.3,
-    "fundamental": 81.4
+    "rel_strength": 32.1,
+    "fundamental": 83.2
    },
    "rank": 9
   },
   {
-   "id": "BND",
-   "name": "Vanguard 總體債券",
-   "category": "債券型 ETF",
+   "id": "SCHD",
+   "name": "Schwab 高股息",
+   "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 64.8,
-   "price": 70.7750015258789,
-   "position": 22.9,
-   "reason": "站上20MA、RSI 55.3、基本面強",
+   "score": 62.7,
+   "price": 34.28499984741211,
+   "position": 69.0,
+   "reason": "站上20MA、RSI 65.6、量增1.61倍",
    "factors": {
     "trend": 50,
     "momentum": 100,
-    "volume": 60,
+    "volume": 100,
     "volatility": 40,
-    "rel_strength": 38.7,
-    "fundamental": 77.1
+    "rel_strength": 50.4,
+    "fundamental": 31.0
    },
    "rank": 10
   }
