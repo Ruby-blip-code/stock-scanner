@@ -1,65 +1,103 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-10-19T19:44:41",
+ "generated_at": "2026-10-20T18:24:29",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
-  {
-   "id": "OXY",
-   "name": "OXY",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 90.6,
-   "price": 62.834999084472656,
-   "position": 79.4,
-   "reason": "多頭排列、RSI 65.2、量增1.78倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 66.3,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
   {
    "id": "PSX",
    "name": "PSX",
    "category": "個股-",
    "is_etf": false,
-   "score": 89.5,
-   "price": 291.9949951171875,
-   "position": 97.0,
-   "reason": "多頭排列、RSI 69.3、基本面強",
+   "score": 94.0,
+   "price": 291.1700134277344,
+   "position": 96.0,
+   "reason": "多頭排列、RSI 67.9、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 30,
+    "volume": 60,
     "volatility": 100,
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
+   "rank": 1
+  },
+  {
+   "id": "WAT",
+   "name": "WAT",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 89.1,
+   "price": 447.0,
+   "position": 99.2,
+   "reason": "多頭排列、RSI 61.1、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 91.0,
+    "fundamental": 90.0
+   },
    "rank": 2
   },
   {
-   "id": "AAPL",
-   "name": "AAPL",
+   "id": "CRM",
+   "name": "CRM",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.8,
-   "price": 342.57501220703125,
-   "position": 86.3,
-   "reason": "多頭排列、RSI 60.6、量增1.97倍、基本面強",
+   "score": 89.0,
+   "price": 241.82000732421875,
+   "position": 81.4,
+   "reason": "多頭排列、RSI 56.5、量增1.65倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 48.3,
-    "fundamental": 100.0
+    "rel_strength": 100.0,
+    "fundamental": 75.0
    },
    "rank": 3
+  },
+  {
+   "id": "TMO",
+   "name": "TMO",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 88.8,
+   "price": 689.4500122070312,
+   "position": 96.2,
+   "reason": "多頭排列、RSI 61.9、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 98.2,
+    "fundamental": 75.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "HCA",
+   "name": "HCA",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 87.8,
+   "price": 464.010009765625,
+   "position": 49.6,
+   "reason": "多頭排列、RSI 64.4、量增1.6倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 88.2,
+    "fundamental": 75.0
+   },
+   "rank": 5
   },
   {
    "id": "NOW",
@@ -67,9 +105,9 @@
    "category": "個股-",
    "is_etf": false,
    "score": 87.5,
-   "price": 145.1699981689453,
-   "position": 71.4,
-   "reason": "多頭排列、RSI 58.7、基本面強",
+   "price": 149.58999633789062,
+   "position": 74.7,
+   "reason": "多頭排列、RSI 62.8、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -77,79 +115,41 @@
     "volatility": 100,
     "rel_strength": 100.0,
     "fundamental": 90.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "MPC",
-   "name": "MPC",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 87.0,
-   "price": 476.1600036621094,
-   "position": 96.8,
-   "reason": "多頭排列、RSI 73.3、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 65,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "MSFT",
-   "name": "MSFT",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 86.0,
-   "price": 534.4299926757812,
-   "position": 96.6,
-   "reason": "多頭排列、RSI 60.0、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
    },
    "rank": 6
   },
   {
-   "id": "AES",
-   "name": "AES",
+   "id": "WST",
+   "name": "WST",
    "category": "個股-",
    "is_etf": false,
-   "score": 84.6,
-   "price": 14.954999923706055,
-   "position": 47.8,
-   "reason": "多頭排列、RSI 64.2、量增1.75倍、基本面強",
+   "score": 87.3,
+   "price": 388.2550048828125,
+   "position": 96.8,
+   "reason": "多頭排列、RSI 68.2、量增1.62倍、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
+    "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 45.8,
-    "fundamental": 90.0
+    "rel_strength": 83.2,
+    "fundamental": 75.0
    },
    "rank": 7
   },
   {
-   "id": "CTSH",
-   "name": "CTSH",
+   "id": "A",
+   "name": "A",
    "category": "個股-",
    "is_etf": false,
-   "score": 84.5,
-   "price": 66.68499755859375,
-   "position": 66.6,
-   "reason": "多頭排列、RSI 68.9、基本面強",
+   "score": 87.0,
+   "price": 174.13999938964844,
+   "position": 97.5,
+   "reason": "多頭排列、RSI 61.9、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 100,
-    "volume": 30,
+    "momentum": 90,
+    "volume": 60,
     "volatility": 100,
     "rel_strength": 100.0,
     "fundamental": 75.0
@@ -157,40 +157,40 @@
    "rank": 8
   },
   {
-   "id": "TLT",
-   "name": "iShares 20年美債",
-   "category": "債券型 ETF",
-   "is_etf": true,
-   "score": 65.3,
-   "price": 79.375,
-   "position": 16.8,
-   "reason": "站上20MA、RSI 51.3、基本面強",
-   "factors": {
-    "trend": 50,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 32.1,
-    "fundamental": 83.2
-   },
-   "rank": 9
-  },
-  {
    "id": "SCHD",
    "name": "Schwab 高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 62.7,
-   "price": 34.28499984741211,
-   "position": 69.0,
-   "reason": "站上20MA、RSI 65.6、量增1.61倍",
+   "score": 62.2,
+   "price": 34.63010025024414,
+   "position": 72.2,
+   "reason": "站上20MA、RSI 69.2、量增1.51倍",
    "factors": {
     "trend": 50,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 50.4,
-    "fundamental": 31.0
+    "rel_strength": 51.0,
+    "fundamental": 27.8
+   },
+   "rank": 9
+  },
+  {
+   "id": "TLT",
+   "name": "iShares 20年美債",
+   "category": "債券型 ETF",
+   "is_etf": true,
+   "score": 60.2,
+   "price": 79.99500274658203,
+   "position": 19.6,
+   "reason": "站上20MA、RSI 56.4、基本面強",
+   "factors": {
+    "trend": 50,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 31.6,
+    "fundamental": 80.4
    },
    "rank": 10
   }

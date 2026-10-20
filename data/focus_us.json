@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-10-19T19:44:41",
+ "generated_at": "2026-10-20T18:24:29",
  "gainers": [
   {
-   "id": "SNDK",
-   "name": "SNDK",
-   "price": 1387.51,
-   "chg": 6.79,
-   "vr": 1.5,
-   "value": 163.8
+   "id": "EFX",
+   "name": "EFX",
+   "price": 175.59,
+   "chg": 10.73,
+   "vr": 2.8,
+   "value": 7.6
   },
   {
-   "id": "TWLO",
-   "name": "TWLO",
-   "price": 259.3,
-   "chg": 6.11,
-   "vr": 1.2,
-   "value": 14.4
+   "id": "HAS",
+   "name": "HAS",
+   "price": 108.39,
+   "chg": 10.05,
+   "vr": 4.0,
+   "value": 6.2
   },
   {
-   "id": "WDC",
-   "name": "WDC",
-   "price": 351.81,
-   "chg": 5.97,
-   "vr": 1.1,
-   "value": 33.9
+   "id": "MRNA",
+   "name": "MRNA",
+   "price": 239.42,
+   "chg": 5.52,
+   "vr": 0.8,
+   "value": 27.7
   },
   {
-   "id": "DDOG",
-   "name": "DDOG",
-   "price": 261.23,
-   "chg": 5.72,
-   "vr": 0.7,
-   "value": 5.2
+   "id": "IT",
+   "name": "IT",
+   "price": 219.12,
+   "chg": 5.49,
+   "vr": 1.3,
+   "value": 1.8
   },
   {
-   "id": "AMZN",
-   "name": "AMZN",
-   "price": 263.08,
-   "chg": 5.23,
-   "vr": 5.4,
-   "value": 490.5
+   "id": "MMM",
+   "name": "MMM",
+   "price": 170.85,
+   "chg": 5.46,
+   "vr": 2.7,
+   "value": 10.0
   }
  ],
  "losers": [
   {
-   "id": "NRG",
-   "name": "NRG",
-   "price": 99.16,
-   "chg": -4.42,
-   "vr": 1.2,
-   "value": 3.7
+   "id": "GM",
+   "name": "GM",
+   "price": 75.82,
+   "chg": -8.37,
+   "vr": 2.9,
+   "value": 11.2
   },
   {
-   "id": "MOS",
-   "name": "MOS",
-   "price": 18.01,
-   "chg": -4.28,
-   "vr": 2.0,
-   "value": 3.1
+   "id": "DVA",
+   "name": "DVA",
+   "price": 174.62,
+   "chg": -6.62,
+   "vr": 3.7,
+   "value": 2.5
   },
   {
-   "id": "AMP",
-   "name": "AMP",
-   "price": 481.37,
-   "chg": -3.88,
-   "vr": 2.4,
-   "value": 6.7
+   "id": "HWM",
+   "name": "HWM",
+   "price": 208.04,
+   "chg": -5.45,
+   "vr": 1.6,
+   "value": 6.3
   },
   {
-   "id": "ES",
-   "name": "ES",
-   "price": 64.46,
-   "chg": -3.58,
-   "vr": 1.0,
-   "value": 1.7
+   "id": "FIX",
+   "name": "FIX",
+   "price": 1392.44,
+   "chg": -4.89,
+   "vr": 1.5,
+   "value": 5.5
   },
   {
-   "id": "DOC",
-   "name": "DOC",
-   "price": 18.38,
-   "chg": -3.19,
-   "vr": 0.7,
-   "value": 0.7
+   "id": "PWR",
+   "name": "PWR",
+   "price": 595.29,
+   "chg": -3.74,
+   "vr": 2.1,
+   "value": 8.6
   }
  ],
  "volume": [
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 720.63,
-   "chg": 1.53,
-   "vr": 16.9,
-   "value": 4195.6
+   "price": 719.09,
+   "chg": 0.1,
+   "vr": 14.5,
+   "value": 2771.6
   },
   {
-   "id": "AMZN",
-   "name": "AMZN",
-   "price": 263.08,
-   "chg": 5.23,
-   "vr": 5.4,
-   "value": 490.5
+   "id": "HLT",
+   "name": "HLT",
+   "price": 357.83,
+   "chg": 3.41,
+   "vr": 4.6,
+   "value": 17.9
   },
   {
    "id": "NVDA",
    "name": "NVDA",
-   "price": 217.9,
-   "chg": 1.76,
-   "vr": 4.5,
-   "value": 973.9
+   "price": 217.03,
+   "chg": -0.03,
+   "vr": 4.4,
+   "value": 752.2
   },
   {
-   "id": "HAL",
-   "name": "HAL",
-   "price": 33.15,
-   "chg": -1.06,
-   "vr": 3.1,
-   "value": 8.5
+   "id": "HAS",
+   "name": "HAS",
+   "price": 108.39,
+   "chg": 10.05,
+   "vr": 4.0,
+   "value": 6.2
   },
   {
-   "id": "VOO",
-   "name": "Vanguard S&P 500",
-   "price": 706.02,
-   "chg": 0.63,
-   "vr": 2.7,
-   "value": 136.2
+   "id": "TSLA",
+   "name": "TSLA",
+   "price": 374.97,
+   "chg": 1.88,
+   "vr": 3.9,
+   "value": 379.6
   }
  ],
  "industries": [],
