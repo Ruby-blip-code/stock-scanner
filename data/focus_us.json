@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-10-22T18:25:59",
+ "generated_at": "2026-10-23T18:12:11",
  "gainers": [
   {
-   "id": "ROP",
-   "name": "ROP",
-   "price": 436.8,
-   "chg": 9.87,
-   "vr": 2.0,
-   "value": 4.8
+   "id": "CCI",
+   "name": "CCI",
+   "price": 86.74,
+   "chg": 10.03,
+   "vr": 3.3,
+   "value": 10.2
   },
   {
-   "id": "ALLE",
-   "name": "ALLE",
-   "price": 174.47,
-   "chg": 9.73,
-   "vr": 2.3,
-   "value": 3.0
+   "id": "SLB",
+   "name": "SLB",
+   "price": 53.19,
+   "chg": 7.34,
+   "vr": 1.4,
+   "value": 6.6
   },
   {
-   "id": "LEN",
-   "name": "LEN",
-   "price": 83.5,
-   "chg": 7.46,
-   "vr": 0.9,
-   "value": 3.3
-  },
-  {
-   "id": "EFX",
-   "name": "EFX",
-   "price": 188.1,
-   "chg": 7.14,
-   "vr": 1.0,
-   "value": 3.2
-  },
-  {
-   "id": "CSGP",
-   "name": "CSGP",
-   "price": 35.23,
-   "chg": 7.08,
+   "id": "PANW",
+   "name": "PANW",
+   "price": 379.86,
+   "chg": 7.03,
    "vr": 1.1,
-   "value": 1.5
+   "value": 15.2
+  },
+  {
+   "id": "CRWD",
+   "name": "CRWD",
+   "price": 254.05,
+   "chg": 6.77,
+   "vr": 1.4,
+   "value": 21.9
+  },
+  {
+   "id": "DDOG",
+   "name": "DDOG",
+   "price": 272.43,
+   "chg": 5.7,
+   "vr": 0.8,
+   "value": 4.6
   }
  ],
  "losers": [
   {
-   "id": "MRNA",
-   "name": "MRNA",
-   "price": 188.62,
-   "chg": -23.27,
-   "vr": 4.0,
-   "value": 102.3
-  },
-  {
-   "id": "COHR",
-   "name": "COHR",
-   "price": 205.78,
-   "chg": -13.37,
-   "vr": 3.1,
-   "value": 33.1
-  },
-  {
-   "id": "LITE",
-   "name": "LITE",
-   "price": 752.38,
-   "chg": -11.56,
-   "vr": 1.3,
-   "value": 34.3
-  },
-  {
-   "id": "LRCX",
-   "name": "LRCX",
-   "price": 231.5,
-   "chg": -11.24,
-   "vr": 2.1,
-   "value": 32.4
-  },
-  {
    "id": "BE",
    "name": "BE",
-   "price": 212.0,
-   "chg": -11.12,
-   "vr": 1.2,
-   "value": 25.9
+   "price": 191.09,
+   "chg": -12.25,
+   "vr": 10.3,
+   "value": 201.3
+  },
+  {
+   "id": "FIX",
+   "name": "FIX",
+   "price": 1166.79,
+   "chg": -8.8,
+   "vr": 3.3,
+   "value": 11.1
+  },
+  {
+   "id": "GL",
+   "name": "GL",
+   "price": 155.72,
+   "chg": -7.54,
+   "vr": 2.8,
+   "value": 1.6
+  },
+  {
+   "id": "T",
+   "name": "T",
+   "price": 21.25,
+   "chg": -6.53,
+   "vr": 1.6,
+   "value": 11.6
+  },
+  {
+   "id": "TMUS",
+   "name": "TMUS",
+   "price": 149.06,
+   "chg": -6.13,
+   "vr": 1.1,
+   "value": 7.1
   }
  ],
  "volume": [
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 705.01,
-   "chg": -2.78,
-   "vr": 11.0,
-   "value": 2051.3
+   "price": 705.78,
+   "chg": 0.19,
+   "vr": 14.8,
+   "value": 2772.6
   },
   {
-   "id": "CRL",
-   "name": "CRL",
-   "price": 345.93,
-   "chg": 0.31,
-   "vr": 7.6,
-   "value": 20.8
-  },
-  {
-   "id": "VST",
-   "name": "VST",
-   "price": 139.98,
-   "chg": -10.35,
-   "vr": 7.5,
-   "value": 58.5
-  },
-  {
-   "id": "IBM",
-   "name": "IBM",
-   "price": 249.69,
-   "chg": -0.7,
-   "vr": 7.0,
-   "value": 72.8
+   "id": "BE",
+   "name": "BE",
+   "price": 191.09,
+   "chg": -12.25,
+   "vr": 10.3,
+   "value": 201.3
   },
   {
    "id": "NVDA",
    "name": "NVDA",
-   "price": 212.75,
-   "chg": -4.15,
-   "vr": 6.9,
-   "value": 1142.3
+   "price": 211.82,
+   "chg": -0.18,
+   "vr": 5.7,
+   "value": 919.1
+  },
+  {
+   "id": "DECK",
+   "name": "DECK",
+   "price": 80.28,
+   "chg": -5.87,
+   "vr": 4.8,
+   "value": 9.0
+  },
+  {
+   "id": "TSLA",
+   "name": "TSLA",
+   "price": 371.57,
+   "chg": -0.8,
+   "vr": 4.5,
+   "value": 447.7
   }
  ],
  "industries": [],
