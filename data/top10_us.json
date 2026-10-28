@@ -1,44 +1,44 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-10-27T19:18:18",
+ "generated_at": "2026-10-28T19:24:47",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "CDNS",
-   "name": "CDNS",
+   "id": "NXPI",
+   "name": "NXPI",
    "category": "個股-",
    "is_etf": false,
-   "score": 93.0,
-   "price": 344.7200012207031,
-   "position": 64.2,
-   "reason": "多頭排列、RSI 58.7、量增1.79倍、基本面強",
+   "score": 96.1,
+   "price": 246.5850067138672,
+   "position": 48.6,
+   "reason": "多頭排列、RSI 57.9、量增1.83倍、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 90,
+    "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 49.6,
+    "rel_strength": 60.6,
     "fundamental": 100.0
    },
    "rank": 1
   },
   {
-   "id": "NOW",
-   "name": "NOW",
+   "id": "DVN",
+   "name": "DVN",
    "category": "個股-",
    "is_etf": false,
-   "score": 92.0,
-   "price": 155.00999450683594,
-   "position": 78.2,
-   "reason": "多頭排列、RSI 63.5、量增1.62倍、基本面強",
+   "score": 93.5,
+   "price": 51.630001068115234,
+   "position": 83.3,
+   "reason": "多頭排列、RSI 61.6、量增1.5倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
+    "rel_strength": 94.9,
+    "fundamental": 100.0
    },
    "rank": 2
   },
@@ -47,111 +47,111 @@
    "name": "HLT",
    "category": "個股-",
    "is_etf": false,
-   "score": 91.7,
-   "price": 343.8900146484375,
-   "position": 68.8,
-   "reason": "多頭排列、RSI 57.6、量增2.43倍、基本面強",
+   "score": 93.0,
+   "price": 349.1300048828125,
+   "position": 75.0,
+   "reason": "多頭排列、RSI 61.3、量增1.67倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 66.9,
+    "rel_strength": 79.8,
     "fundamental": 75.0
    },
    "rank": 3
+  },
+  {
+   "id": "CRWD",
+   "name": "CRWD",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 92.0,
+   "price": 264.6700134277344,
+   "position": 89.1,
+   "reason": "多頭排列、RSI 58.3、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "NOW",
+   "name": "NOW",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 92.0,
+   "price": 149.33999633789062,
+   "position": 74.2,
+   "reason": "多頭排列、RSI 55.5、量增1.95倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 5
   },
   {
    "id": "KO",
    "name": "KO",
    "category": "個股-",
    "is_etf": false,
-   "score": 90.8,
-   "price": 91.52999877929688,
-   "position": 83.8,
-   "reason": "多頭排列、RSI 54.6、量增2.84倍、基本面強",
+   "score": 91.7,
+   "price": 91.92500305175781,
+   "position": 86.5,
+   "reason": "多頭排列、RSI 55.8、量增1.89倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 58.3,
-    "fundamental": 75.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "CBOE",
-   "name": "CBOE",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 90.7,
-   "price": 324.8349914550781,
-   "position": 72.8,
-   "reason": "多頭排列、RSI 61.9、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 66.7,
-    "fundamental": 100.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "CTAS",
-   "name": "CTAS",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 90.7,
-   "price": 214.6199951171875,
-   "position": 93.3,
-   "reason": "多頭排列、RSI 57.2、量增2.62倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 56.9,
+    "rel_strength": 67.1,
     "fundamental": 75.0
    },
    "rank": 6
+  },
+  {
+   "id": "WAT",
+   "name": "WAT",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.0,
+   "price": 477.510009765625,
+   "position": 99.7,
+   "reason": "多頭排列、RSI 72.7、量增1.86倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 65,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 7
   },
   {
    "id": "CVX",
    "name": "CVX",
    "category": "個股-",
    "is_etf": false,
-   "score": 88.7,
-   "price": 228.52999877929688,
-   "position": 90.6,
-   "reason": "多頭排列、RSI 66.6、基本面強",
+   "score": 89.5,
+   "price": 230.55999755859375,
+   "position": 92.3,
+   "reason": "多頭排列、RSI 68.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 30,
     "volatility": 100,
-    "rel_strength": 91.6,
-    "fundamental": 100.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "XOM",
-   "name": "XOM",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 88.1,
-   "price": 180.22000122070312,
-   "position": 84.2,
-   "reason": "多頭排列、RSI 65.3、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 30,
-    "volatility": 100,
-    "rel_strength": 85.7,
+    "rel_strength": 100.0,
     "fundamental": 100.0
    },
    "rank": 8
@@ -161,17 +161,17 @@
    "name": "Vanguard 全美股",
    "category": "市值型 ETF",
    "is_etf": true,
-   "score": 68.4,
-   "price": 378.0690002441406,
-   "position": 61.4,
-   "reason": "多頭排列、RSI 51.7",
+   "score": 74.5,
+   "price": 378.2099914550781,
+   "position": 61.9,
+   "reason": "多頭排列、RSI 51.9、量增1.94倍",
    "factors": {
     "trend": 100,
     "momentum": 90,
-    "volume": 60,
+    "volume": 100,
     "volatility": 40,
-    "rel_strength": 46.7,
-    "fundamental": 38.6
+    "rel_strength": 48.9,
+    "fundamental": 38.1
    },
    "rank": 9
   },
@@ -180,17 +180,17 @@
    "name": "Schwab 高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 62.0,
-   "price": 35.084999084472656,
-   "position": 76.0,
-   "reason": "站上20MA、RSI 68.0、量增1.79倍",
+   "score": 62.7,
+   "price": 35.040000915527344,
+   "position": 74.3,
+   "reason": "站上20MA、RSI 66.8、量增2.89倍",
    "factors": {
     "trend": 50,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 56.7,
-    "fundamental": 24.0
+    "rel_strength": 60.9,
+    "fundamental": 25.7
    },
    "rank": 10
   }

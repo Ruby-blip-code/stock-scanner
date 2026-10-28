@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-10-27T19:18:18",
+ "generated_at": "2026-10-28T19:24:47",
  "gainers": [
   {
-   "id": "PNR",
-   "name": "PNR",
-   "price": 61.48,
-   "chg": 11.34,
-   "vr": 2.4,
-   "value": 3.5
+   "id": "VRT",
+   "name": "VRT",
+   "price": 243.09,
+   "chg": 16.56,
+   "vr": 5.3,
+   "value": 69.0
+  },
+  {
+   "id": "ORCL",
+   "name": "ORCL",
+   "price": 146.18,
+   "chg": 11.99,
+   "vr": 3.2,
+   "value": 119.2
   },
   {
    "id": "FLEX",
    "name": "FLEX",
-   "price": 84.46,
-   "chg": 9.7,
+   "price": 92.86,
+   "chg": 11.4,
+   "vr": 3.5,
+   "value": 15.5
+  },
+  {
+   "id": "LH",
+   "name": "LH",
+   "price": 362.03,
+   "chg": 9.32,
+   "vr": 2.6,
+   "value": 5.6
+  },
+  {
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 1391.73,
+   "chg": 6.66,
    "vr": 1.4,
-   "value": 5.1
-  },
-  {
-   "id": "DELL",
-   "name": "DELL",
-   "price": 503.17,
-   "chg": 7.73,
-   "vr": 0.9,
-   "value": 24.7
-  },
-  {
-   "id": "BE",
-   "name": "BE",
-   "price": 219.11,
-   "chg": 7.45,
-   "vr": 0.9,
-   "value": 28.5
-  },
-  {
-   "id": "WDC",
-   "name": "WDC",
-   "price": 382.07,
-   "chg": 7.28,
-   "vr": 0.7,
-   "value": 25.3
+   "value": 143.1
   }
  ],
  "losers": [
   {
-   "id": "XYL",
-   "name": "XYL",
-   "price": 94.18,
-   "chg": -12.99,
-   "vr": 5.0,
-   "value": 9.3
+   "id": "FFIV",
+   "name": "FFIV",
+   "price": 363.7,
+   "chg": -20.82,
+   "vr": 5.4,
+   "value": 10.5
   },
   {
-   "id": "BA",
-   "name": "BA",
-   "price": 168.76,
-   "chg": -10.38,
-   "vr": 12.4,
-   "value": 142.1
+   "id": "CSGP",
+   "name": "CSGP",
+   "price": 27.2,
+   "chg": -15.01,
+   "vr": 2.7,
+   "value": 3.6
   },
   {
-   "id": "VLO",
-   "name": "VLO",
-   "price": 389.55,
-   "chg": -8.72,
-   "vr": 1.7,
-   "value": 13.8
+   "id": "LII",
+   "name": "LII",
+   "price": 328.92,
+   "chg": -11.59,
+   "vr": 6.6,
+   "value": 11.0
   },
   {
-   "id": "MPC",
-   "name": "MPC",
-   "price": 437.42,
-   "chg": -7.06,
-   "vr": 1.2,
-   "value": 8.8
+   "id": "CHRW",
+   "name": "CHRW",
+   "price": 126.95,
+   "chg": -11.59,
+   "vr": 1.9,
+   "value": 4.7
   },
   {
-   "id": "PSX",
-   "name": "PSX",
-   "price": 269.14,
-   "chg": -6.82,
-   "vr": 1.0,
-   "value": 5.4
+   "id": "SW",
+   "name": "SW",
+   "price": 39.51,
+   "chg": -7.12,
+   "vr": 4.8,
+   "value": 7.5
   }
  ],
  "volume": [
   {
-   "id": "BA",
-   "name": "BA",
-   "price": 168.76,
-   "chg": -10.38,
-   "vr": 12.4,
-   "value": 142.1
+   "id": "BSX",
+   "name": "BSX",
+   "price": 43.06,
+   "chg": -4.43,
+   "vr": 8.1,
+   "value": 47.5
   },
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 721.85,
-   "chg": 1.36,
-   "vr": 9.2,
-   "value": 2150.3
+   "price": 722.32,
+   "chg": 0.15,
+   "vr": 7.3,
+   "value": 1747.8
   },
   {
-   "id": "TSLA",
-   "name": "TSLA",
-   "price": 407.83,
-   "chg": 4.14,
-   "vr": 6.1,
-   "value": 816.4
+   "id": "FTV",
+   "name": "FTV",
+   "price": 63.94,
+   "chg": 3.77,
+   "vr": 6.8,
+   "value": 9.0
   },
   {
-   "id": "BRO",
-   "name": "BRO",
-   "price": 67.54,
-   "chg": -4.98,
-   "vr": 5.1,
-   "value": 7.4
+   "id": "LII",
+   "name": "LII",
+   "price": 328.92,
+   "chg": -11.59,
+   "vr": 6.6,
+   "value": 11.0
   },
   {
-   "id": "CNC",
-   "name": "CNC",
-   "price": 69.03,
-   "chg": 1.46,
-   "vr": 5.1,
-   "value": 13.3
+   "id": "FFIV",
+   "name": "FFIV",
+   "price": 363.7,
+   "chg": -20.82,
+   "vr": 5.4,
+   "value": 10.5
   }
  ],
  "industries": [],
