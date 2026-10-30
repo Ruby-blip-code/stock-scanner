@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-10-29T19:29:05",
+ "generated_at": "2026-10-30T19:04:39",
  "gainers": [
   {
-   "id": "CVNA",
-   "name": "CVNA",
-   "price": 69.0,
-   "chg": 16.86,
+   "id": "FDXF",
+   "name": "FDXF",
+   "price": 127.01,
+   "chg": 15.79,
+   "vr": 2.1,
+   "value": 3.2
+  },
+  {
+   "id": "REGN",
+   "name": "REGN",
+   "price": 917.49,
+   "chg": 12.06,
    "vr": 3.8,
-   "value": 20.6
+   "value": 18.8
   },
   {
-   "id": "GEN",
-   "name": "GEN",
-   "price": 27.84,
-   "chg": 14.33,
-   "vr": 1.0,
-   "value": 2.1
+   "id": "GPN",
+   "name": "GPN",
+   "price": 94.99,
+   "chg": 10.81,
+   "vr": 14.9,
+   "value": 23.4
   },
   {
-   "id": "NCLH",
-   "name": "NCLH",
-   "price": 18.34,
-   "chg": 14.23,
-   "vr": 3.9,
-   "value": 13.0
+   "id": "GDDY",
+   "name": "GDDY",
+   "price": 115.22,
+   "chg": 8.81,
+   "vr": 2.2,
+   "value": 3.5
   },
   {
-   "id": "HII",
-   "name": "HII",
-   "price": 316.77,
-   "chg": 13.43,
-   "vr": 4.7,
-   "value": 7.3
-  },
-  {
-   "id": "TXT",
-   "name": "TXT",
-   "price": 87.32,
-   "chg": 11.5,
-   "vr": 3.7,
-   "value": 4.8
+   "id": "VLTO",
+   "name": "VLTO",
+   "price": 113.07,
+   "chg": 8.66,
+   "vr": 2.8,
+   "value": 4.6
   }
  ],
  "losers": [
   {
-   "id": "NOW",
-   "name": "NOW",
-   "price": 109.35,
-   "chg": -27.16,
-   "vr": 10.8,
-   "value": 135.8
-  },
-  {
-   "id": "FTNT",
-   "name": "FTNT",
-   "price": 136.27,
-   "chg": -21.72,
-   "vr": 3.8,
-   "value": 18.9
-  },
-  {
-   "id": "MRVL",
-   "name": "MRVL",
-   "price": 215.5,
-   "chg": -14.37,
-   "vr": 2.7,
-   "value": 108.3
-  },
-  {
-   "id": "GOOGL",
-   "name": "GOOGL",
-   "price": 283.08,
-   "chg": -12.87,
-   "vr": 15.5,
-   "value": 1025.3
-  },
-  {
-   "id": "GOOG",
-   "name": "GOOG",
-   "price": 281.28,
-   "chg": -12.62,
-   "vr": 6.7,
-   "value": 281.6
-  }
- ],
- "volume": [
-  {
-   "id": "GOOGL",
-   "name": "GOOGL",
-   "price": 283.08,
-   "chg": -12.87,
-   "vr": 15.5,
-   "value": 1025.3
-  },
-  {
-   "id": "QQQ",
-   "name": "Invesco Nasdaq 100",
-   "price": 713.69,
-   "chg": -1.64,
-   "vr": 12.0,
-   "value": 2868.2
-  },
-  {
-   "id": "NOW",
-   "name": "NOW",
-   "price": 109.35,
-   "chg": -27.16,
-   "vr": 10.8,
-   "value": 135.8
-  },
-  {
-   "id": "GOOG",
-   "name": "GOOG",
-   "price": 281.28,
-   "chg": -12.62,
-   "vr": 6.7,
-   "value": 281.6
+   "id": "INTC",
+   "name": "INTC",
+   "price": 63.47,
+   "chg": -31.07,
+   "vr": 13.8,
+   "value": 733.8
   },
   {
    "id": "RDDT",
    "name": "RDDT",
-   "price": 127.13,
-   "chg": -5.62,
-   "vr": 5.0,
-   "value": 24.7
+   "price": 90.4,
+   "chg": -30.25,
+   "vr": 6.4,
+   "value": 24.2
+  },
+  {
+   "id": "ILMN",
+   "name": "ILMN",
+   "price": 234.76,
+   "chg": -19.07,
+   "vr": 1.9,
+   "value": 8.8
+  },
+  {
+   "id": "TWLO",
+   "name": "TWLO",
+   "price": 202.33,
+   "chg": -16.36,
+   "vr": 1.7,
+   "value": 12.2
+  },
+  {
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 1121.7,
+   "chg": -15.66,
+   "vr": 5.6,
+   "value": 441.1
+  }
+ ],
+ "volume": [
+  {
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "price": 684.93,
+   "chg": -4.25,
+   "vr": 22.6,
+   "value": 4865.9
+  },
+  {
+   "id": "GPN",
+   "name": "GPN",
+   "price": 94.99,
+   "chg": 10.81,
+   "vr": 14.9,
+   "value": 23.4
+  },
+  {
+   "id": "INTC",
+   "name": "INTC",
+   "price": 63.47,
+   "chg": -31.07,
+   "vr": 13.8,
+   "value": 733.8
+  },
+  {
+   "id": "AMZN",
+   "name": "AMZN",
+   "price": 237.92,
+   "chg": -2.41,
+   "vr": 11.7,
+   "value": 904.2
+  },
+  {
+   "id": "GOOGL",
+   "name": "GOOGL",
+   "price": 277.34,
+   "chg": -2.28,
+   "vr": 8.0,
+   "value": 589.8
   }
  ],
  "industries": [],
