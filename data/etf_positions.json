@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T23:00:26",
+ "generated_at": "2026-11-02T12:41:33",
  "etfs": [
   {
    "market": "美股",
@@ -22,8 +22,16 @@
    "id": "00631L",
    "name": "元大台灣50正2",
    "type": "槓桿型(新手避開)",
-   "position": 30.5,
-   "price": 34.16
+   "position": 30.0,
+   "price": 33.83
+  },
+  {
+   "market": "台股",
+   "id": "00891",
+   "name": "中信關鍵半導體",
+   "type": "產業型",
+   "position": 34.7,
+   "price": 33.85
   },
   {
    "market": "美股",
@@ -42,6 +50,14 @@
    "price": 690.49
   },
   {
+   "market": "台股",
+   "id": "00893",
+   "name": "國泰智能電動車",
+   "type": "產業型",
+   "position": 37.7,
+   "price": 43.35
+  },
+  {
    "market": "美股",
    "id": "TLT",
    "name": "iShares 20年美債",
@@ -51,27 +67,11 @@
   },
   {
    "market": "台股",
-   "id": "00891",
-   "name": "中信關鍵半導體",
-   "type": "產業型",
-   "position": 38.5,
-   "price": 34.15
-  },
-  {
-   "market": "台股",
-   "id": "00893",
-   "name": "國泰智能電動車",
-   "type": "產業型",
-   "position": 38.8,
-   "price": 43.47
-  },
-  {
-   "market": "台股",
    "id": "006208",
    "name": "富邦台50",
    "type": "市值型",
-   "position": 40.8,
-   "price": 240.75
+   "position": 38.9,
+   "price": 238.65
   },
   {
    "market": "美股",
@@ -83,27 +83,27 @@
   },
   {
    "market": "台股",
+   "id": "00662",
+   "name": "富邦NASDAQ",
+   "type": "海外市值型",
+   "position": 45.1,
+   "price": 119.95
+  },
+  {
+   "market": "台股",
    "id": "00929",
    "name": "復華台灣科技優息",
    "type": "高股息型",
-   "position": 47.8,
-   "price": 27.67
+   "position": 46.9,
+   "price": 27.6
   },
   {
    "market": "台股",
    "id": "00632R",
    "name": "元大台灣50反1",
    "type": "反向型(新手避開)",
-   "position": 48.7,
-   "price": 10.08
-  },
-  {
-   "market": "台股",
-   "id": "00662",
-   "name": "富邦NASDAQ",
-   "type": "海外市值型",
-   "position": 49.1,
-   "price": 120.85
+   "position": 48.9,
+   "price": 10.11
   },
   {
    "market": "美股",
@@ -126,16 +126,16 @@
    "id": "0050",
    "name": "元大台灣50",
    "type": "市值型",
-   "position": 57.0,
-   "price": 104.95
+   "position": 54.7,
+   "price": 104.1
   },
   {
    "market": "台股",
    "id": "00757",
    "name": "統一FANG+",
    "type": "海外主題型",
-   "position": 58.0,
-   "price": 136.55
+   "position": 56.9,
+   "price": 136.1
   },
   {
    "market": "美股",
@@ -150,24 +150,24 @@
    "id": "0056",
    "name": "元大高股息",
    "type": "高股息型",
-   "position": 71.4,
-   "price": 55.85
+   "position": 70.6,
+   "price": 55.75
   },
   {
    "market": "台股",
    "id": "00878",
    "name": "國泰永續高股息",
    "type": "高股息型",
-   "position": 73.7,
-   "price": 34.81
+   "position": 73.4,
+   "price": 34.8
   },
   {
    "market": "台股",
    "id": "00919",
    "name": "群益台灣精選高息",
    "type": "高股息型",
-   "position": 80.4,
-   "price": 32.59
+   "position": 78.1,
+   "price": 32.48
   },
   {
    "market": "美股",
