@@ -1,7 +1,7 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-10-30T19:04:39",
+ "generated_at": "2026-11-03T20:27:37",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
@@ -10,28 +10,28 @@
    "category": "個股-",
    "is_etf": false,
    "score": 96.7,
-   "price": 460.25,
-   "position": 95.3,
-   "reason": "多頭排列、RSI 58.3、量增1.64倍、基本面強",
+   "price": 462.1199951171875,
+   "position": 95.4,
+   "reason": "多頭排列、RSI 57.7、量增2.82倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 87.3,
+    "rel_strength": 86.8,
     "fundamental": 90.0
    },
    "rank": 1
   },
   {
-   "id": "GDDY",
-   "name": "GDDY",
+   "id": "TYL",
+   "name": "TYL",
    "category": "個股-",
    "is_etf": false,
    "score": 95.0,
-   "price": 115.22000122070312,
-   "position": 80.3,
-   "reason": "多頭排列、RSI 64.3、量增2.24倍、基本面強",
+   "price": 406.70001220703125,
+   "position": 79.1,
+   "reason": "多頭排列、RSI 69.0、量增2.26倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -43,135 +43,135 @@
    "rank": 2
   },
   {
-   "id": "BBY",
-   "name": "BBY",
+   "id": "CBOE",
+   "name": "CBOE",
    "category": "個股-",
    "is_etf": false,
-   "score": 94.9,
-   "price": 94.79000091552734,
-   "position": 90.5,
-   "reason": "多頭排列、RSI 53.2、量增1.56倍、基本面強",
+   "score": 94.0,
+   "price": 342.5899963378906,
+   "position": 86.1,
+   "reason": "多頭排列、RSI 64.2、量增2.05倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
-    "volatility": 100,
-    "rel_strength": 98.7,
-    "fundamental": 75.0
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
    },
    "rank": 3
-  },
-  {
-   "id": "ICE",
-   "name": "ICE",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 93.3,
-   "price": 169.3800048828125,
-   "position": 96.0,
-   "reason": "多頭排列、RSI 66.1、量增2.27倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 83.2,
-    "fundamental": 75.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "A",
-   "name": "A",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 93.0,
-   "price": 174.8350067138672,
-   "position": 93.3,
-   "reason": "多頭排列、RSI 55.0、量增1.97倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 75.0
-   },
-   "rank": 5
   },
   {
    "id": "KO",
    "name": "KO",
    "category": "個股-",
    "is_etf": false,
-   "score": 92.3,
-   "price": 94.31500244140625,
-   "position": 96.1,
-   "reason": "多頭排列、RSI 63.3、量增2.68倍、基本面強",
+   "score": 93.1,
+   "price": 94.91999816894531,
+   "position": 96.2,
+   "reason": "多頭排列、RSI 62.9、量增1.93倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 72.6,
+    "rel_strength": 81.0,
     "fundamental": 75.0
    },
-   "rank": 6
+   "rank": 4
   },
   {
-   "id": "NXPI",
-   "name": "NXPI",
+   "id": "KDP",
+   "name": "KDP",
    "category": "個股-",
    "is_etf": false,
-   "score": 91.6,
-   "price": 255.14500427246094,
-   "position": 52.3,
-   "reason": "多頭排列、RSI 60.3、基本面強",
+   "score": 92.0,
+   "price": 35.595001220703125,
+   "position": 95.8,
+   "reason": "多頭排列、RSI 62.9、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 60,
     "volatility": 100,
-    "rel_strength": 75.9,
-    "fundamental": 100.0
+    "rel_strength": 100.0,
+    "fundamental": 90.0
+   },
+   "rank": 5
+  },
+  {
+   "id": "PFE",
+   "name": "PFE",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.3,
+   "price": 29.9950008392334,
+   "position": 94.6,
+   "reason": "多頭排列、RSI 58.0、量增2.23倍",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 83.4,
+    "fundamental": 65.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "SJM",
+   "name": "SJM",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.1,
+   "price": 128.3699951171875,
+   "position": 89.5,
+   "reason": "多頭排列、RSI 55.4、量增1.63倍",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 80.6,
+    "fundamental": 65.0
    },
    "rank": 7
   },
   {
-   "id": "CBOE",
-   "name": "CBOE",
+   "id": "MO",
+   "name": "MO",
    "category": "個股-",
    "is_etf": false,
-   "score": 90.3,
-   "price": 338.239990234375,
-   "position": 83.0,
-   "reason": "多頭排列、RSI 64.8、量增3.69倍、基本面強",
+   "score": 89.5,
+   "price": 76.71499633789062,
+   "position": 90.7,
+   "reason": "多頭排列、RSI 63.7、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 40,
+    "volume": 30,
     "volatility": 100,
-    "rel_strength": 92.7,
+    "rel_strength": 100.0,
     "fundamental": 100.0
    },
    "rank": 8
   },
   {
-   "id": "TLT",
-   "name": "iShares 20年美債",
-   "category": "債券型 ETF",
+   "id": "SCHD",
+   "name": "Schwab 高股息",
+   "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 63.4,
-   "price": 81.63500213623047,
-   "position": 35.1,
-   "reason": "站上20MA、RSI 62.4",
+   "score": 68.9,
+   "price": 35.525001525878906,
+   "position": 79.5,
+   "reason": "多頭排列、RSI 66.8",
    "factors": {
-    "trend": 50,
+    "trend": 100,
     "momentum": 100,
     "volume": 60,
     "volatility": 40,
-    "rel_strength": 48.7,
-    "fundamental": 64.9
+    "rel_strength": 68.0,
+    "fundamental": 20.5
    },
    "rank": 9
   },
@@ -180,17 +180,17 @@
    "name": "Vanguard 總體債券",
    "category": "債券型 ETF",
    "is_etf": true,
-   "score": 58.9,
-   "price": 71.51000213623047,
-   "position": 34.7,
-   "reason": "站上20MA、RSI 65.4",
+   "score": 65.3,
+   "price": 71.22750091552734,
+   "position": 28.2,
+   "reason": "站上20MA、RSI 56.7、基本面強",
    "factors": {
     "trend": 50,
     "momentum": 100,
-    "volume": 30,
+    "volume": 60,
     "volatility": 40,
-    "rel_strength": 48.6,
-    "fundamental": 65.3
+    "rel_strength": 54.7,
+    "fundamental": 71.8
    },
    "rank": 10
   }
