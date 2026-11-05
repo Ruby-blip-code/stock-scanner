@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-11-04T20:42:41",
+ "generated_at": "2026-11-05T20:58:28",
  "gainers": [
   {
-   "id": "MOS",
-   "name": "MOS",
-   "price": 21.42,
-   "chg": 16.26,
+   "id": "APP",
+   "name": "APP",
+   "price": 356.19,
+   "chg": 31.07,
+   "vr": 7.1,
+   "value": 109.3
+  },
+  {
+   "id": "TPR",
+   "name": "TPR",
+   "price": 134.58,
+   "chg": 7.4,
+   "vr": 2.2,
+   "value": 7.4
+  },
+  {
+   "id": "CPAY",
+   "name": "CPAY",
+   "price": 449.29,
+   "chg": 7.33,
+   "vr": 10.3,
+   "value": 21.3
+  },
+  {
+   "id": "VRSK",
+   "name": "VRSK",
+   "price": 212.1,
+   "chg": 7.2,
    "vr": 1.6,
-   "value": 3.6
+   "value": 4.4
   },
   {
-   "id": "XYZ",
-   "name": "XYZ",
-   "price": 87.83,
-   "chg": 15.57,
-   "vr": 3.3,
-   "value": 14.3
-  },
-  {
-   "id": "CDW",
-   "name": "CDW",
-   "price": 171.18,
-   "chg": 14.3,
-   "vr": 1.4,
-   "value": 4.0
-  },
-  {
-   "id": "ZBH",
-   "name": "ZBH",
-   "price": 110.24,
-   "chg": 13.58,
-   "vr": 2.0,
-   "value": 4.6
-  },
-  {
-   "id": "CNC",
-   "name": "CNC",
-   "price": 76.33,
-   "chg": 13.11,
-   "vr": 5.5,
-   "value": 20.4
+   "id": "CF",
+   "name": "CF",
+   "price": 118.65,
+   "chg": 6.24,
+   "vr": 3.5,
+   "value": 9.8
   }
  ],
  "losers": [
   {
-   "id": "FIS",
-   "name": "FIS",
-   "price": 29.68,
-   "chg": -23.87,
-   "vr": 4.8,
-   "value": 8.5
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 807.08,
+   "chg": -22.2,
+   "vr": 3.0,
+   "value": 221.0
   },
   {
-   "id": "TRMB",
-   "name": "TRMB",
-   "price": 53.75,
-   "chg": -18.08,
-   "vr": 3.7,
-   "value": 3.6
+   "id": "TQQQ",
+   "name": "ProShares Nasdaq 正3",
+   "price": 50.4,
+   "chg": -19.02,
+   "vr": 9.9,
+   "value": 329.3
   },
   {
-   "id": "FIX",
-   "name": "FIX",
-   "price": 1083.01,
-   "chg": -15.73,
-   "vr": 4.7,
-   "value": 29.9
+   "id": "LITE",
+   "name": "LITE",
+   "price": 508.88,
+   "chg": -18.81,
+   "vr": 1.4,
+   "value": 45.6
   },
   {
-   "id": "TPL",
-   "name": "TPL",
-   "price": 281.98,
-   "chg": -15.07,
-   "vr": 6.1,
-   "value": 5.2
+   "id": "MU",
+   "name": "MU",
+   "price": 655.01,
+   "chg": -17.63,
+   "vr": 6.6,
+   "value": 1156.1
   },
   {
-   "id": "DDOG",
-   "name": "DDOG",
-   "price": 189.69,
-   "chg": -13.98,
-   "vr": 3.2,
-   "value": 20.1
+   "id": "WDC",
+   "name": "WDC",
+   "price": 267.06,
+   "chg": -17.53,
+   "vr": 1.8,
+   "value": 41.7
   }
  ],
  "volume": [
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 691.94,
-   "chg": 0.97,
-   "vr": 14.9,
-   "value": 4234.2
-  },
-  {
-   "id": "SWK",
-   "name": "SWK",
-   "price": 117.42,
-   "chg": 12.23,
-   "vr": 9.4,
-   "value": 16.9
-  },
-  {
-   "id": "AAPL",
-   "name": "AAPL",
-   "price": 351.68,
-   "chg": 5.96,
-   "vr": 7.1,
-   "value": 1090.2
-  },
-  {
-   "id": "TSLA",
-   "name": "TSLA",
-   "price": 383.74,
-   "chg": -3.7,
-   "vr": 7.1,
-   "value": 991.5
+   "price": 648.03,
+   "chg": -6.35,
+   "vr": 29.7,
+   "value": 8301.7
   },
   {
    "id": "VOO",
    "name": "Vanguard S&P 500",
-   "price": 705.57,
-   "chg": 1.74,
-   "vr": 7.0,
-   "value": 282.4
+   "price": 675.14,
+   "chg": -4.21,
+   "vr": 21.8,
+   "value": 856.3
+  },
+  {
+   "id": "NVDA",
+   "name": "NVDA",
+   "price": 181.97,
+   "chg": -9.07,
+   "vr": 11.2,
+   "value": 2100.4
+  },
+  {
+   "id": "CPAY",
+   "name": "CPAY",
+   "price": 449.29,
+   "chg": 7.33,
+   "vr": 10.3,
+   "value": 21.3
+  },
+  {
+   "id": "TQQQ",
+   "name": "ProShares Nasdaq 正3",
+   "price": 50.4,
+   "chg": -19.02,
+   "vr": 9.9,
+   "value": 329.3
   }
  ],
  "industries": [],
