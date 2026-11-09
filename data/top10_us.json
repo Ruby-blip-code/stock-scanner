@@ -1,158 +1,158 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-11-06T20:18:51",
+ "generated_at": "2026-11-09T13:06:08",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
-  {
-   "id": "HUM",
-   "name": "HUM",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 97.3,
-   "price": 431.2250061035156,
-   "position": 87.4,
-   "reason": "多頭排列、RSI 60.4、量增2.04倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 92.8,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
-  {
-   "id": "J",
-   "name": "J",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 95.1,
-   "price": 148.82000732421875,
-   "position": 86.4,
-   "reason": "多頭排列、RSI 52.0、量增1.77倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 71.3,
-    "fundamental": 90.0
-   },
-   "rank": 2
-  },
   {
    "id": "CBOE",
    "name": "CBOE",
    "category": "個股-",
    "is_etf": false,
-   "score": 94.0,
-   "price": 354.0849914550781,
-   "position": 92.4,
-   "reason": "多頭排列、RSI 68.4、基本面強",
+   "score": 100.0,
+   "price": 353.0199890136719,
+   "position": 90.9,
+   "reason": "多頭排列、RSI 67.9、量增2.89倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 60,
+    "volume": 100,
     "volatility": 100,
     "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 1
+  },
+  {
+   "id": "AJG",
+   "name": "AJG",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 99.4,
+   "price": 281.6000061035156,
+   "position": 96.8,
+   "reason": "多頭排列、RSI 65.1、量增2.73倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 94.0,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "FAST",
+   "name": "FAST",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 97.4,
+   "price": 52.9900016784668,
+   "position": 95.4,
+   "reason": "多頭排列、RSI 60.2、量增2.31倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 74.0,
     "fundamental": 100.0
    },
    "rank": 3
   },
   {
-   "id": "BR",
-   "name": "BR",
+   "id": "WELL",
+   "name": "WELL",
    "category": "個股-",
    "is_etf": false,
-   "score": 93.9,
-   "price": 189.6649932861328,
-   "position": 76.6,
-   "reason": "多頭排列、RSI 66.2、量增1.74倍、基本面強",
+   "score": 97.3,
+   "price": 245.07000732421875,
+   "position": 69.5,
+   "reason": "多頭排列、RSI 61.2、量增2.71倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 89.1,
-    "fundamental": 75.0
+    "rel_strength": 73.2,
+    "fundamental": 100.0
    },
    "rank": 4
   },
   {
-   "id": "KO",
-   "name": "KO",
+   "id": "BLK",
+   "name": "BLK",
    "category": "個股-",
    "is_etf": false,
-   "score": 93.8,
-   "price": 95.91999816894531,
-   "position": 97.8,
-   "reason": "多頭排列、RSI 65.2、量增2.03倍、基本面強",
+   "score": 96.5,
+   "price": 1177.7900390625,
+   "position": 95.1,
+   "reason": "多頭排列、RSI 58.2、量增2.39倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 88.1,
-    "fundamental": 75.0
+    "rel_strength": 65.2,
+    "fundamental": 100.0
    },
    "rank": 5
   },
   {
-   "id": "LLY",
-   "name": "LLY",
+   "id": "D",
+   "name": "D",
    "category": "個股-",
    "is_etf": false,
-   "score": 93.4,
-   "price": 1359.5899658203125,
-   "position": 86.4,
-   "reason": "多頭排列、RSI 62.3、量增1.94倍、基本面強",
+   "score": 96.5,
+   "price": 68.6050033569336,
+   "position": 75.3,
+   "reason": "多頭排列、RSI 64.9、量增2.88倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
-    "volatility": 40,
-    "rel_strength": 93.7,
+    "volatility": 100,
+    "rel_strength": 64.9,
     "fundamental": 100.0
    },
    "rank": 6
   },
   {
-   "id": "CB",
-   "name": "CB",
+   "id": "OMC",
+   "name": "OMC",
    "category": "個股-",
    "is_etf": false,
-   "score": 92.8,
-   "price": 365.5888977050781,
-   "position": 81.5,
-   "reason": "多頭排列、RSI 59.5、量增1.59倍、基本面強",
+   "score": 96.2,
+   "price": 86.37000274658203,
+   "position": 91.3,
+   "reason": "多頭排列、RSI 64.7、量增2.62倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 78.2,
-    "fundamental": 75.0
+    "rel_strength": 62.1,
+    "fundamental": 100.0
    },
    "rank": 7
   },
   {
-   "id": "DUK",
-   "name": "DUK",
+   "id": "TDG",
+   "name": "TDG",
    "category": "個股-",
    "is_etf": false,
-   "score": 92.2,
-   "price": 128.14999389648438,
-   "position": 81.0,
-   "reason": "多頭排列、RSI 63.4、量增1.81倍、基本面強",
+   "score": 95.1,
+   "price": 1197.06005859375,
+   "position": 45.3,
+   "reason": "多頭排列、RSI 60.0、量增2.8倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 71.7,
-    "fundamental": 75.0
+    "rel_strength": 51.1,
+    "fundamental": 100.0
    },
    "rank": 8
   },
@@ -161,17 +161,17 @@
    "name": "iShares 20年美債",
    "category": "債券型 ETF",
    "is_etf": true,
-   "score": 72.1,
-   "price": 81.94830322265625,
-   "position": 37.6,
-   "reason": "多頭排列、RSI 61.5",
+   "score": 73.8,
+   "price": 81.92500305175781,
+   "position": 37.7,
+   "reason": "多頭排列、RSI 61.3、量增4.26倍",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 30,
+    "volume": 40,
     "volatility": 40,
-    "rel_strength": 61.1,
-    "fundamental": 62.4
+    "rel_strength": 63.6,
+    "fundamental": 62.3
    },
    "rank": 9
   },
@@ -180,17 +180,17 @@
    "name": "Schwab 高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 71.0,
-   "price": 35.255001068115234,
-   "position": 70.1,
-   "reason": "多頭排列、RSI 56.8",
+   "score": 66.5,
+   "price": 35.16999816894531,
+   "position": 67.5,
+   "reason": "多頭排列、RSI 55.6、量增5.64倍",
    "factors": {
     "trend": 100,
-    "momentum": 100,
-    "volume": 60,
+    "momentum": 90,
+    "volume": 40,
     "volatility": 40,
-    "rel_strength": 70.2,
-    "fundamental": 29.9
+    "rel_strength": 69.8,
+    "fundamental": 32.5
    },
    "rank": 10
   }
