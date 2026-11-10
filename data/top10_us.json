@@ -1,196 +1,196 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-11-09T13:06:08",
+ "generated_at": "2026-11-10T20:44:55",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
-  {
-   "id": "CBOE",
-   "name": "CBOE",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 100.0,
-   "price": 353.0199890136719,
-   "position": 90.9,
-   "reason": "多頭排列、RSI 67.9、量增2.89倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
-  {
-   "id": "AJG",
-   "name": "AJG",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 99.4,
-   "price": 281.6000061035156,
-   "position": 96.8,
-   "reason": "多頭排列、RSI 65.1、量增2.73倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 94.0,
-    "fundamental": 100.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "FAST",
-   "name": "FAST",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 97.4,
-   "price": 52.9900016784668,
-   "position": 95.4,
-   "reason": "多頭排列、RSI 60.2、量增2.31倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 74.0,
-    "fundamental": 100.0
-   },
-   "rank": 3
-  },
-  {
-   "id": "WELL",
-   "name": "WELL",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 97.3,
-   "price": 245.07000732421875,
-   "position": 69.5,
-   "reason": "多頭排列、RSI 61.2、量增2.71倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 73.2,
-    "fundamental": 100.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "BLK",
-   "name": "BLK",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 96.5,
-   "price": 1177.7900390625,
-   "position": 95.1,
-   "reason": "多頭排列、RSI 58.2、量增2.39倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 65.2,
-    "fundamental": 100.0
-   },
-   "rank": 5
-  },
   {
    "id": "D",
    "name": "D",
    "category": "個股-",
    "is_etf": false,
-   "score": 96.5,
-   "price": 68.6050033569336,
-   "position": 75.3,
-   "reason": "多頭排列、RSI 64.9、量增2.88倍、基本面強",
+   "score": 95.8,
+   "price": 68.24500274658203,
+   "position": 72.2,
+   "reason": "多頭排列、RSI 62.9、量增1.58倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 64.9,
+    "rel_strength": 57.6,
     "fundamental": 100.0
    },
-   "rank": 6
+   "rank": 1
+  },
+  {
+   "id": "ICE",
+   "name": "ICE",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 94.3,
+   "price": 176.22999572753906,
+   "position": 99.7,
+   "reason": "多頭排列、RSI 68.6、量增1.84倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 93.5,
+    "fundamental": 75.0
+   },
+   "rank": 2
   },
   {
    "id": "OMC",
    "name": "OMC",
    "category": "個股-",
    "is_etf": false,
-   "score": 96.2,
-   "price": 86.37000274658203,
-   "position": 91.3,
-   "reason": "多頭排列、RSI 64.7、量增2.62倍、基本面強",
+   "score": 91.0,
+   "price": 89.08499908447266,
+   "position": 99.0,
+   "reason": "多頭排列、RSI 69.5、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 100,
+    "volume": 60,
     "volatility": 100,
-    "rel_strength": 62.1,
+    "rel_strength": 70.3,
     "fundamental": 100.0
    },
-   "rank": 7
+   "rank": 3
   },
   {
    "id": "TDG",
    "name": "TDG",
    "category": "個股-",
    "is_etf": false,
-   "score": 95.1,
-   "price": 1197.06005859375,
-   "position": 45.3,
-   "reason": "多頭排列、RSI 60.0、量增2.8倍、基本面強",
+   "score": 89.6,
+   "price": 1233.7950439453125,
+   "position": 59.3,
+   "reason": "多頭排列、RSI 65.9、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 56.2,
+    "fundamental": 100.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "BBY",
+   "name": "BBY",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 89.0,
+   "price": 104.08999633789062,
+   "position": 97.7,
+   "reason": "多頭排列、RSI 62.5、量增1.65倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
-    "volatility": 100,
-    "rel_strength": 51.1,
-    "fundamental": 100.0
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
    },
-   "rank": 8
+   "rank": 5
   },
   {
-   "id": "TLT",
-   "name": "iShares 20年美債",
-   "category": "債券型 ETF",
-   "is_etf": true,
-   "score": 73.8,
-   "price": 81.92500305175781,
-   "position": 37.7,
-   "reason": "多頭排列、RSI 61.3、量增4.26倍",
+   "id": "PG",
+   "name": "PG",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 89.0,
+   "price": 168.81500244140625,
+   "position": 99.7,
+   "reason": "多頭排列、RSI 69.2、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
-    "volume": 40,
-    "volatility": 40,
-    "rel_strength": 63.6,
-    "fundamental": 62.3
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
    },
-   "rank": 9
+   "rank": 6
+  },
+  {
+   "id": "LYV",
+   "name": "LYV",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 88.9,
+   "price": 178.85000610351562,
+   "position": 72.7,
+   "reason": "多頭排列、RSI 56.9、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 49.4,
+    "fundamental": 100.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "AJG",
+   "name": "AJG",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 88.8,
+   "price": 283.19000244140625,
+   "position": 97.6,
+   "reason": "多頭排列、RSI 65.6、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 93.3,
+    "fundamental": 100.0
+   },
+   "rank": 8
   },
   {
    "id": "SCHD",
    "name": "Schwab 高股息",
    "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 66.5,
-   "price": 35.16999816894531,
-   "position": 67.5,
-   "reason": "多頭排列、RSI 55.6、量增5.64倍",
+   "score": 72.8,
+   "price": 35.80500030517578,
+   "position": 80.9,
+   "reason": "多頭排列、RSI 62.1、量增2.53倍",
    "factors": {
     "trend": 100,
     "momentum": 90,
-    "volume": 40,
+    "volume": 100,
     "volatility": 40,
-    "rel_strength": 69.8,
-    "fundamental": 32.5
+    "rel_strength": 70.1,
+    "fundamental": 19.1
+   },
+   "rank": 9
+  },
+  {
+   "id": "VYM",
+   "name": "Vanguard 高股息",
+   "category": "高股息型 ETF",
+   "is_etf": true,
+   "score": 65.1,
+   "price": 163.30999755859375,
+   "position": 59.6,
+   "reason": "多頭排列、RSI 55.5",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 54.8,
+    "fundamental": 40.4
    },
    "rank": 10
   }

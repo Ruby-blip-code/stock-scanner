@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-11-09T13:06:08",
+ "generated_at": "2026-11-10T20:44:55",
  "gainers": [
   {
-   "id": "QCOM",
-   "name": "QCOM",
-   "price": 165.64,
-   "chg": 0.14,
-   "vr": 5.4,
-   "value": 24.2
+   "id": "CHTR",
+   "name": "CHTR",
+   "price": 134.6,
+   "chg": 11.06,
+   "vr": 1.9,
+   "value": 7.2
   },
   {
-   "id": "DOC",
-   "name": "DOC",
-   "price": 20.28,
-   "chg": 0.12,
-   "vr": 3.3,
-   "value": 0.8
-  },
-  {
-   "id": "INTC",
-   "name": "INTC",
-   "price": 56.34,
-   "chg": 0.11,
-   "vr": 5.3,
-   "value": 86.1
-  },
-  {
-   "id": "AES",
-   "name": "AES",
-   "price": 14.89,
-   "chg": 0.1,
-   "vr": 2.0,
-   "value": 0.6
-  },
-  {
-   "id": "GPC",
-   "name": "GPC",
-   "price": 122.92,
-   "chg": 0.1,
-   "vr": 2.2,
-   "value": 0.6
-  }
- ],
- "losers": [
-  {
-   "id": "HUM",
-   "name": "HUM",
-   "price": 432.97,
-   "chg": -0.18,
-   "vr": 7.9,
-   "value": 9.6
+   "id": "TTWO",
+   "name": "TTWO",
+   "price": 224.27,
+   "chg": 8.13,
+   "vr": 2.3,
+   "value": 15.2
   },
   {
    "id": "AKAM",
    "name": "AKAM",
-   "price": 82.94,
-   "chg": -0.18,
-   "vr": 8.8,
-   "value": 7.9
+   "price": 84.24,
+   "chg": 4.92,
+   "vr": 3.2,
+   "value": 16.6
   },
   {
-   "id": "CIEN",
-   "name": "CIEN",
-   "price": 243.06,
-   "chg": -0.14,
-   "vr": 6.4,
-   "value": 10.3
+   "id": "GPN",
+   "name": "GPN",
+   "price": 102.08,
+   "chg": 4.41,
+   "vr": 0.7,
+   "value": 2.4
   },
   {
-   "id": "KEYS",
-   "name": "KEYS",
-   "price": 271.77,
-   "chg": -0.13,
-   "vr": 5.9,
-   "value": 4.7
+   "id": "TWLO",
+   "name": "TWLO",
+   "price": 214.65,
+   "chg": 3.87,
+   "vr": 0.6,
+   "value": 3.5
+  }
+ ],
+ "losers": [
+  {
+   "id": "SKYD",
+   "name": "SKYD",
+   "price": 8.06,
+   "chg": -7.36,
+   "vr": 3.6,
+   "value": 8.3
   },
   {
-   "id": "AVGO",
-   "name": "AVGO",
-   "price": 293.32,
-   "chg": -0.13,
-   "vr": 5.4,
-   "value": 75.7
+   "id": "MRNA",
+   "name": "MRNA",
+   "price": 251.76,
+   "chg": -6.41,
+   "vr": 0.6,
+   "value": 23.8
+  },
+  {
+   "id": "NVDA",
+   "name": "NVDA",
+   "price": 167.96,
+   "chg": -5.99,
+   "vr": 25.8,
+   "value": 5939.1
+  },
+  {
+   "id": "FSLR",
+   "name": "FSLR",
+   "price": 180.81,
+   "chg": -5.64,
+   "vr": 0.9,
+   "value": 5.2
+  },
+  {
+   "id": "CVNA",
+   "name": "CVNA",
+   "price": 72.25,
+   "chg": -5.26,
+   "vr": 2.3,
+   "value": 19.3
   }
  ],
  "volume": [
   {
-   "id": "AXON",
-   "name": "AXON",
-   "price": 312.77,
-   "chg": -0.07,
-   "vr": 19.5,
-   "value": 15.4
+   "id": "NVDA",
+   "name": "NVDA",
+   "price": 167.96,
+   "chg": -5.99,
+   "vr": 25.8,
+   "value": 5939.1
   },
   {
-   "id": "VOO",
-   "name": "Vanguard S&P 500",
-   "price": 676.03,
-   "chg": 0.01,
-   "vr": 17.6,
-   "value": 164.4
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "price": 673.46,
+   "chg": -0.87,
+   "vr": 6.9,
+   "value": 2360.2
   },
   {
-   "id": "VTI",
-   "name": "Vanguard 全美股",
-   "price": 361.88,
-   "chg": -0.01,
-   "vr": 14.5,
-   "value": 37.3
+   "id": "CLX",
+   "name": "CLX",
+   "price": 108.08,
+   "chg": 2.42,
+   "vr": 5.0,
+   "value": 15.6
   },
   {
-   "id": "MCHP",
-   "name": "MCHP",
-   "price": 58.34,
-   "chg": -0.02,
-   "vr": 13.3,
-   "value": 23.6
+   "id": "FIX",
+   "name": "FIX",
+   "price": 1101.42,
+   "chg": -1.06,
+   "vr": 3.6,
+   "value": 31.2
   },
   {
-   "id": "STX",
-   "name": "STX",
-   "price": 461.23,
-   "chg": 0.05,
-   "vr": 12.8,
-   "value": 71.7
+   "id": "SKYD",
+   "name": "SKYD",
+   "price": 8.06,
+   "chg": -7.36,
+   "vr": 3.6,
+   "value": 8.3
   }
  ],
  "industries": [],
