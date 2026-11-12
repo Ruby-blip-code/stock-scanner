@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-11-11T21:10:11",
+ "generated_at": "2026-11-12T21:23:05",
  "gainers": [
   {
-   "id": "SNDK",
-   "name": "SNDK",
-   "price": 977.9,
-   "chg": 13.71,
-   "vr": 2.4,
-   "value": 261.9
-  },
-  {
-   "id": "BE",
-   "name": "BE",
-   "price": 209.5,
-   "chg": 12.99,
-   "vr": 1.8,
-   "value": 68.4
-  },
-  {
-   "id": "MU",
-   "name": "MU",
-   "price": 812.0,
-   "chg": 11.98,
+   "id": "AMD",
+   "name": "AMD",
+   "price": 585.58,
+   "chg": 5.91,
    "vr": 1.6,
-   "value": 398.7
+   "value": 308.4
   },
   {
-   "id": "DELL",
-   "name": "DELL",
-   "price": 373.74,
-   "chg": 11.77,
-   "vr": 1.1,
-   "value": 31.2
+   "id": "AVGO",
+   "name": "AVGO",
+   "price": 364.38,
+   "chg": 5.55,
+   "vr": 3.9,
+   "value": 368.1
   },
   {
-   "id": "LITE",
-   "name": "LITE",
-   "price": 647.9,
-   "chg": 10.64,
+   "id": "ANET",
+   "name": "ANET",
+   "price": 206.76,
+   "chg": 5.13,
    "vr": 0.9,
-   "value": 38.9
+   "value": 16.8
+  },
+  {
+   "id": "P",
+   "name": "P",
+   "price": 110.08,
+   "chg": 3.36,
+   "vr": 0.5,
+   "value": 1.8
+  },
+  {
+   "id": "VLO",
+   "name": "VLO",
+   "price": 374.97,
+   "chg": 3.1,
+   "vr": 0.7,
+   "value": 7.8
   }
  ],
  "losers": [
   {
-   "id": "ABNB",
-   "name": "ABNB",
-   "price": 181.14,
-   "chg": -3.08,
-   "vr": 1.3,
-   "value": 10.7
+   "id": "GPN",
+   "name": "GPN",
+   "price": 88.18,
+   "chg": -12.03,
+   "vr": 4.3,
+   "value": 13.4
   },
   {
-   "id": "LULU",
-   "name": "LULU",
-   "price": 107.45,
-   "chg": -2.65,
-   "vr": 0.7,
-   "value": 2.7
+   "id": "SMCI",
+   "name": "SMCI",
+   "price": 26.98,
+   "chg": -11.34,
+   "vr": 2.4,
+   "value": 28.3
   },
   {
-   "id": "MCD",
-   "name": "MCD",
-   "price": 274.87,
-   "chg": -2.59,
-   "vr": 1.1,
-   "value": 17.6
+   "id": "KDP",
+   "name": "KDP",
+   "price": 35.42,
+   "chg": -7.41,
+   "vr": 1.8,
+   "value": 11.7
   },
   {
-   "id": "LDOS",
-   "name": "LDOS",
-   "price": 133.8,
-   "chg": -2.51,
-   "vr": 0.8,
-   "value": 1.1
+   "id": "MRNA",
+   "name": "MRNA",
+   "price": 231.38,
+   "chg": -6.96,
+   "vr": 0.4,
+   "value": 14.6
   },
   {
-   "id": "NVR",
-   "name": "NVR",
-   "price": 5886.89,
-   "chg": -2.48,
-   "vr": 0.6,
-   "value": 1.7
+   "id": "FIS",
+   "name": "FIS",
+   "price": 28.36,
+   "chg": -6.12,
+   "vr": 0.9,
+   "value": 2.4
   }
  ],
  "volume": [
   {
    "id": "NVDA",
    "name": "NVDA",
-   "price": 173.85,
-   "chg": 2.94,
-   "vr": 13.6,
-   "value": 3648.9
+   "price": 166.04,
+   "chg": -4.43,
+   "vr": 51.4,
+   "value": 14012.4
   },
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 690.38,
-   "chg": 2.31,
-   "vr": 6.3,
-   "value": 2245.9
+   "price": 688.21,
+   "chg": -0.31,
+   "vr": 6.2,
+   "value": 2173.1
   },
   {
-   "id": "CLX",
-   "name": "CLX",
-   "price": 106.92,
-   "chg": 0.3,
-   "vr": 4.2,
-   "value": 14.5
+   "id": "GPN",
+   "name": "GPN",
+   "price": 88.18,
+   "chg": -12.03,
+   "vr": 4.3,
+   "value": 13.4
   },
   {
-   "id": "MSFT",
-   "name": "MSFT",
-   "price": 521.21,
-   "chg": -2.24,
-   "vr": 2.9,
-   "value": 397.1
+   "id": "AVGO",
+   "name": "AVGO",
+   "price": 364.38,
+   "chg": 5.55,
+   "vr": 3.9,
+   "value": 368.1
   },
   {
-   "id": "SMH",
-   "name": "VanEck 半導體",
-   "price": 507.23,
-   "chg": 4.88,
-   "vr": 2.9,
-   "value": 177.1
+   "id": "SYF",
+   "name": "SYF",
+   "price": 71.67,
+   "chg": -0.49,
+   "vr": 3.2,
+   "value": 10.4
   }
  ],
  "industries": [],
