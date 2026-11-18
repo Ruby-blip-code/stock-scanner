@@ -1,158 +1,158 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-11-18T13:14:23",
+ "generated_at": "2026-11-18T21:45:34",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
-  {
-   "id": "LUV",
-   "name": "LUV",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 99.0,
-   "price": 45.59000015258789,
-   "position": 51.6,
-   "reason": "多頭排列、RSI 57.4、量增2.33倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 90.1,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
-  {
-   "id": "CPAY",
-   "name": "CPAY",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 98.4,
-   "price": 452.3800048828125,
-   "position": 94.0,
-   "reason": "多頭排列、RSI 65.2、量增1.69倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 83.8,
-    "fundamental": 100.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "IDXX",
-   "name": "IDXX",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 95.0,
-   "price": 689.9299926757812,
-   "position": 78.7,
-   "reason": "多頭排列、RSI 66.3、量增2.0倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 75.0
-   },
-   "rank": 3
-  },
   {
    "id": "AAPL",
    "name": "AAPL",
    "category": "個股-",
    "is_etf": false,
    "score": 94.4,
-   "price": 351.8999938964844,
-   "position": 84.7,
-   "reason": "多頭排列、RSI 56.3、量增2.78倍、基本面強",
+   "price": 352.2900085449219,
+   "position": 85.0,
+   "reason": "多頭排列、RSI 56.6、量增2.63倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 93.7,
+    "rel_strength": 94.0,
+    "fundamental": 75.0
+   },
+   "rank": 1
+  },
+  {
+   "id": "CBOE",
+   "name": "CBOE",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 94.0,
+   "price": 359.94000244140625,
+   "position": 89.6,
+   "reason": "多頭排列、RSI 61.1、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "CL",
+   "name": "CL",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 93.2,
+   "price": 98.80500030517578,
+   "position": 91.9,
+   "reason": "多頭排列、RSI 59.8、量增1.66倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 81.6,
+    "fundamental": 75.0
+   },
+   "rank": 3
+  },
+  {
+   "id": "KO",
+   "name": "KO",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 92.9,
+   "price": 98.08499908447266,
+   "position": 96.7,
+   "reason": "多頭排列、RSI 65.3、量增2.08倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 78.8,
     "fundamental": 75.0
    },
    "rank": 4
   },
   {
-   "id": "GWW",
-   "name": "GWW",
+   "id": "WSM",
+   "name": "WSM",
    "category": "個股-",
    "is_etf": false,
-   "score": 94.2,
-   "price": 1467.3499755859375,
-   "position": 85.1,
-   "reason": "多頭排列、RSI 62.9、量增2.88倍、基本面強",
+   "score": 91.7,
+   "price": 259.8699951171875,
+   "position": 91.4,
+   "reason": "多頭排列、RSI 55.6、量增2.83倍、基本面強",
    "factors": {
     "trend": 100,
-    "momentum": 100,
+    "momentum": 90,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 91.9,
+    "rel_strength": 87.2,
     "fundamental": 75.0
    },
    "rank": 5
   },
   {
-   "id": "REGN",
-   "name": "REGN",
+   "id": "RCL",
+   "name": "RCL",
    "category": "個股-",
    "is_etf": false,
-   "score": 93.7,
-   "price": 957.5700073242188,
-   "position": 94.1,
-   "reason": "多頭排列、RSI 68.2、量增2.43倍、基本面強",
+   "score": 91.5,
+   "price": 320.55999755859375,
+   "position": 86.0,
+   "reason": "多頭排列、RSI 56.3、量增1.58倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 85.4,
+    "fundamental": 75.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "LLY",
+   "name": "LLY",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 91.0,
+   "price": 1382.219970703125,
+   "position": 85.7,
+   "reason": "多頭排列、RSI 56.1、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 90,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 90.0,
+    "fundamental": 100.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "WELL",
+   "name": "WELL",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 90.7,
+   "price": 247.25,
+   "position": 72.1,
+   "reason": "多頭排列、RSI 62.5、量增1.77倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 96.8,
+    "rel_strength": 66.8,
     "fundamental": 100.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "ELV",
-   "name": "ELV",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 93.3,
-   "price": 434.0450134277344,
-   "position": 86.7,
-   "reason": "多頭排列、RSI 55.2、量增2.84倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 82.8,
-    "fundamental": 75.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "STE",
-   "name": "STE",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 93.3,
-   "price": 257.3999938964844,
-   "position": 92.1,
-   "reason": "多頭排列、RSI 66.3、量增2.85倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 82.6,
-    "fundamental": 75.0
    },
    "rank": 8
   },
@@ -161,36 +161,36 @@
    "name": "iShares 20年美債",
    "category": "債券型 ETF",
    "is_etf": true,
-   "score": 41.8,
-   "price": 79.56500244140625,
-   "position": 21.3,
-   "reason": "RSI 42.7、量增4.95倍、基本面強",
+   "score": 43.8,
+   "price": 80.22000122070312,
+   "position": 27.6,
+   "reason": "RSI 49.1、基本面強",
    "factors": {
     "trend": 0,
     "momentum": 55,
-    "volume": 40,
+    "volume": 60,
     "volatility": 40,
-    "rel_strength": 50.8,
-    "fundamental": 78.7
+    "rel_strength": 52.8,
+    "fundamental": 72.4
    },
    "rank": 9
   },
   {
-   "id": "BND",
-   "name": "Vanguard 總體債券",
-   "category": "債券型 ETF",
+   "id": "VTI",
+   "name": "Vanguard 全美股",
+   "category": "市值型 ETF",
    "is_etf": true,
-   "score": 41.1,
-   "price": 70.70500183105469,
-   "position": 27.1,
-   "reason": "RSI 45.6、量增10.3倍、基本面強",
+   "score": 40.7,
+   "price": 359.489990234375,
+   "position": 35.2,
+   "reason": "RSI 37.2、量增2.2倍",
    "factors": {
     "trend": 0,
-    "momentum": 55,
-    "volume": 40,
+    "momentum": 20,
+    "volume": 100,
     "volatility": 40,
-    "rel_strength": 55.4,
-    "fundamental": 72.9
+    "rel_strength": 47.8,
+    "fundamental": 64.8
    },
    "rank": 10
   }
