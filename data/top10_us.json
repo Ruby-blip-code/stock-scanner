@@ -1,56 +1,56 @@
 {
  "market": "us",
  "regime": "neutral",
- "generated_at": "2026-11-17T13:39:56",
+ "generated_at": "2026-11-18T13:14:23",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "MET",
-   "name": "MET",
+   "id": "LUV",
+   "name": "LUV",
    "category": "個股-",
    "is_etf": false,
-   "score": 95.3,
-   "price": 101.44999694824219,
-   "position": 85.5,
-   "reason": "多頭排列、RSI 53.8、量增2.66倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 72.9,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
-  {
-   "id": "DAL",
-   "name": "DAL",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 95.1,
-   "price": 86.6050033569336,
-   "position": 64.8,
-   "reason": "多頭排列、RSI 54.6、量增2.56倍、基本面強",
+   "score": 99.0,
+   "price": 45.59000015258789,
+   "position": 51.6,
+   "reason": "多頭排列、RSI 57.4、量增2.33倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 71.0,
-    "fundamental": 90.0
+    "rel_strength": 90.1,
+    "fundamental": 100.0
+   },
+   "rank": 1
+  },
+  {
+   "id": "CPAY",
+   "name": "CPAY",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 98.4,
+   "price": 452.3800048828125,
+   "position": 94.0,
+   "reason": "多頭排列、RSI 65.2、量增1.69倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 83.8,
+    "fundamental": 100.0
    },
    "rank": 2
   },
   {
-   "id": "BBY",
-   "name": "BBY",
+   "id": "IDXX",
+   "name": "IDXX",
    "category": "個股-",
    "is_etf": false,
    "score": 95.0,
-   "price": 103.33000183105469,
-   "position": 94.9,
-   "reason": "多頭排列、RSI 59.5、量增2.16倍、基本面強",
+   "price": 689.9299926757812,
+   "position": 78.7,
+   "reason": "多頭排列、RSI 66.3、量增2.0倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -62,135 +62,135 @@
    "rank": 3
   },
   {
-   "id": "HCA",
-   "name": "HCA",
+   "id": "AAPL",
+   "name": "AAPL",
    "category": "個股-",
    "is_etf": false,
-   "score": 95.0,
-   "price": 511.9800109863281,
-   "position": 79.2,
-   "reason": "多頭排列、RSI 65.7、量增2.8倍、基本面強",
+   "score": 94.4,
+   "price": 351.8999938964844,
+   "position": 84.7,
+   "reason": "多頭排列、RSI 56.3、量增2.78倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 100.0,
+    "rel_strength": 93.7,
     "fundamental": 75.0
    },
    "rank": 4
+  },
+  {
+   "id": "GWW",
+   "name": "GWW",
+   "category": "個股-",
+   "is_etf": false,
+   "score": 94.2,
+   "price": 1467.3499755859375,
+   "position": 85.1,
+   "reason": "多頭排列、RSI 62.9、量增2.88倍、基本面強",
+   "factors": {
+    "trend": 100,
+    "momentum": 100,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 91.9,
+    "fundamental": 75.0
+   },
+   "rank": 5
   },
   {
    "id": "REGN",
    "name": "REGN",
    "category": "個股-",
    "is_etf": false,
-   "score": 93.5,
-   "price": 952.7899780273438,
-   "position": 93.5,
-   "reason": "多頭排列、RSI 67.5、量增2.29倍、基本面強",
+   "score": 93.7,
+   "price": 957.5700073242188,
+   "position": 94.1,
+   "reason": "多頭排列、RSI 68.2、量增2.43倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 95.2,
+    "rel_strength": 96.8,
     "fundamental": 100.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "MAS",
-   "name": "MAS",
-   "category": "個股-",
-   "is_etf": false,
-   "score": 92.8,
-   "price": 84.62999725341797,
-   "position": 94.6,
-   "reason": "多頭排列、RSI 65.1、量增2.39倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 100,
-    "rel_strength": 97.8,
-    "fundamental": 75.0
    },
    "rank": 6
   },
   {
-   "id": "VTR",
-   "name": "VTR",
+   "id": "ELV",
+   "name": "ELV",
    "category": "個股-",
    "is_etf": false,
-   "score": 92.7,
-   "price": 88.90499877929688,
-   "position": 47.8,
-   "reason": "多頭排列、RSI 56.4、量增2.33倍、基本面強",
+   "score": 93.3,
+   "price": 434.0450134277344,
+   "position": 86.7,
+   "reason": "多頭排列、RSI 55.2、量增2.84倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 46.9,
-    "fundamental": 90.0
+    "rel_strength": 82.8,
+    "fundamental": 75.0
    },
    "rank": 7
   },
   {
-   "id": "DTE",
-   "name": "DTE",
+   "id": "STE",
+   "name": "STE",
    "category": "個股-",
    "is_etf": false,
-   "score": 91.8,
-   "price": 139.97000122070312,
-   "position": 52.4,
-   "reason": "多頭排列、RSI 67.7、量增2.23倍、基本面強",
+   "score": 93.3,
+   "price": 257.3999938964844,
+   "position": 92.1,
+   "reason": "多頭排列、RSI 66.3、量增2.85倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
     "volume": 100,
     "volatility": 100,
-    "rel_strength": 68.0,
+    "rel_strength": 82.6,
     "fundamental": 75.0
    },
    "rank": 8
-  },
-  {
-   "id": "SCHD",
-   "name": "Schwab 高股息",
-   "category": "高股息型 ETF",
-   "is_etf": true,
-   "score": 64.0,
-   "price": 35.8650016784668,
-   "position": 77.2,
-   "reason": "多頭排列、RSI 60.0、量增5.1倍",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 40,
-    "volatility": 40,
-    "rel_strength": 64.4,
-    "fundamental": 22.8
-   },
-   "rank": 9
   },
   {
    "id": "TLT",
    "name": "iShares 20年美債",
    "category": "債券型 ETF",
    "is_etf": true,
-   "score": 42.2,
-   "price": 79.37999725341797,
-   "position": 19.7,
-   "reason": "RSI 40.7、量增3.49倍、基本面強",
+   "score": 41.8,
+   "price": 79.56500244140625,
+   "position": 21.3,
+   "reason": "RSI 42.7、量增4.95倍、基本面強",
    "factors": {
     "trend": 0,
     "momentum": 55,
     "volume": 40,
     "volatility": 40,
-    "rel_strength": 51.0,
-    "fundamental": 80.3
+    "rel_strength": 50.8,
+    "fundamental": 78.7
+   },
+   "rank": 9
+  },
+  {
+   "id": "BND",
+   "name": "Vanguard 總體債券",
+   "category": "債券型 ETF",
+   "is_etf": true,
+   "score": 41.1,
+   "price": 70.70500183105469,
+   "position": 27.1,
+   "reason": "RSI 45.6、量增10.3倍、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 55,
+    "volume": 40,
+    "volatility": 40,
+    "rel_strength": 55.4,
+    "fundamental": 72.9
    },
    "rank": 10
   }
