@@ -1,18 +1,18 @@
 {
  "market": "tw",
  "regime": "neutral",
- "generated_at": "2026-11-18T01:42:17",
+ "generated_at": "2026-11-19T01:19:48",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "2453",
-   "name": "凌群",
-   "category": "個股-資訊服務業",
+   "id": "2355",
+   "name": "敬鵬",
+   "category": "個股-電子工業",
    "is_etf": false,
    "score": 94.0,
-   "price": 57.7,
-   "position": 85.9,
-   "reason": "多頭排列、RSI 60.0、量增1.74倍、基本面強",
+   "price": 56.5,
+   "position": 67.9,
+   "reason": "多頭排列、RSI 56.7、量增2.22倍、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 100,
@@ -24,173 +24,173 @@
    "rank": 1
   },
   {
-   "id": "3701",
-   "name": "大眾控",
-   "category": "個股-電子工業",
-   "is_etf": false,
-   "score": 92.0,
-   "price": 58.9,
-   "position": 52.0,
-   "reason": "多頭排列、RSI 52.0、量增1.69倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "2468",
-   "name": "華經",
-   "category": "個股-資訊服務業",
-   "is_etf": false,
-   "score": 92.0,
-   "price": 67.1,
-   "position": 83.7,
-   "reason": "多頭排列、RSI 58.3、量增2.17倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
-   },
-   "rank": 3
-  },
-  {
-   "id": "2323",
-   "name": "中環",
-   "category": "個股-光電業",
-   "is_etf": false,
-   "score": 91.0,
-   "price": 11.7,
-   "position": 66.7,
-   "reason": "多頭排列、RSI 59.9、量增3.6倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 40,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "1416",
-   "name": "廣豐",
-   "category": "個股-其他",
-   "is_etf": false,
-   "score": 83.0,
-   "price": 15.9,
-   "position": 80.3,
-   "reason": "多頭排列、RSI 52.3、量增4.45倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 100,
-    "volume": 40,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 90.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "2254",
-   "name": "巨鎧精密-創",
-   "category": "個股-創新版股票",
-   "is_etf": false,
-   "score": 78.0,
-   "price": 110.0,
-   "position": 95.8,
-   "reason": "多頭排列、RSI 76.7",
-   "factors": {
-    "trend": 100,
-    "momentum": 55,
-    "volume": 60,
-    "volatility": 100,
-    "rel_strength": 100.0,
-    "fundamental": 65.0
-   },
-   "rank": 6
-  },
-  {
    "id": "6108",
    "name": "競國",
-   "category": "個股-電子工業",
+   "category": "個股-電子零組件業",
    "is_etf": false,
    "score": 76.5,
-   "price": 42.1,
-   "position": 99.7,
-   "reason": "多頭排列、RSI 74.8、基本面強",
+   "price": 41.0,
+   "position": 98.2,
+   "reason": "多頭排列、RSI 72.3、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 65,
     "volume": 30,
     "volatility": 40,
     "rel_strength": 100.0,
+    "fundamental": 100.0
+   },
+   "rank": 2
+  },
+  {
+   "id": "3029",
+   "name": "零壹",
+   "category": "個股-電子工業",
+   "is_etf": false,
+   "score": 55.9,
+   "price": 120.0,
+   "position": 81.2,
+   "reason": "RSI 47.5、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 65,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 98.7,
+    "fundamental": 100.0
+   },
+   "rank": 3
+  },
+  {
+   "id": "4904",
+   "name": "遠傳",
+   "category": "個股-通信網路業",
+   "is_etf": false,
+   "score": 51.3,
+   "price": 110.5,
+   "position": 85.8,
+   "reason": "RSI 52.9、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 90,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 98.1,
+    "fundamental": 75.0
+   },
+   "rank": 4
+  },
+  {
+   "id": "1802",
+   "name": "台玻",
+   "category": "個股-玻璃陶瓷",
+   "is_etf": false,
+   "score": 48.7,
+   "price": 60.8,
+   "position": 24.9,
+   "reason": "RSI 43.9、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 55,
+    "volume": 30,
+    "volatility": 40,
+    "rel_strength": 92.2,
+    "fundamental": 100.0
+   },
+   "rank": 5
+  },
+  {
+   "id": "1402",
+   "name": "遠東新",
+   "category": "個股-紡織纖維",
+   "is_etf": false,
+   "score": 47.5,
+   "price": 27.35,
+   "position": 50.0,
+   "reason": "RSI 41.9、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 55,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 70.2,
+    "fundamental": 75.0
+   },
+   "rank": 6
+  },
+  {
+   "id": "3037",
+   "name": "欣興",
+   "category": "個股-電子工業",
+   "is_etf": false,
+   "score": 37.0,
+   "price": 611.0,
+   "position": 16.0,
+   "reason": "RSI 26.3、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 20,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 0.0,
     "fundamental": 100.0
    },
    "rank": 7
   },
   {
-   "id": "2466",
-   "name": "冠西電",
-   "category": "個股-光電業",
+   "id": "2605",
+   "name": "新興",
+   "category": "個股-航運業",
    "is_etf": false,
-   "score": 76.5,
-   "price": 439.5,
-   "position": 99.2,
-   "reason": "多頭排列、RSI 71.8、基本面強",
+   "score": 36.8,
+   "price": 31.9,
+   "position": 19.7,
+   "reason": "RSI 39.0、基本面強",
    "factors": {
-    "trend": 100,
-    "momentum": 65,
+    "trend": 0,
+    "momentum": 20,
     "volume": 30,
     "volatility": 40,
-    "rel_strength": 100.0,
+    "rel_strength": 43.0,
     "fundamental": 100.0
    },
    "rank": 8
   },
   {
-   "id": "00945B",
-   "name": "凱基美國非投等債",
-   "category": "個股-ETF",
+   "id": "1605",
+   "name": "華新",
+   "category": "個股-電器電纜",
    "is_etf": false,
-   "score": 73.8,
-   "price": 14.55,
-   "position": 58.8,
-   "reason": "多頭排列、RSI 52.8",
+   "score": 36.7,
+   "price": 30.4,
+   "position": 5.7,
+   "reason": "RSI 31.8、基本面強",
    "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 60,
-    "volatility": 40,
-    "rel_strength": 77.5,
-    "fundamental": 50.0
+    "trend": 0,
+    "momentum": 20,
+    "volume": 30,
+    "volatility": 100,
+    "rel_strength": 32.5,
+    "fundamental": 75.0
    },
    "rank": 9
   },
   {
-   "id": "4916",
-   "name": "事欣科",
-   "category": "個股-電子工業",
+   "id": "4526",
+   "name": "東台",
+   "category": "個股-電機機械",
    "is_etf": false,
-   "score": 71.1,
-   "price": 104.5,
-   "position": 59.4,
-   "reason": "站上20MA、RSI 53.6、量增6.9倍、基本面強",
+   "score": 34.5,
+   "price": 40.15,
+   "position": 63.8,
+   "reason": "RSI 41.0",
    "factors": {
-    "trend": 50,
-    "momentum": 100,
-    "volume": 40,
+    "trend": 0,
+    "momentum": 55,
+    "volume": 30,
     "volatility": 40,
-    "rel_strength": 85.9,
-    "fundamental": 100.0
+    "rel_strength": 100.0,
+    "fundamental": 25.0
    },
    "rank": 10
   }
