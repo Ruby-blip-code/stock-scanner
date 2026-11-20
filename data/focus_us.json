@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-11-20T13:17:21",
+ "generated_at": "2026-11-20T21:44:11",
  "gainers": [
   {
-   "id": "WSM",
-   "name": "WSM",
-   "price": 220.95,
-   "chg": 0.13,
-   "vr": 52.0,
-   "value": 26.9
-  },
-  {
-   "id": "CBOE",
-   "name": "CBOE",
-   "price": 358.12,
-   "chg": 0.12,
-   "vr": 3.1,
-   "value": 2.7
-  },
-  {
-   "id": "CASY",
-   "name": "CASY",
-   "price": 686.26,
-   "chg": 0.11,
-   "vr": 3.0,
-   "value": 1.7
-  },
-  {
-   "id": "PFE",
-   "name": "PFE",
-   "price": 27.57,
-   "chg": 0.11,
-   "vr": 4.0,
+   "id": "GPN",
+   "name": "GPN",
+   "price": 91.85,
+   "chg": 9.97,
+   "vr": 2.2,
    "value": 8.2
   },
   {
-   "id": "ABT",
-   "name": "ABT",
-   "price": 103.96,
-   "chg": 0.09,
-   "vr": 3.7,
-   "value": 6.3
+   "id": "GIS",
+   "name": "GIS",
+   "price": 35.74,
+   "chg": 3.65,
+   "vr": 2.4,
+   "value": 6.8
+  },
+  {
+   "id": "MKC",
+   "name": "MKC",
+   "price": 47.4,
+   "chg": 3.43,
+   "vr": 2.3,
+   "value": 3.9
+  },
+  {
+   "id": "HCA",
+   "name": "HCA",
+   "price": 475.62,
+   "chg": 3.32,
+   "vr": 2.0,
+   "value": 14.2
+  },
+  {
+   "id": "CSGP",
+   "name": "CSGP",
+   "price": 29.62,
+   "chg": 3.21,
+   "vr": 1.0,
+   "value": 1.8
   }
  ],
  "losers": [
   {
-   "id": "SBUX",
-   "name": "SBUX",
-   "price": 104.14,
-   "chg": -0.32,
-   "vr": 5.6,
-   "value": 9.5
+   "id": "TQQQ",
+   "name": "ProShares Nasdaq 正3",
+   "price": 41.0,
+   "chg": -16.34,
+   "vr": 5.9,
+   "value": 222.2
   },
   {
-   "id": "INTC",
-   "name": "INTC",
-   "price": 55.65,
-   "chg": -0.13,
-   "vr": 3.9,
-   "value": 64.3
+   "id": "BE",
+   "name": "BE",
+   "price": 142.37,
+   "chg": -15.31,
+   "vr": 3.3,
+   "value": 86.4
   },
   {
-   "id": "MCHP",
-   "name": "MCHP",
-   "price": 58.4,
-   "chg": -0.12,
-   "vr": 3.8,
-   "value": 7.1
+   "id": "MU",
+   "name": "MU",
+   "price": 594.39,
+   "chg": -13.91,
+   "vr": 2.4,
+   "value": 463.2
   },
   {
-   "id": "KEYS",
-   "name": "KEYS",
-   "price": 281.08,
-   "chg": -0.12,
-   "vr": 5.5,
-   "value": 5.0
+   "id": "LITE",
+   "name": "LITE",
+   "price": 460.97,
+   "chg": -13.86,
+   "vr": 0.8,
+   "value": 23.6
   },
   {
-   "id": "HUBB",
-   "name": "HUBB",
-   "price": 418.25,
-   "chg": -0.12,
-   "vr": 2.6,
-   "value": 1.6
+   "id": "NVDA",
+   "name": "NVDA",
+   "price": 125.79,
+   "chg": -13.83,
+   "vr": 18.1,
+   "value": 5896.4
   }
  ],
  "volume": [
   {
-   "id": "WSM",
-   "name": "WSM",
-   "price": 220.95,
-   "chg": 0.13,
-   "vr": 52.0,
-   "value": 26.9
+   "id": "NVDA",
+   "name": "NVDA",
+   "price": 125.79,
+   "chg": -13.83,
+   "vr": 18.1,
+   "value": 5896.4
   },
   {
-   "id": "UNH",
-   "name": "UNH",
-   "price": 330.32,
-   "chg": -0.05,
-   "vr": 17.0,
-   "value": 71.2
-  },
-  {
-   "id": "VTI",
-   "name": "Vanguard 全美股",
-   "price": 352.36,
-   "chg": -0.01,
-   "vr": 13.8,
-   "value": 39.1
+   "id": "QQQ",
+   "name": "Invesco Nasdaq 100",
+   "price": 610.04,
+   "chg": -5.43,
+   "vr": 16.3,
+   "value": 5146.5
   },
   {
    "id": "VOO",
    "name": "Vanguard S&P 500",
-   "price": 657.94,
-   "chg": -0.01,
-   "vr": 12.5,
-   "value": 129.3
+   "price": 634.57,
+   "chg": -3.56,
+   "vr": 13.6,
+   "value": 676.5
   },
   {
-   "id": "PANW",
-   "name": "PANW",
-   "price": 361.73,
-   "chg": 0.0,
-   "vr": 11.8,
-   "value": 64.0
+   "id": "VTI",
+   "name": "Vanguard 全美股",
+   "price": 339.89,
+   "chg": -3.55,
+   "vr": 8.9,
+   "value": 122.0
+  },
+  {
+   "id": "SMH",
+   "name": "VanEck 半導體",
+   "price": 399.51,
+   "chg": -10.72,
+   "vr": 6.2,
+   "value": 291.1
   }
  ],
  "industries": [],
