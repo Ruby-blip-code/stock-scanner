@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-11-19T13:35:32",
+ "generated_at": "2026-11-20T13:17:21",
  "gainers": [
   {
-   "id": "OKTA",
-   "name": "OKTA",
-   "price": 195.66,
-   "chg": 12.1,
-   "vr": 4.8,
-   "value": 9.1
+   "id": "WSM",
+   "name": "WSM",
+   "price": 220.95,
+   "chg": 0.13,
+   "vr": 52.0,
+   "value": 26.9
   },
   {
-   "id": "PANW",
-   "name": "PANW",
-   "price": 342.07,
-   "chg": 10.6,
-   "vr": 9.5,
-   "value": 40.8
+   "id": "CBOE",
+   "name": "CBOE",
+   "price": 358.12,
+   "chg": 0.12,
+   "vr": 3.1,
+   "value": 2.7
   },
   {
-   "id": "GNRC",
-   "name": "GNRC",
-   "price": 205.34,
-   "chg": 9.81,
-   "vr": 6.4,
-   "value": 3.4
+   "id": "CASY",
+   "name": "CASY",
+   "price": 686.26,
+   "chg": 0.11,
+   "vr": 3.0,
+   "value": 1.7
   },
   {
-   "id": "AKAM",
-   "name": "AKAM",
-   "price": 91.68,
-   "chg": 8.32,
-   "vr": 5.7,
-   "value": 7.1
+   "id": "PFE",
+   "name": "PFE",
+   "price": 27.57,
+   "chg": 0.11,
+   "vr": 4.0,
+   "value": 8.2
   },
   {
-   "id": "TJX",
-   "name": "TJX",
-   "price": 140.28,
-   "chg": 8.03,
-   "vr": 11.8,
-   "value": 21.2
+   "id": "ABT",
+   "name": "ABT",
+   "price": 103.96,
+   "chg": 0.09,
+   "vr": 3.7,
+   "value": 6.3
   }
  ],
  "losers": [
   {
-   "id": "HUM",
-   "name": "HUM",
-   "price": 385.55,
-   "chg": -13.04,
-   "vr": 11.5,
-   "value": 13.9
-  },
-  {
-   "id": "UNH",
-   "name": "UNH",
-   "price": 349.89,
-   "chg": -10.21,
-   "vr": 15.3,
-   "value": 53.0
-  },
-  {
-   "id": "ELV",
-   "name": "ELV",
-   "price": 400.84,
-   "chg": -7.63,
+   "id": "SBUX",
+   "name": "SBUX",
+   "price": 104.14,
+   "chg": -0.32,
    "vr": 5.6,
-   "value": 6.4
+   "value": 9.5
   },
   {
-   "id": "CNC",
-   "name": "CNC",
-   "price": 67.42,
-   "chg": -7.07,
-   "vr": 3.6,
-   "value": 3.0
+   "id": "INTC",
+   "name": "INTC",
+   "price": 55.65,
+   "chg": -0.13,
+   "vr": 3.9,
+   "value": 64.3
   },
   {
-   "id": "FCX",
-   "name": "FCX",
-   "price": 51.45,
-   "chg": -6.96,
-   "vr": 9.3,
-   "value": 12.2
+   "id": "MCHP",
+   "name": "MCHP",
+   "price": 58.4,
+   "chg": -0.12,
+   "vr": 3.8,
+   "value": 7.1
+  },
+  {
+   "id": "KEYS",
+   "name": "KEYS",
+   "price": 281.08,
+   "chg": -0.12,
+   "vr": 5.5,
+   "value": 5.0
+  },
+  {
+   "id": "HUBB",
+   "name": "HUBB",
+   "price": 418.25,
+   "chg": -0.12,
+   "vr": 2.6,
+   "value": 1.6
   }
  ],
  "volume": [
   {
-   "id": "AES",
-   "name": "AES",
-   "price": 15.01,
-   "chg": 0.27,
-   "vr": 53.8,
-   "value": 14.4
-  },
-  {
-   "id": "TTWO",
-   "name": "TTWO",
-   "price": 216.49,
-   "chg": 6.16,
-   "vr": 25.8,
-   "value": 41.7
+   "id": "WSM",
+   "name": "WSM",
+   "price": 220.95,
+   "chg": 0.13,
+   "vr": 52.0,
+   "value": 26.9
   },
   {
    "id": "UNH",
    "name": "UNH",
-   "price": 349.89,
-   "chg": -10.21,
-   "vr": 15.3,
-   "value": 53.0
+   "price": 330.32,
+   "chg": -0.05,
+   "vr": 17.0,
+   "value": 71.2
   },
   {
-   "id": "TGT",
-   "name": "TGT",
-   "price": 165.96,
-   "chg": 4.03,
-   "vr": 14.4,
-   "value": 18.7
+   "id": "VTI",
+   "name": "Vanguard 全美股",
+   "price": 352.36,
+   "chg": -0.01,
+   "vr": 13.8,
+   "value": 39.1
   },
   {
-   "id": "TJX",
-   "name": "TJX",
-   "price": 140.28,
-   "chg": 8.03,
+   "id": "VOO",
+   "name": "Vanguard S&P 500",
+   "price": 657.94,
+   "chg": -0.01,
+   "vr": 12.5,
+   "value": 129.3
+  },
+  {
+   "id": "PANW",
+   "name": "PANW",
+   "price": 361.73,
+   "chg": 0.0,
    "vr": 11.8,
-   "value": 21.2
+   "value": 64.0
   }
  ],
  "industries": [],
