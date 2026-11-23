@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-11-20T21:44:11",
+ "generated_at": "2026-11-23T15:01:07",
  "gainers": [
   {
-   "id": "GPN",
-   "name": "GPN",
-   "price": 91.85,
-   "chg": 9.97,
-   "vr": 2.2,
-   "value": 8.2
+   "id": "NVDA",
+   "name": "NVDA",
+   "price": 167.86,
+   "chg": 33.72,
+   "vr": 13.8,
+   "value": 1539.9
   },
   {
-   "id": "GIS",
-   "name": "GIS",
-   "price": 35.74,
-   "chg": 3.65,
-   "vr": 2.4,
-   "value": 6.8
-  },
-  {
-   "id": "MKC",
-   "name": "MKC",
-   "price": 47.4,
-   "chg": 3.43,
-   "vr": 2.3,
-   "value": 3.9
-  },
-  {
-   "id": "HCA",
-   "name": "HCA",
-   "price": 475.62,
-   "chg": 3.32,
-   "vr": 2.0,
-   "value": 14.2
-  },
-  {
-   "id": "CSGP",
-   "name": "CSGP",
-   "price": 29.62,
-   "chg": 3.21,
-   "vr": 1.0,
-   "value": 1.8
-  }
- ],
- "losers": [
-  {
-   "id": "TQQQ",
-   "name": "ProShares Nasdaq 正3",
-   "price": 41.0,
-   "chg": -16.34,
-   "vr": 5.9,
-   "value": 222.2
+   "id": "DELL",
+   "name": "DELL",
+   "price": 344.64,
+   "chg": 23.96,
+   "vr": 2.7,
+   "value": 16.8
   },
   {
    "id": "BE",
    "name": "BE",
-   "price": 142.37,
-   "chg": -15.31,
-   "vr": 3.3,
-   "value": 86.4
-  },
-  {
-   "id": "MU",
-   "name": "MU",
-   "price": 594.39,
-   "chg": -13.91,
+   "price": 171.32,
+   "chg": 20.32,
    "vr": 2.4,
-   "value": 463.2
+   "value": 16.8
   },
   {
    "id": "LITE",
    "name": "LITE",
-   "price": 460.97,
-   "chg": -13.86,
-   "vr": 0.8,
-   "value": 23.6
+   "price": 551.71,
+   "chg": 19.8,
+   "vr": 1.2,
+   "value": 9.5
   },
   {
-   "id": "NVDA",
-   "name": "NVDA",
-   "price": 125.79,
-   "chg": -13.83,
-   "vr": 18.1,
-   "value": 5896.4
+   "id": "SMCI",
+   "name": "SMCI",
+   "price": 25.89,
+   "chg": 19.58,
+   "vr": 1.7,
+   "value": 4.8
+  }
+ ],
+ "losers": [
+  {
+   "id": "CRWD",
+   "name": "CRWD",
+   "price": 207.26,
+   "chg": -9.66,
+   "vr": 4.5,
+   "value": 20.0
+  },
+  {
+   "id": "MNST",
+   "name": "MNST",
+   "price": 42.34,
+   "chg": -3.08,
+   "vr": 1.0,
+   "value": 1.0
+  },
+  {
+   "id": "UNH",
+   "name": "UNH",
+   "price": 331.18,
+   "chg": -2.55,
+   "vr": 1.8,
+   "value": 9.4
+  },
+  {
+   "id": "CMCSA",
+   "name": "CMCSA",
+   "price": 24.4,
+   "chg": -2.01,
+   "vr": 0.4,
+   "value": 0.7
+  },
+  {
+   "id": "MO",
+   "name": "MO",
+   "price": 73.41,
+   "chg": -1.95,
+   "vr": 1.2,
+   "value": 1.8
   }
  ],
  "volume": [
   {
    "id": "NVDA",
    "name": "NVDA",
-   "price": 125.79,
-   "chg": -13.83,
-   "vr": 18.1,
-   "value": 5896.4
+   "price": 167.86,
+   "chg": 33.72,
+   "vr": 13.8,
+   "value": 1539.9
+  },
+  {
+   "id": "CRWD",
+   "name": "CRWD",
+   "price": 207.26,
+   "chg": -9.66,
+   "vr": 4.5,
+   "value": 20.0
+  },
+  {
+   "id": "TQQQ",
+   "name": "ProShares Nasdaq 正3",
+   "price": 49.03,
+   "chg": 19.0,
+   "vr": 4.2,
+   "value": 49.0
   },
   {
    "id": "QQQ",
    "name": "Invesco Nasdaq 100",
-   "price": 610.04,
-   "chg": -5.43,
-   "vr": 16.3,
-   "value": 5146.5
+   "price": 650.18,
+   "chg": 6.86,
+   "vr": 3.0,
+   "value": 257.0
   },
   {
-   "id": "VOO",
-   "name": "Vanguard S&P 500",
-   "price": 634.57,
-   "chg": -3.56,
-   "vr": 13.6,
-   "value": 676.5
-  },
-  {
-   "id": "VTI",
-   "name": "Vanguard 全美股",
-   "price": 339.89,
-   "chg": -3.55,
-   "vr": 8.9,
-   "value": 122.0
-  },
-  {
-   "id": "SMH",
-   "name": "VanEck 半導體",
-   "price": 399.51,
-   "chg": -10.72,
-   "vr": 6.2,
-   "value": 291.1
+   "id": "DELL",
+   "name": "DELL",
+   "price": 344.64,
+   "chg": 23.96,
+   "vr": 2.7,
+   "value": 16.8
   }
  ],
  "industries": [],
