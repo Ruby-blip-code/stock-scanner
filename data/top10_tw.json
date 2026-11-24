@@ -1,56 +1,18 @@
 {
  "market": "tw",
  "regime": "neutral",
- "generated_at": "2026-11-24T01:37:35",
+ "generated_at": "2026-11-24T04:23:00",
  "note": "技術面+基本面觀察清單，非投資建議；盤中價格仍會變動，下單前請再確認。",
  "top10": [
   {
-   "id": "3004",
-   "name": "豐達科",
-   "category": "個股-鋼鐵工業",
-   "is_etf": false,
-   "score": 92.0,
-   "price": 126.0,
-   "position": 61.9,
-   "reason": "多頭排列、RSI 53.1、量增2.72倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 1
-  },
-  {
-   "id": "2610",
-   "name": "華航",
-   "category": "個股-航運業",
-   "is_etf": false,
-   "score": 92.0,
-   "price": 22.0,
-   "position": 79.9,
-   "reason": "多頭排列、RSI 52.8、量增2.77倍、基本面強",
-   "factors": {
-    "trend": 100,
-    "momentum": 90,
-    "volume": 100,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 100.0
-   },
-   "rank": 2
-  },
-  {
-   "id": "6108",
-   "name": "競國",
-   "category": "個股-電子零組件業",
+   "id": "1808",
+   "name": "潤隆",
+   "category": "個股-建材營造",
    "is_etf": false,
    "score": 81.5,
-   "price": 34.15,
-   "position": 80.3,
-   "reason": "多頭排列、RSI 51.7、基本面強",
+   "price": 36.85,
+   "position": 87.6,
+   "reason": "多頭排列、RSI 61.8、基本面強",
    "factors": {
     "trend": 100,
     "momentum": 90,
@@ -59,7 +21,7 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 3
+   "rank": 1
   },
   {
    "id": "2355",
@@ -78,7 +40,26 @@
     "rel_strength": 100.0,
     "fundamental": 100.0
    },
-   "rank": 4
+   "rank": 2
+  },
+  {
+   "id": "2254",
+   "name": "巨鎧精密-創",
+   "category": "個股-創新版股票",
+   "is_etf": false,
+   "score": 78.0,
+   "price": 111.0,
+   "position": 96.7,
+   "reason": "多頭排列、RSI 76.7",
+   "factors": {
+    "trend": 100,
+    "momentum": 55,
+    "volume": 60,
+    "volatility": 100,
+    "rel_strength": 100.0,
+    "fundamental": 65.0
+   },
+   "rank": 3
   },
   {
    "id": "00865B",
@@ -86,9 +67,9 @@
    "category": "個股-ETF",
    "is_etf": false,
    "score": 76.0,
-   "price": 50.7,
-   "position": 86.8,
-   "reason": "多頭排列、RSI 60.9",
+   "price": 50.85,
+   "position": 90.3,
+   "reason": "多頭排列、RSI 66.4",
    "factors": {
     "trend": 100,
     "momentum": 90,
@@ -97,100 +78,119 @@
     "rel_strength": 100.0,
     "fundamental": 50.0
    },
-   "rank": 5
-  },
-  {
-   "id": "6614",
-   "name": "資拓宏宇",
-   "category": "個股-數位雲端",
-   "is_etf": false,
-   "score": 68.0,
-   "price": 47.55,
-   "position": 80.3,
-   "reason": "多頭排列、RSI 76.7、量增30.72倍",
-   "factors": {
-    "trend": 100,
-    "momentum": 65,
-    "volume": 40,
-    "volatility": 40,
-    "rel_strength": 100.0,
-    "fundamental": 50.0
-   },
-   "rank": 6
+   "rank": 4
   },
   {
    "id": "8112",
    "name": "至上",
    "category": "個股-電子工業",
    "is_etf": false,
-   "score": 62.6,
-   "price": 81.1,
-   "position": 22.8,
-   "reason": "站上20MA、RSI 52.3、量增4.29倍",
+   "score": 71.4,
+   "price": 80.4,
+   "position": 20.8,
+   "reason": "站上20MA、RSI 51.4、量增1.83倍",
    "factors": {
     "trend": 50,
     "momentum": 90,
-    "volume": 40,
+    "volume": 100,
     "volatility": 100,
-    "rel_strength": 60.8,
+    "rel_strength": 58.9,
     "fundamental": 50.0
    },
-   "rank": 7
+   "rank": 5
   },
   {
-   "id": "1326",
-   "name": "台化",
-   "category": "個股-塑膠工業",
+   "id": "5469",
+   "name": "瀚宇博",
+   "category": "個股-電子工業",
    "is_etf": false,
-   "score": 60.0,
-   "price": 64.3,
-   "position": 33.3,
-   "reason": "RSI 44.3、量增2.21倍、基本面強",
+   "score": 70.5,
+   "price": 71.8,
+   "position": 16.3,
+   "reason": "站上20MA、RSI 49.3、量增2.87倍、基本面強",
    "factors": {
-    "trend": 0,
+    "trend": 50,
     "momentum": 55,
     "volume": 100,
     "volatility": 40,
     "rel_strength": 100.0,
-    "fundamental": 100.0
+    "fundamental": 90.0
    },
-   "rank": 8
+   "rank": 6
   },
   {
-   "id": "2405",
-   "name": "輔信",
-   "category": "個股-電子工業",
+   "id": "4739",
+   "name": "康普",
+   "category": "個股-化學工業",
    "is_etf": false,
-   "score": 55.1,
-   "price": 12.55,
-   "position": 1.0,
-   "reason": "RSI 41.1、量增1.78倍、基本面強",
+   "score": 61.8,
+   "price": 70.4,
+   "position": 11.4,
+   "reason": "RSI 47.2、量增1.54倍、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 55,
+    "volume": 100,
+    "volatility": 100,
+    "rel_strength": 57.5,
+    "fundamental": 100.0
+   },
+   "rank": 7
+  },
+  {
+   "id": "00919",
+   "name": "群益台灣精選高息",
+   "category": "高股息型 ETF",
+   "is_etf": true,
+   "score": 50.0,
+   "price": 29.41,
+   "position": 44.1,
+   "reason": "RSI 40.6、量增2.04倍",
    "factors": {
     "trend": 0,
     "momentum": 55,
     "volume": 100,
     "volatility": 40,
-    "rel_strength": 50.7,
-    "fundamental": 100.0
+    "rel_strength": 88.1,
+    "fundamental": 55.9
+   },
+   "rank": 8
+  },
+  {
+   "id": "2890",
+   "name": "永豐金",
+   "category": "個股-金融保險",
+   "is_etf": false,
+   "score": 49.0,
+   "price": 40.35,
+   "position": 42.4,
+   "reason": "RSI 42.9、基本面強",
+   "factors": {
+    "trend": 0,
+    "momentum": 55,
+    "volume": 60,
+    "volatility": 40,
+    "rel_strength": 100.0,
+    "fundamental": 75.0
    },
    "rank": 9
   },
   {
-   "id": "00662",
-   "name": "富邦NASDAQ",
-   "category": "海外市值型 ETF",
+   "id": "0056",
+   "name": "元大高股息",
+   "category": "高股息型 ETF",
    "is_etf": true,
-   "score": 33.9,
-   "price": 22.68,
-   "position": 0.3,
-   "reason": "RSI 8.0、量增13.1倍、基本面強",
+   "score": 45.5,
+   "price": 49.94,
+   "position": 35.8,
+   "reason": "RSI 43.4",
    "factors": {
     "trend": 0,
-    "momentum": 20,
-    "volume": 40,
+    "momentum": 55,
+    "volume": 60,
     "volatility": 40,
-    "rel_strength": 0.0,
-    "fundamental": 99.7
+    "rel_strength": 87.0,
+    "fundamental": 64.2
    },
    "rank": 10
   }
