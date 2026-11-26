@@ -1,130 +1,130 @@
 {
  "regime": "neutral",
- "generated_at": "2026-11-25T14:41:50",
+ "generated_at": "2026-11-26T14:03:58",
  "gainers": [
   {
-   "id": "HPQ",
-   "name": "HPQ",
-   "price": 30.32,
-   "chg": 8.5,
-   "vr": 1.4,
-   "value": 1.2
+   "id": "MU",
+   "name": "MU",
+   "price": 604.16,
+   "chg": 0.48,
+   "vr": 6.6,
+   "value": 297.4
   },
   {
-   "id": "TJX",
-   "name": "TJX",
-   "price": 145.62,
-   "chg": 1.22,
-   "vr": 0.3,
-   "value": 0.8
+   "id": "AMD",
+   "name": "AMD",
+   "price": 406.83,
+   "chg": 0.2,
+   "vr": 5.1,
+   "value": 196.4
   },
   {
-   "id": "PEP",
-   "name": "PEP",
-   "price": 144.39,
-   "chg": 1.2,
-   "vr": 0.2,
-   "value": 0.5
+   "id": "FIX",
+   "name": "FIX",
+   "price": 1100.69,
+   "chg": 0.1,
+   "vr": 3.7,
+   "value": 6.3
   },
   {
-   "id": "TLT",
-   "name": "iShares 20年美債",
-   "price": 82.44,
-   "chg": 1.17,
-   "vr": 0.6,
-   "value": 3.9
+   "id": "FLEX",
+   "name": "FLEX",
+   "price": 67.3,
+   "chg": 0.1,
+   "vr": 4.4,
+   "value": 3.7
   },
   {
-   "id": "VZ",
-   "name": "VZ",
-   "price": 47.68,
-   "chg": 1.09,
-   "vr": 0.3,
-   "value": 0.6
+   "id": "GWW",
+   "name": "GWW",
+   "price": 1417.38,
+   "chg": 0.1,
+   "vr": 1.8,
+   "value": 1.7
   }
  ],
  "losers": [
   {
-   "id": "TQQQ",
-   "name": "ProShares Nasdaq 正3",
-   "price": 40.15,
-   "chg": -13.08,
-   "vr": 1.2,
-   "value": 11.1
+   "id": "MCHP",
+   "name": "MCHP",
+   "price": 57.51,
+   "chg": -0.26,
+   "vr": 3.4,
+   "value": 7.4
   },
   {
-   "id": "BE",
-   "name": "BE",
-   "price": 138.88,
-   "chg": -11.21,
-   "vr": 0.7,
-   "value": 3.4
+   "id": "PCG",
+   "name": "PCG",
+   "price": 14.23,
+   "chg": -0.25,
+   "vr": 3.2,
+   "value": 2.2
   },
   {
-   "id": "MU",
-   "name": "MU",
-   "price": 561.04,
-   "chg": -10.92,
-   "vr": 1.0,
-   "value": 39.1
-  },
-  {
-   "id": "LITE",
-   "name": "LITE",
-   "price": 434.02,
-   "chg": -10.9,
-   "vr": 0.4,
-   "value": 2.4
+   "id": "AMAT",
+   "name": "AMAT",
+   "price": 310.61,
+   "chg": -0.18,
+   "vr": 5.3,
+   "value": 30.0
   },
   {
    "id": "SNDK",
    "name": "SNDK",
-   "price": 69.53,
-   "chg": -10.8,
-   "vr": 0.8,
-   "value": 12.4
-  }
- ],
- "volume": [
-  {
-   "id": "DELL",
-   "name": "DELL",
-   "price": 272.67,
-   "chg": -7.66,
-   "vr": 3.2,
-   "value": 15.7
-  },
-  {
-   "id": "DE",
-   "name": "DE",
-   "price": 610.67,
-   "chg": -0.5,
-   "vr": 1.7,
-   "value": 2.8
+   "price": 73.51,
+   "chg": -0.14,
+   "vr": 5.4,
+   "value": 85.4
   },
   {
    "id": "HPQ",
    "name": "HPQ",
-   "price": 30.32,
-   "chg": 8.5,
-   "vr": 1.4,
-   "value": 1.2
+   "price": 31.11,
+   "chg": -0.13,
+   "vr": 11.3,
+   "value": 11.1
+  }
+ ],
+ "volume": [
+  {
+   "id": "VTI",
+   "name": "Vanguard 全美股",
+   "price": 353.36,
+   "chg": 0.05,
+   "vr": 13.1,
+   "value": 45.3
   },
   {
-   "id": "TQQQ",
-   "name": "ProShares Nasdaq 正3",
-   "price": 40.15,
-   "chg": -13.08,
-   "vr": 1.2,
+   "id": "DELL",
+   "name": "DELL",
+   "price": 297.04,
+   "chg": -0.01,
+   "vr": 12.2,
+   "value": 74.7
+  },
+  {
+   "id": "HPQ",
+   "name": "HPQ",
+   "price": 31.11,
+   "chg": -0.13,
+   "vr": 11.3,
    "value": 11.1
   },
   {
-   "id": "TSLA",
-   "name": "TSLA",
-   "price": 361.2,
-   "chg": -6.1,
-   "vr": 1.1,
-   "value": 29.0
+   "id": "APO",
+   "name": "APO",
+   "price": 120.51,
+   "chg": 0.02,
+   "vr": 9.8,
+   "value": 9.3
+  },
+  {
+   "id": "WTW",
+   "name": "WTW",
+   "price": 352.65,
+   "chg": 0.03,
+   "vr": 8.5,
+   "value": 3.7
   }
  ],
  "industries": [],
