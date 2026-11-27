@@ -1,6 +1,6 @@
 {
  "regime": "neutral",
- "generated_at": "2026-11-26T14:03:58",
+ "generated_at": "2026-11-27T14:02:16",
  "gainers": [
   {
    "id": "MU",
@@ -45,10 +45,18 @@
  ],
  "losers": [
   {
+   "id": "SNDK",
+   "name": "SNDK",
+   "price": 73.51,
+   "chg": -22.13,
+   "vr": 5.5,
+   "value": 85.4
+  },
+  {
    "id": "MCHP",
    "name": "MCHP",
    "price": 57.51,
-   "chg": -0.26,
+   "chg": -0.27,
    "vr": 3.4,
    "value": 7.4
   },
@@ -67,14 +75,6 @@
    "chg": -0.18,
    "vr": 5.3,
    "value": 30.0
-  },
-  {
-   "id": "SNDK",
-   "name": "SNDK",
-   "price": 73.51,
-   "chg": -0.14,
-   "vr": 5.4,
-   "value": 85.4
   },
   {
    "id": "HPQ",
